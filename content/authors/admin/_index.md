@@ -133,11 +133,8 @@ skills:
 
 languages:
   - name: English
-    percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: 汉语
+  - name: 閩南語
 
 # Awards.
 #   Add/remove as many awards below as you like.
