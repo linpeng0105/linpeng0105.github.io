@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 林鹏
+title: Peng Lin
 
 # Name pronunciation (optional)
 name_pronunciation: 
