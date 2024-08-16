@@ -148,7 +148,6 @@ awards:
     url: https://mp.weixin.qq.com/s/sh7FFoBKN4W7m9WFllWXVg)
     date: 2023-6-1
     awarder: Jilin University
-    icon: Jilin University
     summary: |
       My undergraduate thesis was rated as excellent thesis of the School of Software (ranked No.1).
 ---
