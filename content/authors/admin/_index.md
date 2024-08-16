@@ -47,7 +47,7 @@ interests:
   - Artificial Intelligence
 
 education:
-  - area: M.D & Ph.D. student in Computer Science
+  - area: M.D & Ph.D. student
     institution: Institute of Software, Chinese Academy of Sciences
     date_start: 2023-08-01
     date_end: ''
@@ -68,7 +68,7 @@ education:
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   - area: Bachelor in Software Engineering
-    institution: Jilin University.
+    institution: Jilin University
     date_start: 2019-08-01
     date_end: 2023-07-31
     summary: |
