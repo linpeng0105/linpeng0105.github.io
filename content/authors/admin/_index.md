@@ -11,7 +11,7 @@ last_name: Lin
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 😄
 
 # Is this the primary user of the site?
 superuser: true
@@ -24,7 +24,7 @@ role: M.D & Ph.D. student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Institute of Software, Chinese Acedemy of Science (ISCAS)
+  - name: Institute of Software, Chinese Academy of Sciences (ISCAS)
     url: http://www.iscas.ac.cn/
 
 # Social network links
