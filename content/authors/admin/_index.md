@@ -31,7 +31,7 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'linpeng@ios.ac.cn'
+    url: 'mailto:linpeng@ios.ac.cn'
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/linpeng0105
@@ -52,7 +52,8 @@ education:
     date_start: 2023-08-01
     date_end: ''
     summary: |
-      Supervised by Prof Shaowei Cai(http://lcs.ios.ac.cn/~caisw/).
+      Supervised by [Prof Joe Smith](https://example.com).
+      Supervised by [Prof Shaowei Cai](http://lcs.ios.ac.cn/~caisw/).
     # button:
     #   text: 'Read Thesis'
     #   url: 'https://example.com'
