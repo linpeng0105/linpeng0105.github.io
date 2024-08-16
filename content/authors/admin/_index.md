@@ -144,12 +144,12 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
+  - title: Excellent Thesis of Jilin University
     url: https://mp.weixin.qq.com/s/sh7FFoBKN4W7m9WFllWXVg
     date: 2023-6-1
     awarder: Jilin University
     summary: |
-      My undergraduate thesis was rated as excellent thesis of the School of Software (ranked No.1).
+      My undergraduate thesis was rated as excellent thesis of Jilin University (ranked No.1).
 ---
 
 ## About Me
