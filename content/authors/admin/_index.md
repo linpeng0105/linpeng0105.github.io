@@ -48,7 +48,7 @@ interests:
 
 education:
   - area: M.D & Ph.D. student in Computer Science
-    institution: State Key Laboratory of Computer Science, Institute of Software, Chinese Academy of Sciences, Beijing, China.
+    institution: Institute of Software, Chinese Academy of Sciences
     date_start: 2023-08-01
     date_end: ''
     summary: |
@@ -68,7 +68,7 @@ education:
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   - area: Bachelor in Software Engineering
-    institution: College of Software, Jilin University, Changchun, China.
+    institution: Jilin University.
     date_start: 2019-08-01
     date_end: 2023-07-31
     summary: |
@@ -149,7 +149,7 @@ awards:
     date: '2023-06-25'
     awarder: Jilin University
     summary: |
-      My undergraduate thesis was rated as outstanding thesis of Jilin University (ranked No.1 in the School of Software).
+      My undergraduate thesis was rated as outstanding thesis of Jilin University (ranked No.1 in School of Software).
 ---
 
 ## About Me
