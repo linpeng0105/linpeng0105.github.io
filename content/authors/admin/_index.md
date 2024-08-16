@@ -51,7 +51,7 @@ education:
     institution: State Key Laboratory of Computer Science, Institute of Software, Chinese Academy of Sciences, Beijing, China.
     date_start: 2023-08-01
     date_end: ''
-    summary: |
+    summary:
       Supervised by [Prof Joe Smith](https://example.com).
       Supervised by [Prof Shaowei Cai](http://lcs.ios.ac.cn/~caisw/).
     # button:
@@ -73,6 +73,7 @@ education:
     date_start: 2019-08-01
     date_end: 2023-07-31
     summary: |
+
       My undergraduate thesis was rated as excellent thesis of the School of Software ([ranked No.1](https://mp.weixin.qq.com/s/sh7FFoBKN4W7m9WFllWXVg)).
 
 # work:
