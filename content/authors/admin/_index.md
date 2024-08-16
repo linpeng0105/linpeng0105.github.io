@@ -51,9 +51,8 @@ education:
     institution: State Key Laboratory of Computer Science, Institute of Software, Chinese Academy of Sciences, Beijing, China.
     date_start: 2023-08-01
     date_end: ''
-    summary:
-      Supervised by [Prof Joe Smith](https://example.com).
-      Supervised by [Prof Shaowei Cai](http://lcs.ios.ac.cn/~caisw/).
+    summary: |
+      Supervised by Prof Shaowei Cai.
     # button:
     #   text: 'Read Thesis'
     #   url: 'https://example.com'
@@ -73,8 +72,6 @@ education:
     date_start: 2019-08-01
     date_end: 2023-07-31
     summary: |
-
-      My undergraduate thesis was rated as excellent thesis of the School of Software ([ranked No.1](https://mp.weixin.qq.com/s/sh7FFoBKN4W7m9WFllWXVg)).
 
 # work:
 #   - position: Director of Cloud Infrastructure
@@ -148,12 +145,12 @@ languages:
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
   - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
+    url: https://mp.weixin.qq.com/s/sh7FFoBKN4W7m9WFllWXVg)
     date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+    awarder: JilinUniversity
+    icon: Jilin University
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
+      My undergraduate thesis was rated as excellent thesis of the School of Software (ranked No.1).
   - title: Blockchain Fundamentals
     url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
     date: '2023-07-01'
