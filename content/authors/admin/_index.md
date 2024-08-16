@@ -52,7 +52,7 @@ education:
     date_start: 2023-08-01
     date_end: ''
     summary: |
-      Supervised by [Prof Shaowei Cai](http://lcs.ios.ac.cn/~caisw/).
+      Supervised by Prof Shaowei Cai(http://lcs.ios.ac.cn/~caisw/).
     # button:
     #   text: 'Read Thesis'
     #   url: 'https://example.com'
@@ -72,7 +72,7 @@ education:
     date_start: 2019-08-01
     date_end: 2023-07-31
     summary: |
-      My undergraduate thesis was rated as excellent thesis of the School of Software ([ranked first](https://mp.weixin.qq.com/s/sh7FFoBKN4W7m9WFllWXVg)).
+      My undergraduate thesis was rated as excellent thesis of the School of Software ([ranked No.1](https://mp.weixin.qq.com/s/sh7FFoBKN4W7m9WFllWXVg)).
 
 # work:
 #   - position: Director of Cloud Infrastructure
