@@ -145,7 +145,7 @@ languages:
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
   - title: Neural Networks and Deep Learning
-    url: https://mp.weixin.qq.com/s/sh7FFoBKN4W7m9WFllWXVg)
+    url: https://mp.weixin.qq.com/s/sh7FFoBKN4W7m9WFllWXVg
     date: 2023-6-1
     awarder: Jilin University
     summary: |
