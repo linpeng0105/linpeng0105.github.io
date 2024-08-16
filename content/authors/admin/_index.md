@@ -133,23 +133,23 @@ skills:
 
 languages:
   - name: English
-    percent: 100
-  - name: Chinese
     percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: Chinese
+    percent: 100
+  - name: Hokkien
+    percent: 100
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
+  - title: Outstanding thesis of Jilin University
     url: https://mp.weixin.qq.com/s/sh7FFoBKN4W7m9WFllWXVg
     date: '2023-06-25'
     awarder: Jilin University
     summary: |
-      My undergraduate thesis was rated as excellent thesis of the School of Software (ranked No.1).
+      My undergraduate thesis was rated as outstanding thesis of Jilin University (ranked No.1 in the School of Software).
 ---
 
 ## About Me
