@@ -26,17 +26,16 @@ publishDate: '2024-08-02T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *International Joint Conferences on Artificial Intelligence Organization*
-publication_short: In *IJCAI 2024*
+publication: In *30th International Conference on Principles and Practice of Constraint Programming*
+publication_short: In *CP 2024*
 
-abstract: The integer linear programming (ILP) problem is a fundamental research topic in operations research, and the local search method is an important class of algorithms for quickly solving many combinatorial optimization problems. With rapidly increasing computing power, parallelism turns out to be a promising approach to enhancing the efficiency of problem-solving. However, rare studies investigate parallel local search algorithms for solving the general ILP problem. We propose the first parallel local search framework (ParaILP) for solving the general ILP problem, based on two novel ideas{:} a new initialization method named polarity initialization to construct different initial solutions for local search threads and a cooperative evolution mechanism for managing and generating high-quality solutions using information shared by different threads. Extensive experiments demonstrate that ParaILP is significantly better than the state-of-the-art academic parallel solvers FiberSCIP and HiGHS, and is competitive with the state-of-the-art commercial parallel solver Gurobi. Experiments are also conducted to analyze the parallelization scalability and the effectiveness of our techniques.
+abstract: Mixed integer programming (MIP) is a fundamental model in operations research. Local search is a powerful method for solving hard problems, but the development of local search solvers for MIP still needs to be explored. This work develops an efficient local search solver for solving MIP, called Local-MIP. We propose two new operators for MIP to adaptively modify variables for optimizing the objective function and satisfying constraints, respectively. Furthermore, we design a new weighting scheme to dynamically balance the priority between the objective function and each constraint, and propose a two-level scoring function structure to hierarchically guide the search for high-quality feasible solutions. Experiments are conducted on seven public benchmarks to compare Local-MIP with state-of-the-art MIP solvers, which demonstrate that Local-MIP significantly outperforms CPLEX, HiGHS, SCIP and Feasibility Jump, and is competitive with the most powerful commercial solver Gurobi. Moreover, Local-MIP establishes 4 new records for MIPLIB open instances.
 
 # Summary. An optional shortened abstract.
-summary: The first parallel local search framework and an efficient parallel solver for solving general ILP.
+summary: The Best Paper in CP 2024
 
 tags:
-  - Integer Programming
-  - Parallel Programming
+  - Mixed Integer Programming
   - Local Search
 
 # Display this page in the Featured widget?
@@ -47,9 +46,9 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://www.ijcai.org/proceedings/2024/0768.pdf'
-url_code: 'https://github.com/shaowei-cai-group/ParaILP'
-url_dataset: 'https://github.com/shaowei-cai-group/ParaILP/blob/main/benchmark/benchmark.txt'
+url_pdf: ''
+url_code: 'https://github.com/shaowei-cai-group/Local-MIP'
+url_dataset: 'https://github.com/shaowei-cai-group/Local-MIP/tree/main/benchmark'
 url_poster: ''
 url_project: ''
 url_slides: ''
