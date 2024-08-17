@@ -32,7 +32,7 @@ publication_short: In *CP 2024*
 abstract: Mixed integer programming (MIP) is a fundamental model in operations research. Local search is a powerful method for solving hard problems, but the development of local search solvers for MIP still needs to be explored. This work develops an efficient local search solver for solving MIP, called Local-MIP. We propose two new operators for MIP to adaptively modify variables for optimizing the objective function and satisfying constraints, respectively. Furthermore, we design a new weighting scheme to dynamically balance the priority between the objective function and each constraint, and propose a two-level scoring function structure to hierarchically guide the search for high-quality feasible solutions. Experiments are conducted on seven public benchmarks to compare Local-MIP with state-of-the-art MIP solvers, which demonstrate that Local-MIP significantly outperforms CPLEX, HiGHS, SCIP and Feasibility Jump, and is competitive with the most powerful commercial solver Gurobi. Moreover, Local-MIP establishes 4 new records for MIPLIB open instances.
 
 # Summary. An optional shortened abstract.
-summary: The *Best Paper* in CP 2024
+summary: The Best Paper in CP 2024
 
 tags:
   - Mixed Integer Programming
