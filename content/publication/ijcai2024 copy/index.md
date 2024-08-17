@@ -14,8 +14,8 @@ authors:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2024-08-04T00:00:00Z'
-doi: '10.24963/ijcai.2024/768'
+date: '2024-09-02T00:00:00Z'
+doi: ''
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2024-08-03T00:00:00Z'
