@@ -18,7 +18,7 @@ date: '2024-09-02T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2024-09-02T00:00:00Z'
+publishDate: '2024-08-02T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -36,6 +36,7 @@ summary: The Best Paper in CP 2024
 
 tags:
   - Mixed Integer Programming
+  - Local Search
 
 # Display this page in the Featured widget?
 featured: true
@@ -45,7 +46,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'cp2024.pdf'
 url_code: 'https://github.com/shaowei-cai-group/Local-MIP'
 url_dataset: 'https://github.com/shaowei-cai-group/Local-MIP/tree/main/benchmark'
 url_poster: ''
@@ -67,14 +68,14 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-  - example
+  - []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: ""
 ---
 
 {{% callout note %}}
