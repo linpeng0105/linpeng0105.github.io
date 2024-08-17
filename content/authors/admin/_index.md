@@ -154,4 +154,4 @@ awards:
 
 ## About Me
 
-Peng Lin is a M.D & Ph.D. student in Institute of Software, Chinese Academy of Sciences, supervised by Professor [Shaowei Cai](http://lcs.ios.ac.cn/~caisw/).
+Peng Lin is a M.D & Ph.D. student in Institute of Software, Chinese Academy of Sciences, supervised by [Professor Shaowei Cai](http://lcs.ios.ac.cn/~caisw/).
