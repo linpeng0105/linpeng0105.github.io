@@ -152,6 +152,6 @@ awards:
       My undergraduate thesis was rated as outstanding thesis of Jilin University (ranked No.1 in School of Software).
 ---
 
-## About Me
+## 林鹏
 
 Peng Lin is a M.D & Ph.D. student in Institute of Software, Chinese Academy of Sciences, supervised by [Professor Shaowei Cai](http://lcs.ios.ac.cn/~caisw/).
