@@ -72,6 +72,7 @@ education:
     date_start: 2019-08-01
     date_end: 2023-07-31
     summary: |
+      I pursued my undergraduate studies in Software Engineering in an experimental engineering class at the College of Software. During my undergraduate years, I was awarded the National Encouragement Scholarship, the Excellent Graduation Design Award, the Outstanding League Member Award, the Second-Class Scholarship, and the Outstanding Student Award from Jilin University. I also participated in a national-level innovation and entrepreneurship training project for university students, which was successfully completed. Additionally, I competed in various contests, including the China Undergraduate Mathematical Contest in Modeling, the Mathematical Contest in Modeling (MCM/ICM), and the Blue Bridge Cup Programming Competition, earning multiple awards.
 
 # work:
 #   - position: Director of Cloud Infrastructure
@@ -149,11 +150,10 @@ awards:
     date: '2023-06-25'
     awarder: Jilin University
     summary: |
-      My undergraduate thesis was rated as outstanding thesis of Jilin University (ranked No.1 in School of Software).
+      My undergraduate thesis was rated as outstanding thesis of Jilin University (ranked **No.1** in School of Software).
 ---
 
 ## 林鹏
 
 - Peng Lin is a M.D & Ph.D. student in Institute of Software, Chinese Academy of Sciences, supervised by [Professor Shaowei Cai](http://lcs.ios.ac.cn/~caisw/).
-- Contact Me: linpeng@ios.ac.cn; penglincs@outlook.com
-- 
+- Contact Me: <linpeng@ios.ac.cn>; <penglincs@outlook.com>
