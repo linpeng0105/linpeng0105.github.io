@@ -72,7 +72,7 @@ education:
     date_start: 2019-08-01
     date_end: 2023-07-31
     summary: |
-      I pursued my undergraduate studies in Software Engineering in an experimental engineering class at the College of Software. During my undergraduate years, I was awarded the National Encouragement Scholarship, the Excellent Graduation Design Award, the Outstanding League Member Award, the Second-Class Scholarship, and the Outstanding Student Award from Jilin University. I also participated in a national-level innovation and entrepreneurship training project for university students, which was successfully completed. Additionally, I competed in various contests, including the China Undergraduate Mathematical Contest in Modeling, the Mathematical Contest in Modeling (MCM/ICM), and the Blue Bridge Cup Programming Competition, earning multiple awards.
+      I pursued my undergraduate studies in Software Engineering as part of the College of Software’s Elite Engineering Class. During my undergraduate years, I was awarded the National Encouragement Scholarship, the Excellent Graduation Design Award (ranking first in the College of Software), the Outstanding League Member Award, the Second-Class Scholarship, and the Outstanding Student Award from Jilin University. I also participated in a national-level innovation and entrepreneurship training project for university students, which was successfully completed. Additionally, I competed in various contests, including the China Undergraduate Mathematical Contest in Modeling, the Mathematical Contest in Modeling (MCM/ICM), and the Blue Bridge Cup Programming Competition, earning multiple awards.
 
 # work:
 #   - position: Director of Cloud Infrastructure
@@ -145,6 +145,12 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
+  - title: Best Paper at CP 2024
+    url: 
+    date: '2024-09-02'
+    awarder: 30th International Conference on Principles and Practice of Constraint Programming
+    summary: |
+      My paper, titled 'An Efficient Local Search Solver for Mixed Integer Programming' which I authored as the first author, was awarded the Best Paper Award at CP 2024.
   - title: Outstanding thesis of Jilin University
     url: https://mp.weixin.qq.com/s/sh7FFoBKN4W7m9WFllWXVg
     date: '2023-06-25'

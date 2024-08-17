@@ -22,3 +22,6 @@ main:
   - name: Projects
     url: projects/
     weight: 30
+  - name: Awards
+    url: Awards/
+    weight: 30
