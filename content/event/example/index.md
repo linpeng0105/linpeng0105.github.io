@@ -1,24 +1,24 @@
 ---
-title: Example Talk
+title: IJCAI 2024 Talk
 
-event: Hugo Blox Builder Conference
-event_url: https://example.org
+event: the 33rd International Joint Conference on Artificial Intelligence
+event_url: https://ijcai24.org
 
-location: Hugo Blox Builder HQ
+location: International Convention Center Jeju (ICC Jeju)
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
+  street: 
+  city: 
+  region: Jeju Island
+  postcode: ''
+  country: South Korea
 
-summary: An example talk using Hugo Blox Builder's Markdown slides feature.
-abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+summary: The first parallel local search framework and an efficient parallel solver for solving general ILP.
+abstract: The integer linear programming (ILP) problem is a fundamental research topic in operations research, and the local search method is an important class of algorithms for quickly solving many combinatorial optimization problems. With rapidly increasing computing power, parallelism turns out to be a promising approach to enhancing the efficiency of problem-solving. However, rare studies investigate parallel local search algorithms for solving the general ILP problem. We propose the first parallel local search framework (ParaILP) for solving the general ILP problem, based on two novel ideas{:} a new initialization method named polarity initialization to construct different initial solutions for local search threads and a cooperative evolution mechanism for managing and generating high-quality solutions using information shared by different threads. Extensive experiments demonstrate that ParaILP is significantly better than the state-of-the-art academic parallel solvers FiberSCIP and HiGHS, and is competitive with the state-of-the-art commercial parallel solver Gurobi. Experiments are also conducted to analyze the parallelization scalability and the effectiveness of our techniques.
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2030-06-01T13:00:00Z'
-date_end: '2030-06-01T15:00:00Z'
+date: '2023-08-08T10:00:00Z'
+date_end: '2023-08-08T11:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -41,10 +41,10 @@ image:
 #    icon_pack: fab
 #    name: Follow
 #    url: https://twitter.com/georgecushen
-url_code: 'https://github.com'
-url_pdf: ''
-url_slides: 'https://slideshare.net'
-url_video: 'https://youtube.com'
+url_code: 'https://github.com/shaowei-cai-group/ParaILP'
+url_pdf: 'https://www.ijcai.org/proceedings/2024/0768.pdf'
+url_slides: 'ijcai-slides.pptx'
+url_video: ''
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
