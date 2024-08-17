@@ -18,7 +18,7 @@ date: '2024-09-02T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2024-08-03T00:00:00Z'
+publishDate: '2024-09-02T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -26,8 +26,8 @@ publishDate: '2024-08-03T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *International Joint Conferences on Artificial Intelligence Organization*
-publication_short: In *IJCAI 2024*
+publication: In *30th International Conference on Principles and Practice of Constraint Programming*
+publication_short: In *CP 2024*
 
 abstract: The integer linear programming (ILP) problem is a fundamental research topic in operations research, and the local search method is an important class of algorithms for quickly solving many combinatorial optimization problems. With rapidly increasing computing power, parallelism turns out to be a promising approach to enhancing the efficiency of problem-solving. However, rare studies investigate parallel local search algorithms for solving the general ILP problem. We propose the first parallel local search framework (ParaILP) for solving the general ILP problem, based on two novel ideas{:} a new initialization method named polarity initialization to construct different initial solutions for local search threads and a cooperative evolution mechanism for managing and generating high-quality solutions using information shared by different threads. Extensive experiments demonstrate that ParaILP is significantly better than the state-of-the-art academic parallel solvers FiberSCIP and HiGHS, and is competitive with the state-of-the-art commercial parallel solver Gurobi. Experiments are also conducted to analyze the parallelization scalability and the effectiveness of our techniques.
 
