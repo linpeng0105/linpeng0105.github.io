@@ -49,8 +49,8 @@ featured: true
 #   url: http://example.org
 
 url_pdf: 'https://www.ijcai.org/proceedings/2024/0768.pdf'
-url_code: 'https://github.com/shaowei-cai-group/ParaILP/blob/main/benchmark/benchmark.txt'
-url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_code: 'https://github.com/shaowei-cai-group/ParaILP'
+url_dataset: 'https://github.com/shaowei-cai-group/ParaILP/blob/main/benchmark/benchmark.txt'
 url_poster: ''
 url_project: ''
 url_slides: ''
