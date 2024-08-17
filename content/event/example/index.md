@@ -43,7 +43,7 @@ image:
 #    url: https://twitter.com/georgecushen
 url_code: 'https://github.com/shaowei-cai-group/ParaILP'
 url_pdf: 'https://www.ijcai.org/proceedings/2024/0768.pdf'
-url_slides: 'ijcai-slides.pptx'
+url_slides: 'ijcai-slides.pdf'
 url_video: ''
 
 # Markdown Slides (optional).
