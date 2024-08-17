@@ -1,5 +1,5 @@
 ---
-title: 'ParaILP: A Parallel Local Search Framework for Integer Linear Programming with Cooperative Evolution Mechanism'
+title: 'An Efficient Local Search Solver for Mixed Integer Programming'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -7,7 +7,6 @@ title: 'ParaILP: A Parallel Local Search Framework for Integer Linear Programmin
 authors:
   - admin
   - Mengchuan Zou
-  - Zhihan Chen
   - Shaowei Cai
 
 # Author notes (optional)
