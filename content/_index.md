@@ -35,10 +35,11 @@ sections:
       title: '🎖 Honors and Awards'
       subtitle: ''
       text: |-
-          - **Best Paper Award of CP 2024**
-            - My paper, titled "An Efficient Local Search Solver for Mixed Integer Programming", which I authored as **the first author**, was awarded the Best Paper Award at CP 2024.
-          - [Outstanding thesis of Jilin University](https://mp.weixin.qq.com/s/sh7FFoBKN4W7m9WFllWXVg)
-            - My undergraduate thesis was rated as outstanding thesis of Jilin University (ranked **No.1** in School of Software).
+        **Best Paper Award of CP 2024**
+          - My paper, titled "An Efficient Local Search Solver for Mixed Integer Programming", which I authored as **the first author**, was awarded the Best Paper Award at CP 2024.
+        
+        [Outstanding thesis of Jilin University](https://mp.weixin.qq.com/s/sh7FFoBKN4W7m9WFllWXVg)
+          - My undergraduate thesis was rated as outstanding thesis of Jilin University (ranked **No.1** in School of Software).
     design:
       columns: 2
   - block: collection
@@ -79,19 +80,19 @@ sections:
       text: |-
         
         I have established 11 new records for MIPLIB open instances.
-          - https://miplib.zib.de/instance_details_genus-sym-g31-8.html
-          - https://miplib.zib.de/instance_details_genus-sym-g62-2.html
-          - https://miplib.zib.de/instance_details_genus-g61-25.html
-          - https://miplib.zib.de/instance_details_neos-4232544-orira.html
-          - https://miplib.zib.de/instance_details_bley_xs1.html
-          - https://miplib.zib.de/instance_details_sorrell7.html
-          - https://miplib.zib.de/instance_details_supportcase22.html
-          - https://miplib.zib.de/instance_details_cdc7-4-3-2.html
-          - https://miplib.zib.de/instance_details_ns1828997.html
-          - https://miplib.zib.de/instance_details_scpm1.html
-          - https://miplib.zib.de/instance_details_scpn2.html
+          - [genus-sym-g31-8](https://miplib.zib.de/instance_details_genus-sym-g31-8.html)
+          - [genus-sym-g62-2](https://miplib.zib.de/instance_details_genus-sym-g62-2.html)
+          - [genus-g61-25](https://miplib.zib.de/instance_details_genus-g61-25.html)
+          - [neos-4232544-orira](https://miplib.zib.de/instance_details_neos-4232544-orira.html)
+          - [bley_xs1](https://miplib.zib.de/instance_details_bley_xs1.html)
+          - [sorrell7](https://miplib.zib.de/instance_details_sorrell7.html)
+          - [supportcase22](https://miplib.zib.de/instance_details_supportcase22.html)
+          - [cdc7-4-3-2](https://miplib.zib.de/instance_details_cdc7-4-3-2.html)
+          - [ns1828997](https://miplib.zib.de/instance_details_ns1828997.html)
+          - [scpm1](https://miplib.zib.de/instance_details_scpm1.html)
+          - [scpn2](https://miplib.zib.de/instance_details_scpn2.html)
     design:
-      columns: '1'
+      columns: 2
   # - block: collection
   #   id: news
   #   content:
