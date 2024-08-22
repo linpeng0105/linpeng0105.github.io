@@ -72,25 +72,27 @@ sections:
       columns: 1
   - block: markdown
     content:
-      title: '🔥 New Records for MIPLIB Open Instances'
-      subtitle: ''
+      title: "🔥 New Records for MIPLIB Open Instances"
+      subtitle: ""
       text: |-
-        
-        I have established 11 new records for MIPLIB open instances:
+        I am excited to share that I have established 11 new records for MIPLIB open instances:
 
-          [genus-sym-g31-8](https://miplib.zib.de/instance_details_genus-sym-g31-8.html)
-          , [genus-sym-g62-2](https://miplib.zib.de/instance_details_genus-sym-g62-2.html)
-          , [genus-g61-25](https://miplib.zib.de/instance_details_genus-g61-25.html)
-          , [neos-4232544-orira](https://miplib.zib.de/instance_details_neos-4232544-orira.html)
-          , [bley_xs1](https://miplib.zib.de/instance_details_bley_xs1.html)
-          , [sorrell7](https://miplib.zib.de/instance_details_sorrell7.html)
-          , [supportcase22](https://miplib.zib.de/instance_details_supportcase22.html)
-          , [cdc7-4-3-2](https://miplib.zib.de/instance_details_cdc7-4-3-2.html)
-          , [ns1828997](https://miplib.zib.de/instance_details_ns1828997.html)
-          , [scpm1](https://miplib.zib.de/instance_details_scpm1.html)
-          , [scpn2](https://miplib.zib.de/instance_details_scpn2.html)
+        <ul>
+          <li><a href="https://miplib.zib.de/instance_details_genus-sym-g31-8.html">genus-sym-g31-8</a></li>
+          <li><a href="https://miplib.zib.de/instance_details_genus-sym-g62-2.html">genus-sym-g62-2</a></li>
+          <li><a href="https://miplib.zib.de/instance_details_genus-g61-25.html">genus-g61-25</a></li>
+          <li><a href="https://miplib.zib.de/instance_details_neos-4232544-orira.html">neos-4232544-orira</a></li>
+          <li><a href="https://miplib.zib.de/instance_details_bley_xs1.html">bley_xs1</a></li>
+          <li><a href="https://miplib.zib.de/instance_details_sorrell7.html">sorrell7</a></li>
+          <li><a href="https://miplib.zib.de/instance_details_supportcase22.html">supportcase22</a></li>
+          <li><a href="https://miplib.zib.de/instance_details_cdc7-4-3-2.html">cdc7-4-3-2</a></li>
+          <li><a href="https://miplib.zib.de/instance_details_ns1828997.html">ns1828997</a></li>
+          <li><a href="https://miplib.zib.de/instance_details_scpm1.html">scpm1</a></li>
+          <li><a href="https://miplib.zib.de/instance_details_scpn2.html">scpn2</a></li>
+        </ul>
     design:
       columns: '2'
+
   # - block: collection
   #   id: news
   #   content:
