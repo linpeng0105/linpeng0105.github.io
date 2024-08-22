@@ -79,20 +79,21 @@ sections:
       subtitle: ''
       text: |-
         
-        I have established 11 new records for MIPLIB open instances.
-          - [genus-sym-g31-8](https://miplib.zib.de/instance_details_genus-sym-g31-8.html)
-          - [genus-sym-g62-2](https://miplib.zib.de/instance_details_genus-sym-g62-2.html)
-          - [genus-g61-25](https://miplib.zib.de/instance_details_genus-g61-25.html)
-          - [neos-4232544-orira](https://miplib.zib.de/instance_details_neos-4232544-orira.html)
-          - [bley_xs1](https://miplib.zib.de/instance_details_bley_xs1.html)
-          - [sorrell7](https://miplib.zib.de/instance_details_sorrell7.html)
-          - [supportcase22](https://miplib.zib.de/instance_details_supportcase22.html)
-          - [cdc7-4-3-2](https://miplib.zib.de/instance_details_cdc7-4-3-2.html)
-          - [ns1828997](https://miplib.zib.de/instance_details_ns1828997.html)
-          - [scpm1](https://miplib.zib.de/instance_details_scpm1.html)
-          - [scpn2](https://miplib.zib.de/instance_details_scpn2.html)
+        I have established 11 new records for MIPLIB open instances:
+        
+          [genus-sym-g31-8](https://miplib.zib.de/instance_details_genus-sym-g31-8.html)
+          , [genus-sym-g62-2](https://miplib.zib.de/instance_details_genus-sym-g62-2.html)
+          , [genus-g61-25](https://miplib.zib.de/instance_details_genus-g61-25.html)
+          , [neos-4232544-orira](https://miplib.zib.de/instance_details_neos-4232544-orira.html)
+          , [bley_xs1](https://miplib.zib.de/instance_details_bley_xs1.html)
+          , [sorrell7](https://miplib.zib.de/instance_details_sorrell7.html)
+          , [supportcase22](https://miplib.zib.de/instance_details_supportcase22.html)
+          , [cdc7-4-3-2](https://miplib.zib.de/instance_details_cdc7-4-3-2.html)
+          , [ns1828997](https://miplib.zib.de/instance_details_ns1828997.html)
+          , [scpm1](https://miplib.zib.de/instance_details_scpm1.html)
+          , [scpn2](https://miplib.zib.de/instance_details_scpn2.html)
     design:
-      columns: '1'
+      columns: '2'
   # - block: collection
   #   id: news
   #   content:
