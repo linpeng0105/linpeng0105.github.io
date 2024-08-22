@@ -92,7 +92,7 @@ sections:
           - [scpm1](https://miplib.zib.de/instance_details_scpm1.html)
           - [scpn2](https://miplib.zib.de/instance_details_scpn2.html)
     design:
-      columns: 2
+      columns: '1'
   # - block: collection
   #   id: news
   #   content:
