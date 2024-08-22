@@ -37,9 +37,6 @@ sections:
       text: |-
         **Best Paper Award of CP 2024**
           - My paper, titled "An Efficient Local Search Solver for Mixed Integer Programming", which I authored as **the first author**, was awarded the Best Paper Award at CP 2024.
-        
-        [**Outstanding thesis of Jilin University**](https://mp.weixin.qq.com/s/sh7FFoBKN4W7m9WFllWXVg)
-          - My undergraduate thesis was rated as outstanding thesis of Jilin University (ranked **No.1** in School of Software).
     design:
       columns: 2
   - block: collection
@@ -80,7 +77,7 @@ sections:
       text: |-
         
         I have established 11 new records for MIPLIB open instances:
-        
+
           [genus-sym-g31-8](https://miplib.zib.de/instance_details_genus-sym-g31-8.html)
           , [genus-sym-g62-2](https://miplib.zib.de/instance_details_genus-sym-g62-2.html)
           , [genus-g61-25](https://miplib.zib.de/instance_details_genus-g61-25.html)
