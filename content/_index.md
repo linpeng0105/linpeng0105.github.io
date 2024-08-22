@@ -32,13 +32,14 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '🎖 Honors and Awards'
-      subtitle: ''
+      title: "🎖 Honors and Awards"
+      subtitle: ""
       text: |-
-        **Best Paper Award of CP 2024**
-          - My paper, titled "An Efficient Local Search Solver for Mixed Integer Programming", which I authored as **the first author**, was awarded the Best Paper Award at CP 2024.
+        **Best Paper Award of CP 2024**  
+        - My paper, titled *"An Efficient Local Search Solver for Mixed Integer Programming"*, which I authored as **the first author**, was awarded the Best Paper Award at CP 2024.
     design:
-      columns: 2
+      columns: 1
+
   - block: collection
     id: papers
     content:
