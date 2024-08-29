@@ -16,7 +16,7 @@ authors:
 #   - 'Equal contribution'
 
 date: '2024-09-01T00:00:00Z'
-doi: ''
+doi: '10.4230/LIPIcs.CP.2024.5'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2024-08-02T00:00:00Z'
