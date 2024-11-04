@@ -1,5 +1,5 @@
 ---
-title: IJCAI 2024 Talk
+title: IJCAI 2024 Presentation
 
 event: the 33rd International Joint Conference on Artificial Intelligence
 event_url: https://ijcai24.org

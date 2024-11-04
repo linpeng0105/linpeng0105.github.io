@@ -1,5 +1,5 @@
 ---
-title: CP 2024 Presentation
+title: CP 2024 Presentation (Best Paper Award)
 
 event: 30th International Conference on Principles and Practice of Constraint Programming
 event_url: https://cp2024.a4cp.org/
