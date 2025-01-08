@@ -37,6 +37,9 @@ sections:
       text: |-
         **Best Paper Award of CP 2024**  
         - My paper, titled *"An Efficient Local Search Solver for Mixed Integer Programming"*, which I authored as **the first author**, was awarded the Best Paper Award at CP 2024.
+        
+        **电力国产求解器技术专题赛**  
+        - 2024年12月26日至30日，第二届能源电子产业创新大赛国产求解器技术专题赛在北京举行。该项赛事由工业和信息化部等单位主办、中国电力科学研究院有限公司协办。软件所团队获得二等奖，参赛队伍成员为博士生林鹏，博士后邹蒙川，队伍负责人为蔡少伟研究员。
     design:
       columns: 1
 

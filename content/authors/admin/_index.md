@@ -145,16 +145,22 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Best Paper at CP 2024
+  - title: Best Paper at CP 2024（ CP 2024 最佳论文奖）
     url: 
     date: '2024-09-02'
     awarder: 30th International Conference on Principles and Practice of Constraint Programming
     summary: |
-      My paper, titled 'An Efficient Local Search Solver for Mixed Integer Programming' which I authored as the first author, was awarded the Best Paper Award at CP 2024.
-  - title: Outstanding thesis of Jilin University
+      我们的文章获得约束求解领域国际旗舰会议CP2024最佳论文奖（Best Paper Award），这是中国团队首次获得该荣誉，也是亚洲地区获奖的第一支团队。论文作者为博士生林鹏、博士后邹蒙川、通讯作者蔡少伟研究员。
+  - title: 电力国产求解器技术专题赛 二等奖（第2名）
+    url: http://www.iscas.ac.cn/xwdt2016/kyjz2016/202501/t20250101_7512775.html
+    date: '2024-12-30'
+    awarder: 工业和信息化部
+    summary: |
+      2024年12月26日至30日，第二届能源电子产业创新大赛国产求解器技术专题赛在北京举行。该项赛事由工业和信息化部等单位主办、中国电力科学研究院有限公司协办的，大赛吸引了国内著名高校、科研院所和工业界知名企业参赛。软件所团队获得二等奖，参赛队伍成员为博士生林鹏，博士后邹蒙川，队伍负责人为蔡少伟研究员。
+  - title: Outstanding thesis of Jilin University（优秀毕业论文）
     url: https://mp.weixin.qq.com/s/sh7FFoBKN4W7m9WFllWXVg
     date: '2023-06-25'
-    awarder: Jilin University
+    awarder: Jilin University（吉林大学）
     summary: |
       My undergraduate thesis was rated as outstanding thesis of Jilin University (ranked **No.1** in School of Software).
 ---
