@@ -11,7 +11,7 @@ locale                   : "en-US"
 site_theme               : "default"
 title                    : "Peng Lin"
 title_separator          : "-"
-name                     : &name "Peng Lin"
+name                     : &name "Peng Lin (林鹏)"
 description              : &description "Peng Lin"
 url                      : https://linpeng0105.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -27,7 +27,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "CS & OR"
   location         : "China"
-  employer         : "Institute of Software, CAS"
+  employer         : "Chinese Academy of Sciences"
   uri              : # URL
   email            : "linpeng@ios.ac.cn" 
 

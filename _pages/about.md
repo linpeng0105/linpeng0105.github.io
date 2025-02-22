@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Peng Lin"
+title: "林鹏"
 author_profile: true
 redirect_from: 
   - /about/
