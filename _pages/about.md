@@ -13,9 +13,9 @@ Contact me: <linpeng@ios.ac.cn>; <penglincs@outlook.com>
 My research interests are Mixed Integer Programming, Parallel Algorithm, Combinatorial Optimization and etc.
 
 ## 🔥 News
-- 2024.12.31: 🎉 第一开发者开发的求解器获工信部电力国产求解器技术专题赛二等奖
+- 2024.12.31: 🎉 获工信部电力国产求解器技术专题赛二等奖(第一开发者)
 - 2024.12.10: 🎉 研究生国家奖学金
-- 2024.10.07: 🎉 第一开发者开发的分布式求解器刷新MIPLIB数据集21个公开实例的历史记录
+- 2024.10.07: 🎉 分布式求解器刷新MIPLIB数据集21个公开实例的历史记录(第一开发者)
 - 2024.09.04: 🎉 一作文章获CP 2024 最佳论文奖
 - 2024.06.20: 🎉 一篇一作文章被 CP 接收
 - 2024.04.17: 🎉 一篇一作文章被 IJCAI 接收
