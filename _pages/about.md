@@ -13,9 +13,9 @@ Contact me: <linpeng@ios.ac.cn>; <penglincs@outlook.com>
 My research interests are Mixed Integer Programming, Parallel Algorithm, Combinatorial Optimization and etc.
 
 ## 🔥 News
-- 2024.12.31: 🎉 获工信部电力国产求解器技术专题赛二等奖(第一开发者)
+- 2024.12.31: 🎉 获工信部电力国产求解器技术专题赛二等奖（第一开发者）
 - 2024.12.10: 🎉 研究生国家奖学金
-- 2024.10.07: 🎉 分布式求解器刷新MIPLIB数据集21个公开实例的历史记录(第一开发者)
+- 2024.10.07: 🎉 分布式求解器刷新MIPLIB数据集21个公开实例的历史记录（第一开发者）
 - 2024.09.04: 🎉 一作文章获CP 2024 最佳论文奖
 - 2024.06.20: 🎉 一篇一作文章被 CP 接收
 - 2024.04.17: 🎉 一篇一作文章被 IJCAI 接收
@@ -42,7 +42,7 @@ International Conference on Principles and Practice of Constraint Programming (*
 - 2024.12.31, [Second Prize of the Competition on the Technology of Domestic Power Solver](http://www.is.cas.cn/xwdt2016/kyjz2016/202501/t20250101_7512775.html)
 
 ## 📖 Educations
-- 2023.09 - Now: M.D & Ph.D. student at the University of Chinese Academy of Sciences under the supervision of supervised by [Prof. Shaowei Cai](http://lcs.ios.ac.cn/~caisw/)
+- 2023.09 - Now: M.D & Ph.D. student at the University of Chinese Academy of Sciences under the supervision of [Prof. Shaowei Cai](http://lcs.ios.ac.cn/~caisw/)
 
 - 2019.09 - 2023.06: B.S. student at Jilin University under the supervision of [Prof. Dantong Ouyang](https://ccst.jlu.edu.cn/info/1367/19046.htm) and [Assoc. Prof. Peng Zhang](https://ccst.jlu.edu.cn/info/1197/17231.htm)
 
