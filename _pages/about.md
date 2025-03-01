@@ -45,6 +45,7 @@ International Conference on Principles and Practice of Constraint Programming (*
 - 2023.09 - Now: M.D & Ph.D. student at the University of Chinese Academy of Sciences under the supervision of supervised by [Prof. Shaowei Cai](http://lcs.ios.ac.cn/~caisw/)
 
 - 2019.09 - 2023.06: B.S. student at Jilin University under the supervision of [Prof. Dantong Ouyang](https://ccst.jlu.edu.cn/info/1367/19046.htm) and [Assoc. Prof. Peng Zhang](https://ccst.jlu.edu.cn/info/1197/17231.htm)
+
 ## 💬 Talks
 
 - 2024.09, "An Efficient Local Search Solver for Mixed Integer Programming", Girona, Spain, 🎞️[Slides](https://cp2024.a4cp.org/slides/CP/AnEfficientLocal.pdf), 📽️[Video](https://diobma.udg.edu/handle/10256.1/7765)
