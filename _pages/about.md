@@ -23,7 +23,7 @@ My research interests are Mixed Integer Programming, Parallel Algorithm, Combina
 ## 📝 Publications
 ---
 -   **Peng Lin**, Mengchuan Zou, Shaowei Cai. [An Efficient Local Search Solver for Mixed Integer Programming](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2024.19). 
-International Conference on Principles and Practice of Constraint Programming (**CCF-A, Best Paper Award**).
+International Conference on Principles and Practice of Constraint Programming (**Best Paper Award, CCF-B**).
 
 - **Peng Lin**, Mengchuan Zou, Zhihan Chen, Shaowei Cai.
 [ParaILP: A Parallel Local Search Framework for Integer Linear Programming with Cooperative Evolution Mechanism](https://www.ijcai.org/proceedings/2024/768).
