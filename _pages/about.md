@@ -44,7 +44,7 @@ International Conference on Principles and Practice of Constraint Programming (*
 ## 📖 Educations
 - 2023.09 - Now: M.D & Ph.D. student at the University of Chinese Academy of Sciences under the supervision of [Prof. Shaowei Cai](http://lcs.ios.ac.cn/~caisw/)
 
-- 2019.09 - 2023.06: B.S. student at Jilin University under the supervision of [Prof. Dantong Ouyang](https://ccst.jlu.edu.cn/info/1367/19046.htm) and [Assoc. Prof. Peng Zhang](https://ccst.jlu.edu.cn/info/1197/17231.htm)
+- 2019.09 - 2023.06: B.S. student at Jilin University under the supervision of [Prof. Dantong Ouyang (欧阳丹彤)](https://ccst.jlu.edu.cn/info/1367/19046.htm) and [Prof. Peng Zhang (张鹏)](https://ccst.jlu.edu.cn/info/1197/17231.htm)
 
 ## 💬 Talks
 
