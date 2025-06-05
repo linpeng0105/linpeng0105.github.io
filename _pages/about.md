@@ -13,24 +13,30 @@ Contact me: <linpeng@ios.ac.cn>; <penglincs@outlook.com>
 My research interests are Mixed Integer Programming, Parallel Algorithm, Combinatorial Optimization and etc.
 
 ## 🔥 News
-- 2024.12.31: 🎉 获工信部电力国产求解器技术专题赛二等奖（第一开发者）
-- 2024.12.10: 🎉 研究生国家奖学金
-- 2024.10.07: 🎉 分布式求解器刷新MIPLIB数据集21个公开实例的历史记录（第一开发者）
-- 2024.09.04: 🎉 一作文章获CP 2024 最佳论文奖
-- 2024.06.20: 🎉 一篇一作文章被 CP 接收
-- 2024.04.17: 🎉 一篇一作文章被 IJCAI 接收
+
+- 2025.05.29: 🎉🎉 One first-author paper accepted by CP
+- 2024.12.31: 🎉🎉 获工信部电力国产求解器技术专题赛亚军（第一开发者）
+- 2024.12.10: 🎉🎉 National Scholarship for Graduate Students
+- 2024.10.07: 🎉🎉 Distributed solver breaks the historical record of 21 open instances on MIPLIB dataset (Lead Developer)
+- 2024.09.04: 🎉🎉 First-author paper received CP 2024 Best Paper Award
+- 2024.06.20: 🎉🎉 One first-author paper accepted by CP
+- 2024.04.17: 🎉🎉 One first-author paper accepted by IJCAI
 
 ## 📝 Publications
 ---
--   **Peng Lin**, Mengchuan Zou, Shaowei Cai. [An Efficient Local Search Solver for Mixed Integer Programming](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2024.19). 
-International Conference on Principles and Practice of Constraint Programming (**Best Paper Award, CCF-B**).
+- `Best Paper Award` `CP 2024` **Peng Lin**, Mengchuan Zou, Shaowei Cai. [An Efficient Local Search Solver for Mixed Integer Programming](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2024.19). 
+International Conference on Principles and Practice of Constraint Programming.
 
-- **Peng Lin**, Mengchuan Zou, Zhihan Chen, Shaowei Cai.
+- `CP 2025` **Peng Lin**, Shaowei Cai, Mengchuan Zou, Shengqi Chen.
+[Parallel MIP Solving with Dynamic Task Decomposition]().
+International Conference on Principles and Practice of Constraint Programming.
+
+- `IJCAI 2024` **Peng Lin**, Mengchuan Zou, Zhihan Chen, Shaowei Cai.
 [ParaILP: A Parallel Local Search Framework for Integer Linear Programming with Cooperative Evolution Mechanism](https://www.ijcai.org/proceedings/2024/768).
-International Joint Conference on Artificial Intelligence. (**CCF-A**)
+International Joint Conference on Artificial Intelligence.
 
-- Zhihan Chen, **Peng Lin**, Hao Hu, Shaowei Cai. [ParLS-PBO: A Parallel Local Search Solver for Pseudo Boolean Optimization](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2024.5). 
-International Conference on Principles and Practice of Constraint Programming (**CCF-B**).
+-  `CP 2024` Zhihan Chen, **Peng Lin**, Hao Hu, Shaowei Cai. [ParLS-PBO: A Parallel Local Search Solver for Pseudo Boolean Optimization](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2024.5). 
+International Conference on Principles and Practice of Constraint Programming.
 
 ## 🌟Honors and Awards
 - 2024.12.10, [National Scholarship for Graduate Students](https://onestop.ucas.edu.cn/home/infob/aa5feb29-1624-4e59-acc5-0d7e856318b4/2)
@@ -39,7 +45,7 @@ International Conference on Principles and Practice of Constraint Programming (*
 
 ## 🥇Competitions Awards
 
-- 2024.12.31, [Second Prize of the Competition on the Technology of Domestic Power Solver](http://www.is.cas.cn/xwdt2016/kyjz2016/202501/t20250101_7512775.html)
+- 2024.12.31, [Second Place of the Competition on the Technology of Domestic Power Solver](http://www.is.cas.cn/xwdt2016/kyjz2016/202501/t20250101_7512775.html)
 
 ## 📖 Educations
 - 2023.09 - Now: M.D & Ph.D. student at the University of Chinese Academy of Sciences under the supervision of [Prof. Shaowei Cai](http://lcs.ios.ac.cn/~caisw/)
@@ -53,7 +59,7 @@ International Conference on Principles and Practice of Constraint Programming (*
 - 2024.08, "ParaILP: A Parallel Local Search Framework for Integer Linear Programming with Cooperative Evolution Mechanism", Jeju, South Korea, 🎞️[Slides](files/ijcai-slides.pdf)
 
 ## 💾 Software
-1. [Local-MIP](https://github.com/shaowei-cai-group/Local-MIP): An Efficient Local Search Solver for Mixed Integer Programming MIP, won the CP 2024 Best Paper Award for related papers
+1. [Local-MIP](https://github.com/shaowei-cai-group/Local-MIP): An Efficient Local Search Solver for Mixed Integer Programming MIP, won the CP 2024 Best Paper Award for related papers.
 2. [ParaILP](https://github.com/shaowei-cai-group/ParaILP): Integer programming parallel local search solver, deep fusion of local search and evolutionary algorithms, related papers are included in IJCAI 2024
 
 
