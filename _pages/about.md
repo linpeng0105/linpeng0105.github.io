@@ -24,18 +24,21 @@ My research interests are Mixed Integer Programming, Parallel Algorithm, Combina
 
 ## 📝 Publications
 ---
-- `Best Paper Award` `CP 2024` **Peng Lin**, Mengchuan Zou, Shaowei Cai. [An Efficient Local Search Solver for Mixed Integer Programming](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2024.19). 
+- `CP 2024`  [An Efficient Local Search Solver for Mixed Integer Programming](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2024.19). \
+**Best Paper Award**\
+**Peng Lin**, Mengchuan Zou, Shaowei Cai.\
+International Conference on Principles and Practice of Constraint Programming. 
+
+- `CP 2025` [Parallel MIP Solving with Dynamic Task Decomposition]().\
+**Peng Lin**, Shaowei Cai, Mengchuan Zou, Shengqi Chen.\
 International Conference on Principles and Practice of Constraint Programming.
 
-- `CP 2025` **Peng Lin**, Shaowei Cai, Mengchuan Zou, Shengqi Chen.
-[Parallel MIP Solving with Dynamic Task Decomposition]().
-International Conference on Principles and Practice of Constraint Programming.
-
-- `IJCAI 2024` **Peng Lin**, Mengchuan Zou, Zhihan Chen, Shaowei Cai.
-[ParaILP: A Parallel Local Search Framework for Integer Linear Programming with Cooperative Evolution Mechanism](https://www.ijcai.org/proceedings/2024/768).
+- `IJCAI 2024` [ParaILP: A Parallel Local Search Framework for Integer Linear Programming with Cooperative Evolution Mechanism](https://www.ijcai.org/proceedings/2024/768).\
+ **Peng Lin**, Mengchuan Zou, Zhihan Chen, Shaowei Cai.\
 International Joint Conference on Artificial Intelligence.
 
--  `CP 2024` Zhihan Chen, **Peng Lin**, Hao Hu, Shaowei Cai. [ParLS-PBO: A Parallel Local Search Solver for Pseudo Boolean Optimization](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2024.5). 
+- `CP 2024` [ParLS-PBO: A Parallel Local Search Solver for Pseudo Boolean Optimization](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2024.5).\
+Zhihan Chen, **Peng Lin**, Hao Hu, Shaowei Cai. \
 International Conference on Principles and Practice of Constraint Programming.
 
 ## 🌟Honors and Awards
