@@ -8,9 +8,9 @@ redirect_from:
 ---
 I am a M.D & Ph.D. student in [State Key Laboratory of Computer Science](https://lcs.ios.ac.cn/), [Institute of Software](http://www.iscas.ac.cn/), [Chinese Academy of Sciences](https://www.cas.cn/), supervised by [Prof. Shaowei Cai (蔡少伟)](http://lcs.ios.ac.cn/~caisw/).
 
-Contact me: <linpeng@ios.ac.cn>; <penglincs@outlook.com>
+Contact me: <linpeng@ios.ac.cn>; <peng.lin.csor@gmail.com>
 
-My research interests are Mixed Integer Programming, Parallel Algorithm, Combinatorial Optimization and etc.
+My research interests are mixed integer programming, parallel algorithms, combinatorial optimization, and more.
 
 ## 🔥 News
 
