@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a M.D & Ph.D. student in [State Key Laboratory of Computer Science](https://lcs.ios.ac.cn/), [Institute of Software](http://www.iscas.ac.cn/), [Chinese Academy of Sciences](https://www.cas.cn/), supervised by [Prof. Shaowei Cai (蔡少伟)](http://lcs.ios.ac.cn/~caisw/).
+I am a Ph.D. student in [State Key Laboratory of Computer Science](https://lcs.ios.ac.cn/), [Institute of Software](http://www.iscas.ac.cn/), [Chinese Academy of Sciences](https://www.cas.cn/), supervised by [Prof. Shaowei Cai (蔡少伟)](http://lcs.ios.ac.cn/~caisw/).
 
 Contact me: <linpeng@ios.ac.cn>; <peng.lin.csor@gmail.com>
 
@@ -29,7 +29,7 @@ My research interests are mixed integer programming, parallel algorithms, combin
 **Peng Lin**, Mengchuan Zou, Shaowei Cai.\
 International Conference on Principles and Practice of Constraint Programming. 
 
-- `CP 2025` [Parallel MIP Solving with Dynamic Task Decomposition]().\
+- `CP 2025` [Parallel MIP Solving with Dynamic Task Decomposition](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2025.26).\
 **Peng Lin**, Shaowei Cai, Mengchuan Zou, Shengqi Chen.\
 International Conference on Principles and Practice of Constraint Programming.
 
