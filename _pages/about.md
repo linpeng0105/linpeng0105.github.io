@@ -14,6 +14,7 @@ My research interests are mixed integer programming, parallel algorithms, combin
 
 ## 🔥 News
 
+- 2025.08.19: 🎉🎉 One first-author paper accepted by Artificial Intelligence
 - 2025.05.29: 🎉🎉 One first-author paper accepted by CP
 - 2024.12.31: 🎉🎉 获工信部电力国产求解器技术专题赛亚军（第一开发者）
 - 2024.12.10: 🎉🎉 National Scholarship for Graduate Students
@@ -23,6 +24,13 @@ My research interests are mixed integer programming, parallel algorithms, combin
 - 2024.04.17: 🎉🎉 One first-author paper accepted by IJCAI
 
 ## 📝 Publications
+### Journal Papers
+---
+- `AIJ`  [Local-MIP: Efficient Local Search for Mixed Integer Programming](). \
+**Peng Lin**, Shaowei Cai, Mengchuan Zou, Jinkun Lin.\
+Artificial Intelligence. 
+
+### Conference Papers
 ---
 - `CP 2024`  [An Efficient Local Search Solver for Mixed Integer Programming](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2024.19). \
 **Best Paper Award**\
@@ -56,7 +64,7 @@ International Conference on Principles and Practice of Constraint Programming.
 - 2019.09 - 2023.06: B.S. student at Jilin University under the supervision of [Prof. Dantong Ouyang (欧阳丹彤)](https://ccst.jlu.edu.cn/info/1367/19046.htm) and [Prof. Peng Zhang (张鹏)](https://ccst.jlu.edu.cn/info/1197/17231.htm)
 
 ## 💬 Talks
-
+- 2025.08, "Parallel MIP Solving with Dynamic Task Decomposition", Glasgow, Scotland, 🎞️[Slides](files/PartiMIP-slides.pdf)
 - 2024.09, "An Efficient Local Search Solver for Mixed Integer Programming", Girona, Spain, 🎞️[Slides](https://cp2024.a4cp.org/slides/CP/AnEfficientLocal.pdf), 📽️[Video](https://diobma.udg.edu/handle/10256.1/7765)
 - 2024.09, "ParLS-PBO: A Parallel Local Search Solver for Pseudo Boolean Optimization", Girona, Spain, 🎞️[Slides](https://cp2024.a4cp.org/slides/CP/ParLS-PBO.pdf)
 - 2024.08, "ParaILP: A Parallel Local Search Framework for Integer Linear Programming with Cooperative Evolution Mechanism", Jeju, South Korea, 🎞️[Slides](files/ijcai-slides.pdf)
