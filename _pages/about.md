@@ -26,28 +26,28 @@ My research interests are mixed integer programming, parallel algorithms, combin
 ## 📝 Publications
 ### Journal Papers
 ---
-- `AIJ`  [Local-MIP: Efficient Local Search for Mixed Integer Programming](). \
-**Peng Lin**, Shaowei Cai, Mengchuan Zou, Jinkun Lin.\
-Artificial Intelligence. 
+- `AIJ`  [Local-MIP: Efficient Local Search for Mixed Integer Programming](https://www.sciencedirect.com/science/article/pii/S0004370225001249?via%3Dihub). \
+**Peng Lin**, Shaowei Cai, Mengchuan Zou, Jinkun Lin\
+Artificial Intelligence
 
 ### Conference Papers
 ---
 - `CP 2024`  [An Efficient Local Search Solver for Mixed Integer Programming](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2024.19). \
 **Best Paper Award**\
-**Peng Lin**, Mengchuan Zou, Shaowei Cai.\
-International Conference on Principles and Practice of Constraint Programming. 
+**Peng Lin**, Mengchuan Zou, Shaowei Cai\
+International Conference on Principles and Practice of Constraint Programming 
 
 - `CP 2025` [Parallel MIP Solving with Dynamic Task Decomposition](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2025.26).\
-**Peng Lin**, Shaowei Cai, Mengchuan Zou, Shengqi Chen.\
-International Conference on Principles and Practice of Constraint Programming.
+**Peng Lin**, Shaowei Cai, Mengchuan Zou, Shengqi Chen\
+International Conference on Principles and Practice of Constraint Programming
 
 - `IJCAI 2024` [ParaILP: A Parallel Local Search Framework for Integer Linear Programming with Cooperative Evolution Mechanism](https://www.ijcai.org/proceedings/2024/768).\
- **Peng Lin**, Mengchuan Zou, Zhihan Chen, Shaowei Cai.\
-International Joint Conference on Artificial Intelligence.
+ **Peng Lin**, Mengchuan Zou, Zhihan Chen, Shaowei Cai\
+International Joint Conference on Artificial Intelligence
 
 - `CP 2024` [ParLS-PBO: A Parallel Local Search Solver for Pseudo Boolean Optimization](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2024.5).\
-Zhihan Chen, **Peng Lin**, Hao Hu, Shaowei Cai. \
-International Conference on Principles and Practice of Constraint Programming.
+Zhihan Chen, **Peng Lin**, Hao Hu, Shaowei Cai\
+International Conference on Principles and Practice of Constraint Programming
 
 ## 🌟Honors and Awards
 - 2024.12.10, [National Scholarship for Graduate Students](https://onestop.ucas.edu.cn/home/infob/aa5feb29-1624-4e59-acc5-0d7e856318b4/2)
