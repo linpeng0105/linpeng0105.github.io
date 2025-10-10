@@ -16,3 +16,14 @@ Name2 Name2:
   avatar      : "bio-photo.jpg"
   twitter     : "name2"
   google_plus : "Name"
+
+peng_lin_zh:
+  name        : "林鹏"
+  bio         : "计算机科学与运筹学"
+  avatar      : "profile.png"
+  location    : "中国"
+  employer    : "中国科学院软件研究所"
+  email       : "linpeng@ios.ac.cn"
+  googlescholar: "https://scholar.google.com/citations?user=LNkvkc8AAAAJ"
+  orcid       : "https://orcid.org/0009-0002-4183-5998"
+  github      : "linpeng0105"
