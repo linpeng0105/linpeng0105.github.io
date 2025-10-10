@@ -11,7 +11,7 @@ The site follows the Academic Pages Jekyll layout. Page templates live in `_layo
 - `npm install` then `npm run build:js` — install JS dependencies and rebuild the minified bundle whenever `assets/js/` changes.
 
 ## Coding Style & Naming Conventions
-Use 2-space indentation across Liquid, SCSS, and YAML. Keep YAML front matter compact and quote only when needed. Markdown files should favor sentence case headings; blog posts follow the `YYYY-MM-DD-title.md` pattern. Maintain Liquid readability with `{% %}` and `{{ }}` surrounded by single spaces. SCSS in `_sass/` uses BEM-like selectors such as `.site-nav__item`. Never edit `assets/js/main.min.js` directly; modify sources and rebuild.
+Use 2-space indentation across Liquid, SCSS, and YAML. Keep YAML front matter compact and quote only when needed. Markdown files should favor sentence case headings; blog posts follow the `YYYY-MM-DD-title.md` pattern. Maintain Liquid readability with {% raw %}`{% %}`{% endraw %} and {% raw %}`{{ }}`{% endraw %} surrounded by single spaces. SCSS in `_sass/` uses BEM-like selectors such as `.site-nav__item`. Never edit `assets/js/main.min.js` directly; modify sources and rebuild.
 
 ## Testing Guidelines
 Run `bundle exec jekyll build` to catch Liquid or front matter failures before committing. Follow with `bundle exec jekyll doctor` whenever configuration, collections, or layouts change. After touching JavaScript, execute `npm run build:js` and spot-check the site via `bundle exec jekyll serve`. Regenerate content from `markdown_generator/` and compare diffs to confirm expected ordering.
