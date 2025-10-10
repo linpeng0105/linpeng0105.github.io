@@ -56,7 +56,7 @@ International Conference on Principles and Practice of Constraint Programming
 
 ## 🥇Competitions Awards
 
-- 2024.08.14, [First Place (DEC-LIN UNSAT), Third Place (DEC-LIN SAT+UNSAT, OPT-LIN UNSAT), Pseudo-Boolean Competition 2025.](https://www.cril.univ-artois.fr/PB25/results/ranking.php?idev=115&cpuLimit=3605&altSel=1)
+- 2025.08.14, [First Place (DEC-LIN UNSAT), Third Place (DEC-LIN SAT+UNSAT, OPT-LIN UNSAT), Pseudo-Boolean Competition 2025.](https://www.cril.univ-artois.fr/PB25/results/ranking.php?idev=115&cpuLimit=3605&altSel=1)
 - 2024.12.31, [Second Place, Competition on the Technology of Domestic Power Solver](http://www.is.cas.cn/xwdt2016/kyjz2016/202501/t20250101_7512775.html)
 
 ## 📖 Educations
