@@ -742,7 +742,7 @@ redirect_from:
     <li><a href="https://miplib.zib.de/instance_details_bmocbd3.html"><code>bmocbd3</code></a></li>
     <li><a href="https://miplib.zib.de/instance_details_gmut-76-40.html"><code>gmut-76-40</code></a></li>
     <li><a href="https://miplib.zib.de/instance_details_supportcase23.html"><code>supportcase23</code></a></li>
-    <li>👇👇</li>
+    <li>更多...👇👇</li>
   </ol>
   <details class="profile-details">
     <summary><strong>查看完整刷新记录（32）</strong></summary>
