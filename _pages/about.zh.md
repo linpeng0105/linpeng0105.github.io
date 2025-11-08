@@ -575,6 +575,10 @@ redirect_from:
   <h2>🔥 最新动态</h2>
   <ul class="profile-timeline">
     <li>
+      <time datetime="2025-11-08">2025 · 11 · 08</time>
+      <span>🎉🎉 共同第一作者论文被 AAAI 国际会议接收</span>
+    </li>
+    <li>
       <time datetime="2025-08-19">2025 · 08 · 19</time>
       <span>🎉🎉 第一作者论文被《Artificial Intelligence》接收</span>
     </li>
@@ -611,6 +615,7 @@ redirect_from:
 
 <div class="profile-section" id="publications">
   <h2>📝 论文成果</h2>
+  <p style="margin-bottom: 1.5rem; color: #4a5875; font-size: 0.92rem;">‡ 共同第一作者</p>
   <div class="profile-subsection">
     <h3>期刊论文</h3>
     <div class="profile-paper">
@@ -639,6 +644,12 @@ redirect_from:
       <p class="profile-paper__title"><a href="https://www.ijcai.org/proceedings/2024/768">ParaILP: A Parallel Local Search Framework for Integer Linear Programming with Cooperative Evolution Mechanism</a></p>
       <p class="profile-paper__authors"><strong>林鹏</strong>，邹蒙川，陈志翰，蔡少伟</p>
       <p class="profile-paper__venue">国际人工智能联合会议，2024，CCF-A</p>
+    </div>
+    <div class="profile-paper">
+      <span class="profile-paper__tag">AAAI 2026</span>
+      <p class="profile-paper__title"><a href="">Elite Pattern Reinforcement for Vehicle Routing Problems</a></p>
+      <p class="profile-paper__authors">李宁，<strong>林鹏<sup>‡</sup></strong>，张鹏，田睿琛</p>
+      <p class="profile-paper__venue">AAAI人工智能会议，2026，CCF-A</p>
     </div>
     <div class="profile-paper">
       <span class="profile-paper__tag">CP 2024</span>

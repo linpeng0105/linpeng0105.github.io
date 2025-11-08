@@ -574,6 +574,10 @@ redirect_from:
   <h2>🔥 Recent News</h2>
   <ul class="profile-timeline">
     <li>
+      <time datetime="2025-11-08">2025 · Nov 08</time>
+      <span>🎉🎉 One co-first author paper accepted by AAAI</span>
+    </li>
+    <li>
       <time datetime="2025-08-19">2025 · Aug 19</time>
       <span>🎉🎉 One first-author paper accepted by Artificial Intelligence</span>
     </li>
@@ -610,6 +614,7 @@ redirect_from:
 
 <div class="profile-section" id="publications">
   <h2>📝 Publications</h2>
+  <p style="margin-bottom: 1.5rem; color: #4a5875; font-size: 0.92rem;">‡ Co-First Author</p>
   <div class="profile-subsection">
     <h3>Journal Papers</h3>
     <div class="profile-paper">
@@ -638,6 +643,12 @@ redirect_from:
       <p class="profile-paper__title"><a href="https://www.ijcai.org/proceedings/2024/768">ParaILP: A Parallel Local Search Framework for Integer Linear Programming with Cooperative Evolution Mechanism</a></p>
       <p class="profile-paper__authors"><strong>Peng Lin</strong>, Mengchuan Zou, Zhihan Chen, Shaowei Cai</p>
       <p class="profile-paper__venue">International Joint Conference on Artificial Intelligence, 2024</p>
+    </div>
+    <div class="profile-paper">
+      <span class="profile-paper__tag">AAAI 2026</span>
+      <p class="profile-paper__title"><a href="">Elite Pattern Reinforcement for Vehicle Routing Problems</a></p>
+      <p class="profile-paper__authors">Ning Li, <strong>Peng Lin<sup>‡</sup></strong>, Peng Zhang, Ruichen Tian</p>
+      <p class="profile-paper__venue">AAAI Conference on Artificial Intelligence, 2026</p>
     </div>
     <div class="profile-paper">
       <span class="profile-paper__tag">CP 2024</span>
