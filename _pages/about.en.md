@@ -614,7 +614,7 @@ redirect_from:
 
 <div class="profile-section" id="publications">
   <h2>📝 Publications</h2>
-  <p style="margin-bottom: 1.5rem; color: #4a5875; font-size: 0.92rem;">‡ Co-First Author</p>
+  <p style="margin-bottom: 1.5rem; color: #4a5875; font-size: 0.92rem;">† Co-First Author</p>
   <div class="profile-subsection">
     <h3>Journal Papers</h3>
     <div class="profile-paper">
@@ -647,7 +647,7 @@ redirect_from:
     <div class="profile-paper">
       <span class="profile-paper__tag">AAAI 2026</span>
       <p class="profile-paper__title"><a href="">Elite Pattern Reinforcement for Vehicle Routing Problems</a></p>
-      <p class="profile-paper__authors">Ning Li, <strong>Peng Lin<sup>‡</sup></strong>, Peng Zhang, Ruichen Tian</p>
+      <p class="profile-paper__authors">Ning Li<sup>†</sup>, <strong>Peng Lin<sup>†</sup></strong>, Peng Zhang, Ruichen Tian</p>
       <p class="profile-paper__venue">AAAI Conference on Artificial Intelligence, 2026</p>
     </div>
     <div class="profile-paper">

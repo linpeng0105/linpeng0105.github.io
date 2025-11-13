@@ -615,7 +615,7 @@ redirect_from:
 
 <div class="profile-section" id="publications">
   <h2>📝 论文成果</h2>
-  <p style="margin-bottom: 1.5rem; color: #4a5875; font-size: 0.92rem;">‡ 共同第一作者</p>
+  <p style="margin-bottom: 1.5rem; color: #4a5875; font-size: 0.92rem;">† 共同第一作者</p>
   <div class="profile-subsection">
     <h3>期刊论文</h3>
     <div class="profile-paper">
@@ -648,7 +648,7 @@ redirect_from:
     <div class="profile-paper">
       <span class="profile-paper__tag">AAAI 2026</span>
       <p class="profile-paper__title"><a href="">Elite Pattern Reinforcement for Vehicle Routing Problems</a></p>
-      <p class="profile-paper__authors">李宁，<strong>林鹏<sup>‡</sup></strong>，张鹏，田睿琛</p>
+      <p class="profile-paper__authors">李宁<sup>†</sup>，<strong>林鹏<sup>†</sup></strong>，张鹏，田睿琛</p>
       <p class="profile-paper__venue">AAAI人工智能会议，2026，CCF-A</p>
     </div>
     <div class="profile-paper">
