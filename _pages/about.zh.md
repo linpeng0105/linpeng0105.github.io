@@ -66,6 +66,10 @@ redirect_from:
   <h2>🔥 最新动态</h2>
   <ul class="profile-timeline">
     <li>
+      <time datetime="2025-12-15">2025 · 12 · 15</time>
+      <span>🎉🎉 入选中国科协青年科技人才培育工程博士生专项计划</span>
+    </li>
+    <li>
       <time datetime="2025-11-08">2025 · 11 · 08</time>
       <span>🎉🎉 共同第一作者论文被 AAAI 国际会议接收</span>
     </li>
@@ -154,6 +158,7 @@ redirect_from:
 <div class="profile-section" id="honors">
   <h2>🌟 荣誉奖励</h2>
   <ul class="profile-awards">
+    <li><span>2025</span> <a href="">中国科协青年科技人才培育工程博士生专项计划</a></li>
     <li><span>2024</span> <a href="https://onestop.ucas.edu.cn/home/infob/aa5feb29-1624-4e59-acc5-0d7e856318b4/2">研究生国家奖学金</a></li>
     <li><span>2024</span> <a href="https://www.a4cp.org/awards/paper-awards">CP 2024 最佳论文奖</a></li>
     <li><span>2023</span> <a href="https://mp.weixin.qq.com/s/sh7FFoBKN4W7m9WFllWXVg">吉林大学优秀毕业论文（软件学院第一名）</a></li>

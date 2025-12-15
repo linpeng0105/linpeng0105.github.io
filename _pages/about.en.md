@@ -65,6 +65,10 @@ redirect_from:
   <h2>🔥 Recent News</h2>
   <ul class="profile-timeline">
     <li>
+      <time datetime="2025-12-15">2025 · Dec 15</time>
+      <span>🎉🎉 Selected for CAST Young Talent Support Program (Doctoral)</span>
+    </li>
+    <li>
       <time datetime="2025-11-08">2025 · Nov 08</time>
       <span>🎉🎉 One co-first author paper accepted by AAAI</span>
     </li>
@@ -153,6 +157,7 @@ redirect_from:
 <div class="profile-section" id="honors">
   <h2>🌟 Honors & Awards</h2>
   <ul class="profile-awards">
+    <li><span>2025</span> <a href="">China Association for Science and Technology (CAST) Young Talent Support Program - Doctoral Student Special Initiative</a></li>
     <li><span>2024</span> <a href="https://onestop.ucas.edu.cn/home/infob/aa5feb29-1624-4e59-acc5-0d7e856318b4/2">National Scholarship for Graduate Students</a></li>
     <li><span>2024</span> <a href="https://www.a4cp.org/awards/paper-awards">CP 2024 Best Paper Award</a></li>
     <li><span>2023</span> <a href="https://mp.weixin.qq.com/s/sh7FFoBKN4W7m9WFllWXVg">Excellent Graduation Thesis, Jilin University (Software School Rank 1)</a></li>
