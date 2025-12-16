@@ -216,6 +216,7 @@ redirect_from:
     <article class="profile-mini-card">
       <h3>Local-MIP</h3>
       <p>面向混合整数规划的高效局部搜索求解器，相关成果荣获 CP 2024 最佳论文奖。</p>
+      <p class="profile-mini-card__links">🔗 <a href="https://local-mip.github.io/">网站</a></p>
       <p class="profile-mini-card__links">🔗 <a href="https://github.com/shaowei-cai-group/Local-MIP">GitHub</a></p>
     </article>
     <article class="profile-mini-card">
