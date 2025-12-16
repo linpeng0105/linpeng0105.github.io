@@ -13,22 +13,6 @@ redirect_from:
 </style>
 <link rel="stylesheet" href="{{ '/assets/css/profile.css' | relative_url }}">
 
-<div class="profile-lang-toggle">
-  <a class="profile-lang-toggle__link" href="/">English</a>
-  <a class="profile-lang-toggle__link profile-lang-toggle__link--active" href="/zh/">中文</a>
-</div>
-
-<nav class="profile-nav">
-  <a class="profile-nav__link" href="#highlights">动态</a>
-  <a class="profile-nav__link" href="#publications">论文</a>
-  <a class="profile-nav__link" href="#honors">荣誉/奖励</a>
-  <a class="profile-nav__link" href="#competitions">学科竞赛</a>
-  <a class="profile-nav__link" href="#education">教育经历</a>
-  <a class="profile-nav__link" href="#talks">学术报告</a>
-  <a class="profile-nav__link" href="#software">开源项目</a>
-  <a class="profile-nav__link" href="#benchmarks">刷新MIP最佳记录</a>
-</nav>
-
 <div class="profile-hero">
   <div class="profile-hero__grid">
     <div class="profile-card">

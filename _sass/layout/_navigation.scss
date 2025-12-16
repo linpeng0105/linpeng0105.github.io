@@ -249,6 +249,36 @@
                 transform: scaleX(1); /* reveal*/
       }
     }
+
+    /* Special styling for language switch button */
+    .masthead__menu-item--lang {
+      a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.45rem 1.2rem;
+        margin: 0 0.5rem;
+        border-radius: 999px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        background: rgba(63, 111, 247, 0.1);
+        color: #3f6ff7;
+        transition: all 0.2s ease;
+
+        &:before {
+          display: none; /* Remove underline effect for language button */
+        }
+
+        &:hover {
+          background: #3f6ff7;
+          color: #ffffff;
+          box-shadow: 0 4px 12px rgba(63, 111, 247, 0.35);
+          transform: translateY(-1px);
+        }
+      }
+    }
   }
 
   .hidden-links {

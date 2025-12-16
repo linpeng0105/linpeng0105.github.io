@@ -5,23 +5,44 @@
 # prevent it from being included in the site.
 
 main:
-  # - title: "Publications"
-  #   url: /publications/
-
-  # - title: "Talks"
-  #   url: /talks/    
-
-  # - title: "Teaching"
-  #   url: /teaching/    
-    
-  # - title: "Portfolio"
-  #   url: /portfolio/
-        
-  # - title: "Blog Posts"
-  #   url: /year-archive/
-    
-  # - title: "CV"
-  #   url: /cv/
-    
-  # - title: "Guide"
-  #   url: /markdown/
+  - title: "English"
+    title_zh: "English"
+    url: /
+    lang: en
+  
+  - title: "中文"
+    title_zh: "中文"
+    url: /zh/
+    lang: zh
+  
+  - title: "News"
+    title_zh: "新闻"
+    url: /#highlights
+  
+  - title: "Publications"
+    title_zh: "论文"
+    url: /#publications
+  
+  - title: "Honors"
+    title_zh: "荣誉奖励"
+    url: /#honors
+  
+  - title: "Competitions"
+    title_zh: "竞赛获奖"
+    url: /#competitions
+  
+  - title: "Education"
+    title_zh: "教育经历"
+    url: /#education
+  
+  - title: "Talks"
+    title_zh: "学术报告"
+    url: /#talks
+  
+  - title: "Software"
+    title_zh: "开源项目"
+    url: /#software
+  
+  - title: "MIPLIB Records"
+    title_zh: "刷新记录"
+    url: /#benchmarks

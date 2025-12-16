@@ -12,22 +12,6 @@ redirect_from:
 </style>
 <link rel="stylesheet" href="{{ '/assets/css/profile.css' | relative_url }}">
 
-<div class="profile-lang-toggle">
-  <a class="profile-lang-toggle__link profile-lang-toggle__link--active" href="/">English</a>
-  <a class="profile-lang-toggle__link" href="/zh/">中文</a>
-</div>
-
-<nav class="profile-nav">
-  <a class="profile-nav__link" href="#highlights">News</a>
-  <a class="profile-nav__link" href="#publications">Publications</a>
-  <a class="profile-nav__link" href="#honors">Honors</a>
-  <a class="profile-nav__link" href="#competitions">Competitions</a>
-  <a class="profile-nav__link" href="#education">Education</a>
-  <a class="profile-nav__link" href="#talks">Talks</a>
-  <a class="profile-nav__link" href="#software">Software</a>
-  <a class="profile-nav__link" href="#benchmarks">MIPLIB Records</a>
-</nav>
-
 <div class="profile-hero">
   <div class="profile-hero__grid">
     <div class="profile-card">

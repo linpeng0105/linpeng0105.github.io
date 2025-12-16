@@ -7,13 +7,56 @@
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          {% comment %}Check if current page is Chinese or English{% endcomment %}
+          {% assign is_chinese = false %}
+          {% if page.locale == 'zh' or page.url contains '/zh/' %}
+            {% assign is_chinese = true %}
+          {% endif %}
+          
           {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
+            {% comment %}Show language link opposite to current page language for switching{% endcomment %}
+            {% if link.lang %}
+              {% if link.lang == 'zh' and is_chinese == false %}
+                {% assign show_link = true %}
+              {% elsif link.lang == 'en' and is_chinese %}
+                {% assign show_link = true %}
               {% else %}
-              {% assign domain = base_path %}
+                {% assign show_link = false %}
+              {% endif %}
+            {% else %}
+              {% assign show_link = true %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            
+            {% if show_link %}
+              {% if link.url contains 'http' %}
+                {% assign domain = '' %}
+                {% assign final_url = link.url %}
+              {% else %}
+                {% assign domain = base_path %}
+                {% comment %}Only modify URLs for non-language links{% endcomment %}
+                {% if link.lang %}
+                  {% comment %}Language switch links - use original URL{% endcomment %}
+                  {% assign final_url = link.url %}
+                {% elsif link.url contains '#' and is_chinese %}
+                  {% comment %}Anchor links on Chinese page - prepend /zh/{% endcomment %}
+                  {% assign final_url = '/zh' | append: link.url %}
+                {% else %}
+                  {% assign final_url = link.url %}
+                {% endif %}
+              {% endif %}
+              {% comment %}Use Chinese title if on Chinese page{% endcomment %}
+              {% if is_chinese and link.title_zh %}
+                {% assign link_title = link.title_zh %}
+              {% else %}
+                {% assign link_title = link.title %}
+              {% endif %}
+              {% comment %}Add special class for language switch button{% endcomment %}
+              {% if link.lang %}
+                <li class="masthead__menu-item masthead__menu-item--lang"><a href="{{ domain }}{{ final_url }}">{{ link_title }}</a></li>
+              {% else %}
+                <li class="masthead__menu-item"><a href="{{ domain }}{{ final_url }}">{{ link_title }}</a></li>
+              {% endif %}
+            {% endif %}
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
