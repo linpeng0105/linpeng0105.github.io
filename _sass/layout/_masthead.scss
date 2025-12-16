@@ -4,8 +4,11 @@
 
 .masthead {
   position: fixed;
-  background: var(--global-bg-color);
-  border-bottom: 1px solid var(--global-border-color);
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: saturate(180%) blur(12px);
+  -webkit-backdrop-filter: saturate(180%) blur(12px);
+  border-bottom: 1px solid rgba(63, 111, 247, 0.1);
+  box-shadow: 0 2px 16px rgba(35, 52, 109, 0.06);
   height: $masthead-height;
   top: 0;
   width: 100%;
@@ -15,11 +18,12 @@
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
   z-index: 20;
+  transition: all 0.3s ease;
 
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: 1em 1em 1em;
+    padding: 0.8em 1.2em 0.8em;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -32,6 +36,7 @@
 
     a {
       text-decoration: none;
+      transition: all 0.2s ease;
     }
   }
 }
@@ -47,7 +52,7 @@
 }
 
 .masthead__menu-item {
-  background-color: var(--global-bg-color);
+  background-color: transparent;
   display: block;
   list-style-type: none;
   white-space: nowrap;
@@ -55,5 +60,19 @@
   &--lg {
     padding-right: 2em;
     font-weight: 700;
+    font-size: 1.1em;
+    
+    a {
+      background: linear-gradient(135deg, #1a2540 0%, #3f6ff7 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      transition: all 0.3s ease;
+      
+      &:hover {
+        transform: scale(1.02);
+        filter: brightness(1.2);
+      }
+    }
   }
 }

@@ -97,7 +97,7 @@ redirect_from:
   <div class="profile-subsection">
     <h3>Journal Papers</h3>
     <div class="profile-paper">
-      <span class="profile-paper__tag">AIJ 2025</span>
+      <span class="profile-paper__tag profile-paper__tag--journal">AIJ 2025</span>
       <p class="profile-paper__title"><a href="https://www.sciencedirect.com/science/article/pii/S0004370225001249?via%3Dihub">Local-MIP: Efficient Local Search for Mixed Integer Programming</a></p>
       <p class="profile-paper__authors"><strong>Peng Lin</strong>, Shaowei Cai, Mengchuan Zou, Jinkun Lin</p>
       <p class="profile-paper__venue">Artificial Intelligence, 2025</p>
@@ -106,31 +106,32 @@ redirect_from:
   <div class="profile-subsection">
     <h3>Conference Papers</h3>
     <div class="profile-paper">
-      <span class="profile-paper__tag">CP 2024 · Best Paper</span>
+      <span class="profile-paper__tag profile-paper__tag--conference">CP 2024</span>
+      <span class="profile-paper__tag profile-paper__tag--award">Best Paper</span>
       <p class="profile-paper__title"><a href="https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2024.19">An Efficient Local Search Solver for Mixed Integer Programming</a></p>
       <p class="profile-paper__authors"><strong>Peng Lin</strong>, Mengchuan Zou, Shaowei Cai</p>
       <p class="profile-paper__venue">International Conference on Principles and Practice of Constraint Programming, 2024</p>
     </div>
     <div class="profile-paper">
-      <span class="profile-paper__tag">CP 2025</span>
+      <span class="profile-paper__tag profile-paper__tag--conference">CP 2025</span>
       <p class="profile-paper__title"><a href="https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2025.26">Parallel MIP Solving with Dynamic Task Decomposition</a></p>
       <p class="profile-paper__authors"><strong>Peng Lin</strong>, Shaowei Cai, Mengchuan Zou, Shengqi Chen</p>
       <p class="profile-paper__venue">International Conference on Principles and Practice of Constraint Programming, 2025</p>
     </div>
     <div class="profile-paper">
-      <span class="profile-paper__tag">IJCAI 2024</span>
+      <span class="profile-paper__tag profile-paper__tag--conference">IJCAI 2024</span>
       <p class="profile-paper__title"><a href="https://www.ijcai.org/proceedings/2024/768">ParaILP: A Parallel Local Search Framework for Integer Linear Programming with Cooperative Evolution Mechanism</a></p>
       <p class="profile-paper__authors"><strong>Peng Lin</strong>, Mengchuan Zou, Zhihan Chen, Shaowei Cai</p>
       <p class="profile-paper__venue">International Joint Conference on Artificial Intelligence, 2024</p>
     </div>
     <div class="profile-paper">
-      <span class="profile-paper__tag">AAAI 2026</span>
+      <span class="profile-paper__tag profile-paper__tag--conference">AAAI 2026</span>
       <p class="profile-paper__title"><a href="">Elite Pattern Reinforcement for Vehicle Routing Problems</a></p>
       <p class="profile-paper__authors">Ning Li<sup>†</sup>, <strong>Peng Lin<sup>†</sup></strong>, Peng Zhang, Ruichen Tian</p>
       <p class="profile-paper__venue">AAAI Conference on Artificial Intelligence, 2026</p>
     </div>
     <div class="profile-paper">
-      <span class="profile-paper__tag">CP 2024</span>
+      <span class="profile-paper__tag profile-paper__tag--conference">CP 2024</span>
       <p class="profile-paper__title"><a href="https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2024.5">ParLS-PBO: A Parallel Local Search Solver for Pseudo Boolean Optimization</a></p>
       <p class="profile-paper__authors">Zhihan Chen, <strong>Peng Lin</strong>, Hao Hu, Shaowei Cai</p>
       <p class="profile-paper__venue">International Conference on Principles and Practice of Constraint Programming, 2024</p>
@@ -214,6 +215,7 @@ redirect_from:
     <article class="profile-mini-card">
       <h3>Local-MIP</h3>
       <p>An efficient local search solver for mixed integer programming; the related work received the CP 2024 Best Paper Award.</p>
+      <p class="profile-mini-card__links">🔗 <a href="https://local-mip.github.io/">Website</a></p>
       <p class="profile-mini-card__links">🔗 <a href="https://github.com/shaowei-cai-group/Local-MIP">GitHub</a></p>
     </article>
     <article class="profile-mini-card">

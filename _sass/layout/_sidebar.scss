@@ -76,6 +76,17 @@
    Author profile and links
    ========================================================================== */
 
+.sidebar {
+  [itemscope] {
+    @include breakpoint($large) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+  }
+}
+
 .author__avatar {
   display: table-cell;
   vertical-align: top;
@@ -87,15 +98,25 @@
     display: block;
     width: auto;
     height: auto;
+    text-align: center;
+    margin-bottom: 1.5rem;
   }
 
   img {
     max-width: 175px;
     border-radius: 50%;
+    transition: all 0.3s ease;
 
     @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid var(--global-border-color);
+      padding: 6px;
+      border: 3px solid rgba(63, 111, 247, 0.15);
+      box-shadow: 0 8px 24px rgba(35, 52, 109, 0.12);
+      
+      &:hover {
+        transform: scale(1.05);
+        border-color: rgba(63, 111, 247, 0.35);
+        box-shadow: 0 12px 32px rgba(35, 52, 109, 0.18);
+      }
     }
   }
 }
@@ -110,8 +131,10 @@
   @include breakpoint($large) {
     display: block;
     width: 100%;
+    max-width: 200px;
     padding-left: 0;
     padding-right: 0;
+    text-align: center;
   }
 }
 
@@ -121,6 +144,13 @@
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: 1.4rem !important;
+    font-weight: 700;
+    background: linear-gradient(135deg, #1a2540 0%, #3f6ff7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: 0.02em;
   }
 }
 .sidebar .author__name {
@@ -150,6 +180,9 @@
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 20px;
+    color: #4a5875;
+    font-size: 0.9rem;
+    line-height: 1.6;
   }
 }
 
@@ -170,6 +203,9 @@
 
   @include breakpoint($large) {
     display: block;
+    width: 100%;
+    max-width: 200px;
+    margin-top: 1rem;
   }
 
   button {
@@ -203,6 +239,9 @@
     border: 0;
     background: transparent;
     box-shadow: none;
+    text-align: left;
+    width: 100%;
+    max-width: 200px;
   }
 
   &:before {
@@ -245,16 +284,28 @@
 
   a {
     display: block;
-    margin-bottom: 5px;
-    padding-right: 5px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    color: inherit;
+    margin-bottom: 8px;
+    padding: 6px 10px;
+    color: #4a5875;
     font-size: $type-size-5;
     text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    text-align: left;
 
     &:hover {
-      text-decoration: underline;
+      background: rgba(63, 111, 247, 0.08);
+      color: #3f6ff7;
+      transform: translateX(2px);
+      
+      i {
+        color: #3f6ff7;
+      }
+    }
+    
+    i {
+      color: #3f6ff7;
+      transition: color 0.2s ease;
     }
   }
 }

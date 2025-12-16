@@ -43,6 +43,6 @@ main:
     title_zh: "开源项目"
     url: /#software
   
-  - title: "MIPLIB Records"
+  - title: "MIPLIB"
     title_zh: "刷新记录"
     url: /#benchmarks

@@ -98,7 +98,7 @@ redirect_from:
   <div class="profile-subsection">
     <h3>期刊论文</h3>
     <div class="profile-paper">
-      <span class="profile-paper__tag">AIJ 2025</span>
+      <span class="profile-paper__tag profile-paper__tag--journal">AIJ 2025</span>
       <p class="profile-paper__title"><a href="https://www.sciencedirect.com/science/article/pii/S0004370225001249?via%3Dihub">Local-MIP: Efficient Local Search for Mixed Integer Programming</a></p>
       <p class="profile-paper__authors"><strong>林鹏</strong>，蔡少伟，邹蒙川，林锦坤</p>
       <p class="profile-paper__venue">人工智能，2025，CCF-A</p>
@@ -107,31 +107,32 @@ redirect_from:
   <div class="profile-subsection">
     <h3>会议论文</h3>
     <div class="profile-paper">
-      <span class="profile-paper__tag">CP 2024 · 最佳论文</span>
+      <span class="profile-paper__tag profile-paper__tag--conference">CP 2024</span>
+      <span class="profile-paper__tag profile-paper__tag--award">最佳论文</span>
       <p class="profile-paper__title"><a href="https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2024.19">An Efficient Local Search Solver for Mixed Integer Programming</a></p>
       <p class="profile-paper__authors"><strong>林鹏</strong>，邹蒙川，蔡少伟</p>
       <p class="profile-paper__venue">约束规划原理与实践国际会议，2024，CCF-B</p>
     </div>
     <div class="profile-paper">
-      <span class="profile-paper__tag">CP 2025</span>
+      <span class="profile-paper__tag profile-paper__tag--conference">CP 2025</span>
       <p class="profile-paper__title"><a href="https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2025.26">Parallel MIP Solving with Dynamic Task Decomposition</a></p>
       <p class="profile-paper__authors"><strong>林鹏</strong>，蔡少伟，邹蒙川，陈晟祺</p>
       <p class="profile-paper__venue">约束规划原理与实践国际会议，2025，CCF-B</p>
     </div>
     <div class="profile-paper">
-      <span class="profile-paper__tag">IJCAI 2024</span>
+      <span class="profile-paper__tag profile-paper__tag--conference">IJCAI 2024</span>
       <p class="profile-paper__title"><a href="https://www.ijcai.org/proceedings/2024/768">ParaILP: A Parallel Local Search Framework for Integer Linear Programming with Cooperative Evolution Mechanism</a></p>
       <p class="profile-paper__authors"><strong>林鹏</strong>，邹蒙川，陈志翰，蔡少伟</p>
       <p class="profile-paper__venue">国际人工智能联合会议，2024，CCF-A</p>
     </div>
     <div class="profile-paper">
-      <span class="profile-paper__tag">AAAI 2026</span>
+      <span class="profile-paper__tag profile-paper__tag--conference">AAAI 2026</span>
       <p class="profile-paper__title"><a href="">Elite Pattern Reinforcement for Vehicle Routing Problems</a></p>
       <p class="profile-paper__authors">李宁<sup>†</sup>，<strong>林鹏<sup>†</sup></strong>，张鹏，田睿琛</p>
       <p class="profile-paper__venue">AAAI人工智能会议，2026，CCF-A</p>
     </div>
     <div class="profile-paper">
-      <span class="profile-paper__tag">CP 2024</span>
+      <span class="profile-paper__tag profile-paper__tag--conference">CP 2024</span>
       <p class="profile-paper__title"><a href="https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2024.5">ParLS-PBO: A Parallel Local Search Solver for Pseudo Boolean Optimization</a></p>
       <p class="profile-paper__authors">陈志翰，<strong>林鹏</strong>，胡皓，蔡少伟</p>
       <p class="profile-paper__venue">约束规划原理与实践国际会议，2024，CCF-B</p>
