@@ -48,7 +48,7 @@ redirect_from:
     <div class="profile-featured__content">
       <img src="{{ '/images/Local-MIP.png' | relative_url }}" alt="Local-MIP Logo" class="profile-featured__logo">
       <div class="profile-featured__info">
-        <span class="profile-featured__label">Featured Work</span>
+        <span class="profile-featured__label">V2.1</span>
         <h4 class="profile-featured__title">Local-MIP</h4>
         <p class="profile-featured__desc">Local Search Solver for Mixed Integer Programming</p>
       </div>
