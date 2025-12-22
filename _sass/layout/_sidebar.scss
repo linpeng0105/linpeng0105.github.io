@@ -18,9 +18,6 @@
     overflow-y: auto;               // Add scrollbar if the sidebar is too long
     position: fixed;
     padding-top: $masthead-height;
-  }
-
-  @include breakpoint($large) {
     @include span(2 of 12);
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
@@ -59,7 +56,7 @@
 .sidebar__right {
   margin-bottom: 1em;
 
-  @include breakpoint($large) {
+  @media screen and (min-width: $sidebar-screen-min-width) {
     position: relative;
     float: right;
     width: $right-sidebar-width-narrow;
@@ -78,7 +75,7 @@
 
 .sidebar {
   [itemscope] {
-    @include breakpoint($large) {
+    @media screen and (min-width: $sidebar-screen-min-width) {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -94,7 +91,7 @@
   // set width only, for non-square avatars
   // height: 36px;
 
-  @include breakpoint($large) {
+  @media screen and (min-width: $sidebar-screen-min-width) {
     display: block;
     width: auto;
     height: auto;
@@ -107,7 +104,7 @@
     border-radius: 50%;
     transition: all 0.3s ease;
 
-    @include breakpoint($large) {
+    @media screen and (min-width: $sidebar-screen-min-width) {
       padding: 6px;
       border: 3px solid rgba(63, 111, 247, 0.15);
       box-shadow: 0 8px 24px rgba(35, 52, 109, 0.12);
@@ -128,7 +125,7 @@
   padding-right: 25px;
   line-height: 1;
 
-  @include breakpoint($large) {
+  @media screen and (min-width: $sidebar-screen-min-width) {
     display: block;
     width: 100%;
     max-width: 200px;
@@ -141,7 +138,7 @@
 .author__name {
   margin: 0;
 
-  @include breakpoint($large) {
+  @media screen and (min-width: $sidebar-screen-min-width) {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 1.4rem !important;
@@ -168,7 +165,7 @@
 .author__pronouns {
   margin: 0;
 
-  @include breakpoint($large) {
+  @media screen and (min-width: $sidebar-screen-min-width) {
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -177,7 +174,7 @@
 .author__bio {
   margin: 0;
 
-  @include breakpoint($large) {
+  @media screen and (min-width: $sidebar-screen-min-width) {
     margin-top: 10px;
     margin-bottom: 20px;
     color: #4a5875;
@@ -188,11 +185,10 @@
 
 .author__urls-wrapper {
   position: relative;
-  display: table-cell;
+  display: inline-block;
   vertical-align: middle;
   font-family: $sans-serif;
-  z-index: 10;
-  position: relative;
+  z-index: 1000;
   cursor: pointer;
 
   li:last-child {
@@ -201,7 +197,7 @@
     }
   }
 
-  @include breakpoint($large) {
+  @media screen and (min-width: $sidebar-screen-min-width) {
     display: block;
     width: 100%;
     max-width: 200px;
@@ -211,7 +207,7 @@
   button {
     margin-bottom: 0;
 
-    @include breakpoint($large) {
+    @media screen and (min-width: $sidebar-screen-min-width) {
       display: none;
     }
   }
@@ -220,20 +216,25 @@
 .author__urls {
   display: none;
   position: absolute;
-  right: 0;
-  margin-top: 15px;
-  padding: 10px;
+  left: 0;
+  top: 100%;
+  margin-top: 10px;
+  padding: 12px 15px;
   list-style-type: none;
   border: 1px solid var(--global-border-color);
   border-radius: $border-radius;
   background: var(--global-bg-color);
-  z-index: -1;
-  box-shadow: 0 0 10px rgba(#000, 0.25);
+  z-index: 9999;
+  box-shadow: 0 4px 20px rgba(#000, 0.2);
   cursor: default;
+  min-width: 200px;
 
-  @include breakpoint($large) {
+  @media screen and (min-width: $sidebar-screen-min-width) {
     display: block;
     position: relative;
+    left: auto;
+    top: auto;
+    margin-top: 0;
     margin: 0;
     padding: 0;
     border: 0;
@@ -242,21 +243,24 @@
     text-align: left;
     width: 100%;
     max-width: 200px;
+    min-width: auto;
+    z-index: auto;
   }
 
+  // Down-pointing arrow
   &:before {
     display: block;
     content: "";
     position: absolute;
     top: -11px;
-    left: calc(50% - 10px);
+    left: 20px;
     width: 0;
     border-style: solid;
     border-width: 0 10px 10px;
     border-color: var(--global-border-color) transparent;
     z-index: 0;
 
-    @include breakpoint($large) {
+    @media screen and (min-width: $sidebar-screen-min-width) {
       display: none;
     }
   }
@@ -266,14 +270,14 @@
     content: "";
     position: absolute;
     top: -10px;
-    left: calc(50% - 10px);
+    left: 20px;
     width: 0;
     border-style: solid;
     border-width: 0 10px 10px;
     border-color: #fff transparent;
     z-index: 1;
 
-    @include breakpoint($large) {
+    @media screen and (min-width: $sidebar-screen-min-width) {
       display: none;
     }
   }

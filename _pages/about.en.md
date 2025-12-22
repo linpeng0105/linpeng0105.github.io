@@ -43,6 +43,18 @@ redirect_from:
       <p><code>linpeng@ios.ac.cn</code> <br /><code>peng.lin.csor@gmail.com</code></p>
     </div>
   </div>
+  <a href="https://local-mip.github.io/" class="profile-featured">
+    <div class="profile-featured__badge">🏆 CP 2024 Best Paper</div>
+    <div class="profile-featured__content">
+      <img src="{{ '/images/Local-MIP.png' | relative_url }}" alt="Local-MIP Logo" class="profile-featured__logo">
+      <div class="profile-featured__info">
+        <span class="profile-featured__label">Featured Work</span>
+        <h4 class="profile-featured__title">Local-MIP</h4>
+        <p class="profile-featured__desc">Local Search Solver for Mixed Integer Programming</p>
+      </div>
+      <span class="profile-featured__arrow">→</span>
+    </div>
+  </a>
 </div>
 
 <div class="profile-section" id="highlights">

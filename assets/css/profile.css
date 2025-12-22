@@ -104,13 +104,13 @@
   margin:0 0 2.5rem 0;
   border:1px solid rgba(63,111,247,0.08);
   position:relative;
+  z-index: 1;
 }
-@media (min-width:925px){
+@media (min-width:1024px){
   .profile-hero{
-    left:50%;
-    transform:translateX(-50%);
-    width:100vw;
-    max-width:800px;
+    /* Remove the centering that causes overlap with sidebar */
+    width:100%;
+    max-width:none;
   }
 }
 .profile-hero__quote{
@@ -235,6 +235,160 @@
 .profile-card__item a:hover{
   color:#3f6ff7;
 }
+/* Featured Project Card */
+.profile-featured{
+  display:block;
+  margin-top:0.8rem;
+  background:linear-gradient(135deg, #ffffff 0%, #f8faff 50%, #f0f4ff 100%);
+  border-radius:16px;
+  padding:0;
+  box-shadow:0 4px 20px rgba(18,33,68,0.1);
+  border:1px solid rgba(63,111,247,0.12);
+  transition:all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  position:relative;
+  overflow:hidden;
+  max-width:750px;
+  margin-left:auto;
+  margin-right:auto;
+  text-decoration:none;
+}
+.profile-featured::before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background:linear-gradient(135deg, rgba(63,111,247,0.03) 0%, rgba(99,102,241,0.05) 100%);
+  opacity:0;
+  transition:opacity 0.4s ease;
+}
+.profile-featured::after{
+  content:"";
+  position:absolute;
+  top:-50%;
+  left:-50%;
+  width:200%;
+  height:200%;
+  background:radial-gradient(circle, rgba(255,255,255,0.3) 0%, transparent 60%);
+  opacity:0;
+  transition:opacity 0.4s ease;
+  pointer-events:none;
+}
+.profile-featured:hover{
+  transform:translateY(-4px);
+  box-shadow:0 12px 32px rgba(63,111,247,0.2);
+  border-color:rgba(63,111,247,0.25);
+}
+.profile-featured:hover::before{
+  opacity:1;
+}
+.profile-featured__badge{
+  position:absolute;
+  top:12px;
+  right:12px;
+  background:linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+  color:#78350f;
+  font-size:0.72rem;
+  font-weight:700;
+  padding:0.35rem 0.7rem;
+  border-radius:20px;
+  letter-spacing:0.02em;
+  box-shadow:0 2px 8px rgba(245,158,11,0.35);
+  z-index:2;
+}
+.profile-featured__content{
+  display:flex;
+  align-items:center;
+  gap:1.2rem;
+  padding:1.2rem 1.5rem;
+  position:relative;
+  z-index:1;
+}
+.profile-featured__logo{
+  width:88px;
+  height:88px;
+  object-fit:contain;
+  border-radius:16px;
+  background:linear-gradient(145deg, #ffffff 0%, #f5f8ff 100%);
+  padding:12px;
+  box-shadow:0 4px 16px rgba(63,111,247,0.15), inset 0 1px 0 rgba(255,255,255,0.8);
+  transition:all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  flex-shrink:0;
+}
+.profile-featured:hover .profile-featured__logo{
+  transform:scale(1.08) rotate(-2deg);
+  box-shadow:0 8px 24px rgba(63,111,247,0.25);
+}
+.profile-featured__info{
+  flex:1;
+  min-width:0;
+}
+.profile-featured__label{
+  display:inline-block;
+  font-size:0.72rem;
+  font-weight:600;
+  color:#6366f1;
+  text-transform:uppercase;
+  letter-spacing:0.08em;
+  margin-bottom:0.3rem;
+  background:rgba(99,102,241,0.1);
+  padding:0.2rem 0.5rem;
+  border-radius:4px;
+}
+.profile-featured__title{
+  margin:0 0 0.3rem;
+  font-size:1.35rem;
+  font-weight:800;
+  color:#1e293b;
+  letter-spacing:-0.01em;
+  transition:color 0.3s ease;
+}
+.profile-featured:hover .profile-featured__title{
+  color:#3f6ff7;
+}
+.profile-featured__desc{
+  margin:0;
+  font-size:0.92rem;
+  color:#64748b;
+  line-height:1.4;
+}
+.profile-featured__arrow{
+  font-size:1.5rem;
+  color:#cbd5e1;
+  transition:all 0.3s ease;
+  flex-shrink:0;
+}
+.profile-featured:hover .profile-featured__arrow{
+  color:#3f6ff7;
+  transform:translateX(4px);
+}
+@media (max-width:600px){
+  .profile-featured__content{
+    padding:1rem;
+    gap:0.8rem;
+  }
+  .profile-featured__logo{
+    width:64px;
+    height:64px;
+    padding:8px;
+  }
+  .profile-featured__title{
+    font-size:1.1rem;
+  }
+  .profile-featured__desc{
+    font-size:0.82rem;
+  }
+  .profile-featured__badge{
+    font-size:0.65rem;
+    padding:0.25rem 0.5rem;
+    top:8px;
+    right:8px;
+  }
+  .profile-featured__arrow{
+    display:none;
+  }
+}
 .profile-hero__lead{
   margin:1.8rem 0 0;
   font-size:1.02rem;
@@ -250,6 +404,8 @@
 }
 .profile-section{
   margin-bottom:2.5rem;
+  position: relative;
+  z-index: 1;
 }
 .profile-section h2{
   font-size:1.6rem;
