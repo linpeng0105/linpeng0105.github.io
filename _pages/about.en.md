@@ -239,50 +239,195 @@ redirect_from:
 </div>
 
 <div class="profile-section" id="benchmarks">
-  <h2>🖊️ MIPLIB Best Known Solutions </h2>
-  <ol class="profile-benchmark--preview">
-    <li><a href="https://miplib.zib.de/instance_details_shiftreg5-1.html"><code>shiftreg5-1</code></a> — solved to optimal</li>
-    <li><a href="https://miplib.zib.de/instance_details_neos-5151569-mologa.html"><code>neos-5151569-mologa</code></a></li>
-    <li><a href="https://miplib.zib.de/instance_details_bmocbd3.html"><code>bmocbd3</code></a></li>
-    <li><a href="https://miplib.zib.de/instance_details_gmut-76-40.html"><code>gmut-76-40</code></a></li>
-    <li><a href="https://miplib.zib.de/instance_details_supportcase23.html"><code>supportcase23</code></a></li>
-    <li>more...👇👇</li>
-  </ol>
-  <details class="profile-details">
-    <summary><strong>View complete record (32)</strong></summary>
-    <ol class="profile-benchmark">
-      <li><a href="https://miplib.zib.de/instance_details_shiftreg5-1.html"><code>shiftreg5-1</code></a> — solved to optimal</li>
-      <li><a href="https://miplib.zib.de/instance_details_neos-5151569-mologa.html"><code>neos-5151569-mologa</code></a></li>
-      <li><a href="https://miplib.zib.de/instance_details_bmocbd3.html"><code>bmocbd3</code></a></li>
-      <li><a href="https://miplib.zib.de/instance_details_gmut-76-40.html"><code>gmut-76-40</code></a></li>
-      <li><a href="https://miplib.zib.de/instance_details_supportcase23.html"><code>supportcase23</code></a></li>
-      <li><a href="https://miplib.zib.de/instance_details_cmflsp40-36-2-10.html"><code>cmflsp40-36-2-10</code></a></li>
-      <li><a href="https://miplib.zib.de/instance_details_dfn-bwin-DBE.html"><code>dfn-bwin-dbe</code></a></li>
-      <li><a href="https://miplib.zib.de/instance_details_eva1aprime6x6opt.html"><code>eva1aprime6x6opt</code></a></li>
-      <li><a href="https://miplib.zib.de/instance_details_gsvm2rl11.html"><code>gsvm2rl11</code></a></li>
-      <li><a href="https://miplib.zib.de/instance_details_gsvm2rl9.html"><code>gsvm2rl9</code></a></li>
-      <li><a href="https://miplib.zib.de/instance_details_dlr1.html"><code>dlr1</code></a></li>
-      <li><a href="https://miplib.zib.de/instance_details_neos-4232544-orira.html"><code>neos-4232544-orira</code></a></li>
-      <li><a href="https://miplib.zib.de/instance_details_dws012-02.html"><code>dws012-02</code></a></li>
-      <li><a href="https://miplib.zib.de/instance_details_neos-5045105-creuse.html"><code>neos-5045105-creuse</code></a></li>
-      <li><a href="https://miplib.zib.de/instance_details_neos-4230265-orari.html"><code>neos-4230265-orari</code></a></li>
-      <li><a href="https://miplib.zib.de/instance_details_neos-4292145-piako.html"><code>neos-4292145-piako</code></a></li>
-      <li><a href="https://miplib.zib.de/instance_details_polygonpack4-7.html"><code>polygonpack4-7</code></a></li>
-      <li><a href="https://miplib.zib.de/instance_details_polygonpack5-15.html"><code>polygonpack5-15</code></a></li>
-      <li><a href="https://miplib.zib.de/instance_details_sct5.html"><code>sct5</code></a></li>
-      <li><a href="https://miplib.zib.de/instance_details_adult-regularized.html"><code>adult-regularized</code></a></li>
-      <li><a href="https://miplib.zib.de/instance_details_s82.html"><code>s82</code></a></li>
-      <li><a href="https://miplib.zib.de/instance_details_genus-sym-g31-8.html"><code>genus-sym-g31-8</code></a></li>
-      <li><a href="https://miplib.zib.de/instance_details_genus-sym-g62-2.html"><code>genus-sym-g62-2</code></a></li>
-      <li><a href="https://miplib.zib.de/instance_details_genus-g61-25.html"><code>genus-g61-25</code></a></li>
-      <li><a href="https://miplib.zib.de/instance_details_neos-4232544-orira.html"><code>neos-4232544-orira</code></a></li>
-      <li><a href="https://miplib.zib.de/instance_details_bley_xs1.html"><code>bley_xs1</code></a></li>
-      <li><a href="https://miplib.zib.de/instance_details_sorrell7.html"><code>sorrell7</code></a></li>
-      <li><a href="https://miplib.zib.de/instance_details_supportcase22.html"><code>supportcase22</code></a></li>
-      <li><a href="https://miplib.zib.de/instance_details_cdc7-4-3-2.html"><code>cdc7-4-3-2</code></a></li>
-      <li><a href="https://miplib.zib.de/instance_details_ns1828997.html"><code>ns1828997</code></a></li>
-      <li><a href="https://miplib.zib.de/instance_details_scpm1.html"><code>scpm1</code></a></li>
-      <li><a href="https://miplib.zib.de/instance_details_scpn2.html"><code>scpn2</code></a></li>
-    </ol>
-  </details>
+  <h2>🖊️ MIPLIB Best Known Solutions</h2>
+  <p style="margin-bottom: 1.5rem; color: #666;">As <strong>first author</strong>, I developed the following solvers that have established new best-known solutions on MIPLIB benchmark instances:</p>
+  
+  <div class="miplib-tabs">
+    <div class="miplib-tabs__nav">
+      <button class="miplib-tabs__btn miplib-tabs__btn--active" onclick="switchMiplibTab('all', this)">All <span class="miplib-tabs__count">35</span></button>
+      <button class="miplib-tabs__btn" onclick="switchMiplibTab('local-mip', this)">Local-MIP <span class="miplib-tabs__count">11</span></button>
+      <button class="miplib-tabs__btn" onclick="switchMiplibTab('partimip', this)">PartiMIP <span class="miplib-tabs__count">21</span></button>
+      <button class="miplib-tabs__btn" onclick="switchMiplibTab('bigmip', this)">BigMIP <span class="miplib-tabs__count">2</span></button>
+      <button class="miplib-tabs__btn" onclick="switchMiplibTab('parailp', this)">ParaILP <span class="miplib-tabs__count">1</span></button>
+    </div>
+
+    <div class="miplib-tabs__content">
+      <!-- All Solvers Tab -->
+      <div class="miplib-tabs__panel miplib-tabs__panel--active" data-panel="all">
+        <div style="overflow-x: auto;">
+          <table class="miplib-table">
+            <thead>
+              <tr>
+                <th>Instance</th>
+                <th>Solver</th>
+                <th>Previous</th>
+                <th>New Record</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td><a href="https://miplib.zib.de/instance_details_supportcase22.html"><code>supportcase22</code></a></td><td><span class="solver-tag solver-tag--local-mip">Local-MIP</span></td><td>N/A</td><td><strong>117</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_neos-4232544-orira.html"><code>neos-4232544-orira</code></a></td><td><span class="solver-tag solver-tag--local-mip">Local-MIP</span></td><td>17182027</td><td><strong>15108528</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_genus-sym-g31-8.html"><code>genus-sym-g31-8</code></a></td><td><span class="solver-tag solver-tag--local-mip">Local-MIP</span></td><td>-21</td><td><strong>-23</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_genus-sym-g62-2.html"><code>genus-sym-g62-2</code></a></td><td><span class="solver-tag solver-tag--local-mip">Local-MIP</span></td><td>-34</td><td><strong>-38</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_genus-g61-25.html"><code>genus-g61-25</code></a></td><td><span class="solver-tag solver-tag--local-mip">Local-MIP</span></td><td>-34</td><td><strong>-40</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_sorrell7.html"><code>sorrell7</code></a></td><td><span class="solver-tag solver-tag--local-mip">Local-MIP</span></td><td>-196</td><td><strong>-197</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_cdc7-4-3-2.html"><code>cdc7-4-3-2</code></a></td><td><span class="solver-tag solver-tag--local-mip">Local-MIP</span></td><td>-289</td><td><strong>-294</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_ns1828997.html"><code>ns1828997</code></a></td><td><span class="solver-tag solver-tag--local-mip">Local-MIP</span></td><td>9</td><td><strong>8</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_scpm1.html"><code>scpm1</code></a></td><td><span class="solver-tag solver-tag--local-mip">Local-MIP</span></td><td>554</td><td><strong>544</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_scpn2.html"><code>scpn2</code></a></td><td><span class="solver-tag solver-tag--local-mip">Local-MIP</span></td><td>501</td><td><strong>490</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_neos-4232544-orira.html"><code>neos-4232544-orira</code></a></td><td><span class="solver-tag solver-tag--local-mip">Local-MIP</span></td><td>17540506</td><td><strong>17182027</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_shiftreg5-1.html"><code>shiftreg5-1</code></a></td><td><span class="solver-tag solver-tag--partimip">PartiMIP</span></td><td>522.1155</td><td><strong>520.2562</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_neos-5151569-mologa.html"><code>neos-5151569-mologa</code></a></td><td><span class="solver-tag solver-tag--partimip">PartiMIP</span></td><td>686759699</td><td><strong>686750731</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_bmocbd3.html"><code>bmocbd3</code></a></td><td><span class="solver-tag solver-tag--partimip">PartiMIP</span></td><td>-372986720</td><td><strong>-373286017</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_gmut-76-40.html"><code>gmut-76-40</code></a></td><td><span class="solver-tag solver-tag--partimip">PartiMIP</span></td><td>-14169442</td><td><strong>-14169461</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_supportcase23.html"><code>supportcase23</code></a></td><td><span class="solver-tag solver-tag--partimip">PartiMIP</span></td><td>-12160.66</td><td><strong>-12160.66</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_cmflsp40-36-2-10.html"><code>cmflsp40-36-2-10</code></a></td><td><span class="solver-tag solver-tag--partimip">PartiMIP</span></td><td>66452235</td><td><strong>66452234</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_dfn-bwin-DBE.html"><code>dfn-bwin-DBE</code></a></td><td><span class="solver-tag solver-tag--partimip">PartiMIP</span></td><td>73623.79</td><td><strong>73623.79</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_eva1aprime6x6opt.html"><code>eva1aprime6x6opt</code></a></td><td><span class="solver-tag solver-tag--partimip">PartiMIP</span></td><td>-16.3153</td><td><strong>-18.1010</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_gsvm2rl11.html"><code>gsvm2rl11</code></a></td><td><span class="solver-tag solver-tag--partimip">PartiMIP</span></td><td>18121.64</td><td><strong>18121.64</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_gsvm2rl9.html"><code>gsvm2rl9</code></a></td><td><span class="solver-tag solver-tag--partimip">PartiMIP</span></td><td>N/A</td><td><strong>7438.181</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_dlr1.html"><code>dlr1</code></a></td><td><span class="solver-tag solver-tag--partimip">PartiMIP</span></td><td>2708149</td><td><strong>2708064</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_dws012-02.html"><code>dws012-02</code></a></td><td><span class="solver-tag solver-tag--partimip">PartiMIP</span></td><td>122074.2</td><td><strong>121112.1</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_neos-4232544-orira.html"><code>neos-4232544-orira</code></a></td><td><span class="solver-tag solver-tag--partimip">PartiMIP</span></td><td>5557371</td><td><strong>5553207</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_neos-5045105-creuse.html"><code>neos-5045105-creuse</code></a></td><td><span class="solver-tag solver-tag--partimip">PartiMIP</span></td><td>20.57143</td><td><strong>20.57141</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_neos-4230265-orari.html"><code>neos-4230265-orari</code></a></td><td><span class="solver-tag solver-tag--partimip">PartiMIP</span></td><td>81765.21</td><td><strong>73755.00</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_neos-4292145-piako.html"><code>neos-4292145-piako</code></a></td><td><span class="solver-tag solver-tag--partimip">PartiMIP</span></td><td>29160.5</td><td><strong>28122.5</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_polygonpack4-7.html"><code>polygonpack4-7</code></a></td><td><span class="solver-tag solver-tag--partimip">PartiMIP</span></td><td>-51837708</td><td><strong>-51837713</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_polygonpack5-15.html"><code>polygonpack5-15</code></a></td><td><span class="solver-tag solver-tag--partimip">PartiMIP</span></td><td>-55494654</td><td><strong>-55494687</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_sct5.html"><code>sct5</code></a></td><td><span class="solver-tag solver-tag--partimip">PartiMIP</span></td><td>-228.1172</td><td><strong>-228.1195</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_adult-regularized.html"><code>adult-regularized</code></a></td><td><span class="solver-tag solver-tag--partimip">PartiMIP</span></td><td>7022.954</td><td><strong>7022.954</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_s82.html"><code>s82</code></a></td><td><span class="solver-tag solver-tag--partimip">PartiMIP</span></td><td>-33.78524</td><td><strong>-33.79706</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_sct5.html"><code>sct5</code></a></td><td><span class="solver-tag solver-tag--bigmip">BigMIP</span></td><td>-228.1195</td><td><strong>-228.1292</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_dws012-02.html"><code>dws012-02</code></a></td><td><span class="solver-tag solver-tag--bigmip">BigMIP</span></td><td>121112.1</td><td><strong>119893.3</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_bley_xs1.html"><code>bley_xs1</code></a></td><td><span class="solver-tag solver-tag--parailp">ParaILP</span></td><td>3922113</td><td><strong>3874311</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Local-MIP Tab -->
+      <div class="miplib-tabs__panel" data-panel="local-mip">
+        <p class="miplib-tabs__desc">Local search MIP solver</p>
+        <div style="overflow-x: auto;">
+          <table class="miplib-table">
+            <thead>
+              <tr>
+                <th>Instance</th>
+                <th>Previous</th>
+                <th>New Record</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td><a href="https://miplib.zib.de/instance_details_neos-4232544-orira.html"><code>neos-4232544-orira</code></a></td><td>17540506</td><td><strong>17182027</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_neos-4232544-orira.html"><code>neos-4232544-orira</code></a></td><td>17182027</td><td><strong>15108528</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_genus-sym-g31-8.html"><code>genus-sym-g31-8</code></a></td><td>-21</td><td><strong>-23</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_genus-sym-g62-2.html"><code>genus-sym-g62-2</code></a></td><td>-34</td><td><strong>-38</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_genus-g61-25.html"><code>genus-g61-25</code></a></td><td>-34</td><td><strong>-40</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_sorrell7.html"><code>sorrell7</code></a></td><td>-196</td><td><strong>-197</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_supportcase22.html"><code>supportcase22</code></a></td><td>N/A</td><td><strong>117</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_cdc7-4-3-2.html"><code>cdc7-4-3-2</code></a></td><td>-289</td><td><strong>-294</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_ns1828997.html"><code>ns1828997</code></a></td><td>9</td><td><strong>8</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_scpm1.html"><code>scpm1</code></a></td><td>554</td><td><strong>544</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_scpn2.html"><code>scpn2</code></a></td><td>501</td><td><strong>490</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- PartiMIP Tab -->
+      <div class="miplib-tabs__panel" data-panel="partimip">
+        <p class="miplib-tabs__desc">Parallel MIP solver with dynamic task decomposition</p>
+        <div style="overflow-x: auto;">
+          <table class="miplib-table">
+            <thead>
+              <tr>
+                <th>Instance</th>
+                <th>Previous</th>
+                <th>New Record</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td><a href="https://miplib.zib.de/instance_details_shiftreg5-1.html"><code>shiftreg5-1</code></a></td><td>522.1155</td><td><strong>520.2562</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_neos-5151569-mologa.html"><code>neos-5151569-mologa</code></a></td><td>686759699</td><td><strong>686750731</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_bmocbd3.html"><code>bmocbd3</code></a></td><td>-372986720</td><td><strong>-373286017</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_gmut-76-40.html"><code>gmut-76-40</code></a></td><td>-14169442</td><td><strong>-14169461</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_supportcase23.html"><code>supportcase23</code></a></td><td>-12160.66</td><td><strong>-12160.66</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_cmflsp40-36-2-10.html"><code>cmflsp40-36-2-10</code></a></td><td>66452235</td><td><strong>66452234</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_dfn-bwin-DBE.html"><code>dfn-bwin-DBE</code></a></td><td>73623.79</td><td><strong>73623.79</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_eva1aprime6x6opt.html"><code>eva1aprime6x6opt</code></a></td><td>-16.3153</td><td><strong>-18.1010</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_gsvm2rl11.html"><code>gsvm2rl11</code></a></td><td>18121.64</td><td><strong>18121.64</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_gsvm2rl9.html"><code>gsvm2rl9</code></a></td><td>N/A</td><td><strong>7438.181</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_dlr1.html"><code>dlr1</code></a></td><td>2708149</td><td><strong>2708064</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_dws012-02.html"><code>dws012-02</code></a></td><td>122074.2</td><td><strong>121112.1</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_neos-4232544-orira.html"><code>neos-4232544-orira</code></a></td><td>5557371</td><td><strong>5553207</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_neos-5045105-creuse.html"><code>neos-5045105-creuse</code></a></td><td>20.57143</td><td><strong>20.57141</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_neos-4230265-orari.html"><code>neos-4230265-orari</code></a></td><td>81765.21</td><td><strong>73755.00</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_neos-4292145-piako.html"><code>neos-4292145-piako</code></a></td><td>29160.5</td><td><strong>28122.5</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_polygonpack4-7.html"><code>polygonpack4-7</code></a></td><td>-51837708</td><td><strong>-51837713</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_polygonpack5-15.html"><code>polygonpack5-15</code></a></td><td>-55494654</td><td><strong>-55494687</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_sct5.html"><code>sct5</code></a></td><td>-228.1172</td><td><strong>-228.1195</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_adult-regularized.html"><code>adult-regularized</code></a></td><td>7022.954</td><td><strong>7022.954</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_s82.html"><code>s82</code></a></td><td>-33.78524</td><td><strong>-33.79706</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- BigMIP Tab -->
+      <div class="miplib-tabs__panel" data-panel="bigmip">
+        <p class="miplib-tabs__desc">Large-scale distributed MIP solver</p>
+        <div style="overflow-x: auto;">
+          <table class="miplib-table">
+            <thead>
+              <tr>
+                <th>Instance</th>
+                <th>Previous</th>
+                <th>New Record</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td><a href="https://miplib.zib.de/instance_details_sct5.html"><code>sct5</code></a></td><td>-228.1195</td><td><strong>-228.1292</strong></td></tr>
+              <tr><td><a href="https://miplib.zib.de/instance_details_dws012-02.html"><code>dws012-02</code></a></td><td>121112.1</td><td><strong>119893.3</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- ParaILP Tab -->
+      <div class="miplib-tabs__panel" data-panel="parailp">
+        <p class="miplib-tabs__desc">Parallel local search ILP sovler with cooperative evolution</p>
+        <div style="overflow-x: auto;">
+          <table class="miplib-table">
+            <thead>
+              <tr>
+                <th>Instance</th>
+                <th>Previous</th>
+                <th>New Record</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td><a href="https://miplib.zib.de/instance_details_bley_xs1.html"><code>bley_xs1</code></a></td><td>3922113</td><td><strong>3874311</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function switchMiplibTab(tabId, btnElement) {
+      // Remove active class from all buttons and panels
+      document.querySelectorAll('.miplib-tabs__btn').forEach(function(btn) {
+        btn.classList.remove('miplib-tabs__btn--active');
+      });
+      document.querySelectorAll('.miplib-tabs__panel').forEach(function(panel) {
+        panel.classList.remove('miplib-tabs__panel--active');
+      });
+      
+      // Add active class to clicked button and corresponding panel
+      btnElement.classList.add('miplib-tabs__btn--active');
+      document.querySelector('[data-panel="' + tabId + '"]').classList.add('miplib-tabs__panel--active');
+    }
+  </script>
+
 </div>
