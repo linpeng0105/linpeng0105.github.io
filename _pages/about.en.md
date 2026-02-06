@@ -414,19 +414,28 @@ redirect_from:
     </div>
   </div>
 
-  <script>
+  <script type="text/javascript">
     function switchMiplibTab(tabId, btnElement) {
-      // Remove active class from all buttons and panels
-      document.querySelectorAll('.miplib-tabs__btn').forEach(function(btn) {
-        btn.classList.remove('miplib-tabs__btn--active');
-      });
-      document.querySelectorAll('.miplib-tabs__panel').forEach(function(panel) {
-        panel.classList.remove('miplib-tabs__panel--active');
-      });
-      
-      // Add active class to clicked button and corresponding panel
-      btnElement.classList.add('miplib-tabs__btn--active');
-      document.querySelector('[data-panel="' + tabId + '"]').classList.add('miplib-tabs__panel--active');
+      try {
+        var buttons = document.querySelectorAll('.miplib-tabs__btn');
+        for (var i = 0; i < buttons.length; i++) {
+          buttons[i].classList.remove('miplib-tabs__btn--active');
+        }
+        
+        var panels = document.querySelectorAll('.miplib-tabs__panel');
+        for (var j = 0; j < panels.length; j++) {
+          panels[j].classList.remove('miplib-tabs__panel--active');
+        }
+        
+        btnElement.classList.add('miplib-tabs__btn--active');
+        
+        var targetPanel = document.querySelector('[data-panel="' + tabId + '"]');
+        if (targetPanel) {
+          targetPanel.classList.add('miplib-tabs__panel--active');
+        }
+      } catch (e) {
+        console.error('Tab switch error:', e);
+      }
     }
   </script>
 
