@@ -228,12 +228,16 @@ redirect_from:
     <article class="profile-mini-card">
       <h3>Local-MIP</h3>
       <p>面向混合整数规划的高效局部搜索求解器，相关成果荣获 CP 2024 最佳论文奖。</p>
-      <p class="profile-mini-card__links">🔗 <a href="https://local-mip.github.io/">网站</a></p>
-      <p class="profile-mini-card__links">🔗 <a href="https://github.com/shaowei-cai-group/Local-MIP">GitHub</a></p>
+      <p class="profile-mini-card__links">🔗 <a href="https://local-mip.github.io/">网站</a> 🔗 <a href="https://github.com/shaowei-cai-group/Local-MIP">GitHub</a></p>
+    </article>
+    <article class="profile-mini-card">
+      <h3>PartiMIP</h3>
+      <p>基于动态任务分解与反馈强化的并行混合整数规划求解框架。</p>
+      <p class="profile-mini-card__links">🔗 <a href="https://github.com/shaowei-cai-group/PartiMIP">GitHub</a></p>
     </article>
     <article class="profile-mini-card">
       <h3>ParaILP</h3>
-      <p>融合局部搜索与协同演化机制的并行整数规划求解框架，成果发表于 IJCAI 2024。</p>
+      <p>融合局部搜索与协同演化机制的并行整数规划求解框架。</p>
       <p class="profile-mini-card__links">🔗 <a href="https://github.com/shaowei-cai-group/ParaILP">GitHub</a></p>
     </article>
   </div>

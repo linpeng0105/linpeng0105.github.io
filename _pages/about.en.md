@@ -227,12 +227,17 @@ redirect_from:
     <article class="profile-mini-card">
       <h3>Local-MIP</h3>
       <p>An efficient local search solver for mixed integer programming; the related work received the CP 2024 Best Paper Award.</p>
-      <p class="profile-mini-card__links">🔗 <a href="https://local-mip.github.io/">Website</a></p>
-      <p class="profile-mini-card__links">🔗 <a href="https://github.com/shaowei-cai-group/Local-MIP">GitHub</a></p>
+      <p class="profile-mini-card__links">🔗 <a href="https://local-mip.github.io/">Website</a>
+      🔗 <a href="https://github.com/shaowei-cai-group/Local-MIP">GitHub</a></p>
+    </article>
+    <article class="profile-mini-card">
+      <h3>PartiMIP</h3>
+      <p>Parallel MIP framework with dynamic task decomposition.</p>
+      <p class="profile-mini-card__links">🔗 <a href="https://github.com/shaowei-cai-group/PartiMIP">GitHub</a></p>
     </article>
     <article class="profile-mini-card">
       <h3>ParaILP</h3>
-      <p>A parallel integer programming framework combining local search with cooperative evolution, published at IJCAI 2024.</p>
+      <p>A parallel integer programming framework combining local search with cooperative evolution.</p>
       <p class="profile-mini-card__links">🔗 <a href="https://github.com/shaowei-cai-group/ParaILP">GitHub</a></p>
     </article>
   </div>
