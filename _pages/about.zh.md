@@ -1,6 +1,8 @@
 ---
 permalink: /zh/
 title: "林鹏"
+description: "中国科学院大学计算机科学博士生，研究方向包括混合整数规划、启发式算法与并行求解。"
+excerpt: "中国科学院大学计算机科学博士生，研究方向包括混合整数规划、启发式算法与并行求解。"
 author_profile: true
 locale: zh
 author: peng_lin_zh
@@ -63,50 +65,50 @@ redirect_from:
   <ul class="profile-timeline">
     <li>
       <time datetime="2025-12-15">2025 · 12 · 15</time>
-      <span>🎉🎉 入选中国科协青年科技人才培育工程博士生专项计划</span>
+      <span>入选中国科协青年科技人才培育工程博士生专项计划</span>
     </li>
     <li>
       <time datetime="2025-11-08">2025 · 11 · 08</time>
-      <span>🎉🎉 共同第一作者论文被 AAAI 国际会议接收</span>
+      <span>共同第一作者论文被 AAAI 国际会议接收</span>
     </li>
     <li>
       <time datetime="2025-08-19">2025 · 08 · 19</time>
-      <span>🎉🎉 第一作者论文被《Artificial Intelligence》接收</span>
+      <span>第一作者论文被《Artificial Intelligence》接收</span>
     </li>
     <li>
       <time datetime="2025-05-29">2025 · 05 · 29</time>
-      <span>🎉🎉 第一作者论文被 CP 国际会议接收</span>
+      <span>第一作者论文被 CP 国际会议接收</span>
     </li>
     <li>
       <time datetime="2024-12-31">2024 · 12 · 31</time>
-      <span>🎉🎉 工信部电力国产求解器技术专题赛二等奖（第一开发者）</span>
+      <span>工信部电力国产求解器技术专题赛二等奖（第一开发者）</span>
     </li>
     <li>
       <time datetime="2024-12-10">2024 · 12 · 10</time>
-      <span>🎉🎉 获得研究生国家奖学金</span>
+      <span>获得研究生国家奖学金</span>
     </li>
     <li>
       <time datetime="2024-10-07">2024 · 10 · 07</time>
-      <span>🎉🎉 分布式求解器刷新 MIPLIB 21 个公开实例最优纪录（第一开发者）</span>
+      <span>分布式求解器刷新 MIPLIB 21 个公开实例最优纪录（第一开发者）</span>
     </li>
     <li>
       <time datetime="2024-09-04">2024 · 09 · 04</time>
-      <span>🎉🎉 第一作者论文荣获 CP 2024 最佳论文奖</span>
+      <span>第一作者论文荣获 CP 2024 最佳论文奖</span>
     </li>
     <li>
       <time datetime="2024-06-20">2024 · 06 · 20</time>
-      <span>🎉🎉 第一作者论文被 CP 国际会议接收</span>
+      <span>第一作者论文被 CP 国际会议接收</span>
     </li>
     <li>
       <time datetime="2024-04-17">2024 · 04 · 17</time>
-      <span>🎉🎉 第一作者论文被 IJCAI 国际会议接收</span>
+      <span>第一作者论文被 IJCAI 国际会议接收</span>
     </li>
   </ul>
 </div>
 
 <div class="profile-section" id="publications">
   <h2>📝 论文成果</h2>
-  <p style="margin-bottom: 1.5rem; color: #4a5875; font-size: 0.92rem;">† 共同第一作者</p>
+  <p class="profile-note profile-note--meta">† 共同第一作者</p>
   <div class="profile-subsection">
     <h3>期刊论文</h3>
     <div class="profile-paper">
@@ -139,7 +141,7 @@ redirect_from:
     </div>
     <div class="profile-paper">
       <span class="profile-paper__tag profile-paper__tag--conference">AAAI 2026</span>
-      <p class="profile-paper__title"><a href="">Elite Pattern Reinforcement for Vehicle Routing Problems</a></p>
+      <p class="profile-paper__title">Elite Pattern Reinforcement for Vehicle Routing Problems</p>
       <p class="profile-paper__authors">李宁<sup>†</sup>，<strong>林鹏<sup>†</sup></strong>，张鹏，田睿琛</p>
       <p class="profile-paper__venue">AAAI人工智能会议，2026，CCF-A</p>
     </div>
@@ -155,7 +157,7 @@ redirect_from:
 <div class="profile-section" id="honors">
   <h2>🌟 荣誉奖励</h2>
   <ul class="profile-awards">
-    <li><span>2025</span> <a href="">中国科协青年科技人才培育工程博士生专项计划</a></li>
+    <li><span>2025</span> 中国科协青年科技人才培育工程博士生专项计划</li>
     <li><span>2024</span> <a href="https://onestop.ucas.edu.cn/home/infob/aa5feb29-1624-4e59-acc5-0d7e856318b4/2">研究生国家奖学金</a></li>
     <li><span>2024</span> <a href="https://www.a4cp.org/awards/paper-awards">CP 2024 最佳论文奖</a></li>
     <li><span>2023</span> <a href="https://mp.weixin.qq.com/s/sh7FFoBKN4W7m9WFllWXVg">吉林大学优秀毕业论文（软件学院第一名）</a></li>
@@ -202,22 +204,22 @@ redirect_from:
     <article class="profile-mini-card">
       <h3>2025 · 英国格拉斯哥</h3>
       <p class="profile-mini-card__title"><strong>Parallel MIP Solving with Dynamic Task Decomposition</strong></p>
-      <p class="profile-mini-card__links">🎞️ <a href="files/PartiMIP-slides.pdf">幻灯片</a></p>
+      <p class="profile-mini-card__links"><a href="{{ '/files/PartiMIP-slides.pdf' | relative_url }}">幻灯片</a></p>
     </article>
     <article class="profile-mini-card">
       <h3>2024 · 西班牙赫罗纳</h3>
       <p class="profile-mini-card__title"><strong>An Efficient Local Search Solver for Mixed Integer Programming</strong></p>
-      <p class="profile-mini-card__links">🎞️ <a href="https://cp2024.a4cp.org/slides/CP/AnEfficientLocal.pdf">幻灯片</a> · 📽️ <a href="https://diobma.udg.edu/handle/10256.1/7765">视频</a></p>
+      <p class="profile-mini-card__links"><a href="https://cp2024.a4cp.org/slides/CP/AnEfficientLocal.pdf">幻灯片</a><a href="https://diobma.udg.edu/handle/10256.1/7765">视频</a></p>
     </article>
     <article class="profile-mini-card">
       <h3>2024 · 西班牙赫罗纳</h3>
       <p class="profile-mini-card__title"><strong>ParLS-PBO: A Parallel Local Search Solver for Pseudo Boolean Optimization</strong></p>
-      <p class="profile-mini-card__links">🎞️ <a href="https://cp2024.a4cp.org/slides/CP/ParLS-PBO.pdf">幻灯片</a></p>
+      <p class="profile-mini-card__links"><a href="https://cp2024.a4cp.org/slides/CP/ParLS-PBO.pdf">幻灯片</a></p>
     </article>
     <article class="profile-mini-card">
       <h3>2024 · 韩国济州</h3>
       <p class="profile-mini-card__title"><strong>ParaILP: A Parallel Local Search Framework for Integer Linear Programming</strong></p>
-      <p class="profile-mini-card__links">🎞️ <a href="files/ijcai-slides.pdf">幻灯片</a></p>
+      <p class="profile-mini-card__links"><a href="{{ '/files/ijcai-slides.pdf' | relative_url }}">幻灯片</a></p>
     </article>
   </div>
 </div>
@@ -228,38 +230,38 @@ redirect_from:
     <article class="profile-mini-card">
       <h3>Local-MIP</h3>
       <p>面向混合整数规划的高效局部搜索求解器，相关成果荣获 CP 2024 最佳论文奖。</p>
-      <p class="profile-mini-card__links">🔗 <a href="https://local-mip.github.io/">网站</a> 🔗 <a href="https://github.com/shaowei-cai-group/Local-MIP">GitHub</a></p>
+      <p class="profile-mini-card__links"><a href="https://local-mip.github.io/">网站</a><a href="https://github.com/shaowei-cai-group/Local-MIP">GitHub</a></p>
     </article>
     <article class="profile-mini-card">
       <h3>PartiMIP</h3>
       <p>基于动态任务分解与反馈强化的并行混合整数规划求解框架。</p>
-      <p class="profile-mini-card__links">🔗 <a href="https://github.com/shaowei-cai-group/PartiMIP">GitHub</a></p>
+      <p class="profile-mini-card__links"><a href="https://github.com/shaowei-cai-group/PartiMIP">GitHub</a></p>
     </article>
     <article class="profile-mini-card">
       <h3>ParaILP</h3>
       <p>融合局部搜索与协同演化机制的并行整数规划求解框架。</p>
-      <p class="profile-mini-card__links">🔗 <a href="https://github.com/shaowei-cai-group/ParaILP">GitHub</a></p>
+      <p class="profile-mini-card__links"><a href="https://github.com/shaowei-cai-group/ParaILP">GitHub</a></p>
     </article>
   </div>
 </div>
 
 <div class="profile-section" id="benchmarks">
   <h2>🖊️ MIPLIB 刷新记录</h2>
-  <p style="margin-bottom: 1.5rem; color: #666;">作为<strong>第一作者</strong>，本人开发了以下求解器，刷新了国际 MIP 权威基准 MIPLIB 中多个公开实例的历史最优记录：</p>
+  <p class="profile-note profile-note--muted">作为<strong>第一作者</strong>，本人开发了以下求解器，刷新了国际 MIP 权威基准 MIPLIB 中多个公开实例的历史最优记录：</p>
   
   <div class="miplib-tabs">
-    <div class="miplib-tabs__nav">
-      <button class="miplib-tabs__btn miplib-tabs__btn--active" onclick="switchMiplibTab('all', this)">全部 <span class="miplib-tabs__count">35</span></button>
-      <button class="miplib-tabs__btn" onclick="switchMiplibTab('local-mip', this)">Local-MIP <span class="miplib-tabs__count">11</span></button>
-      <button class="miplib-tabs__btn" onclick="switchMiplibTab('partimip', this)">PartiMIP <span class="miplib-tabs__count">21</span></button>
-      <button class="miplib-tabs__btn" onclick="switchMiplibTab('bigmip', this)">BigMIP <span class="miplib-tabs__count">2</span></button>
-      <button class="miplib-tabs__btn" onclick="switchMiplibTab('parailp', this)">ParaILP <span class="miplib-tabs__count">1</span></button>
+    <div class="miplib-tabs__nav" role="tablist" aria-label="MIPLIB 求解器标签页">
+      <button type="button" id="miplib-tab-all" class="miplib-tabs__btn miplib-tabs__btn--active" data-tab="all" role="tab" aria-selected="true" aria-controls="miplib-panel-all" tabindex="0" onclick="switchMiplibTab('all', this)">全部 <span class="miplib-tabs__count">35</span></button>
+      <button type="button" id="miplib-tab-local-mip" class="miplib-tabs__btn" data-tab="local-mip" role="tab" aria-selected="false" aria-controls="miplib-panel-local-mip" tabindex="-1" onclick="switchMiplibTab('local-mip', this)">Local-MIP <span class="miplib-tabs__count">11</span></button>
+      <button type="button" id="miplib-tab-partimip" class="miplib-tabs__btn" data-tab="partimip" role="tab" aria-selected="false" aria-controls="miplib-panel-partimip" tabindex="-1" onclick="switchMiplibTab('partimip', this)">PartiMIP <span class="miplib-tabs__count">21</span></button>
+      <button type="button" id="miplib-tab-bigmip" class="miplib-tabs__btn" data-tab="bigmip" role="tab" aria-selected="false" aria-controls="miplib-panel-bigmip" tabindex="-1" onclick="switchMiplibTab('bigmip', this)">BigMIP <span class="miplib-tabs__count">2</span></button>
+      <button type="button" id="miplib-tab-parailp" class="miplib-tabs__btn" data-tab="parailp" role="tab" aria-selected="false" aria-controls="miplib-panel-parailp" tabindex="-1" onclick="switchMiplibTab('parailp', this)">ParaILP <span class="miplib-tabs__count">1</span></button>
     </div>
 
     <div class="miplib-tabs__content">
       <!-- 全部 Tab -->
-      <div class="miplib-tabs__panel miplib-tabs__panel--active" data-panel="all">
-        <div style="overflow-x: auto;">
+      <div id="miplib-panel-all" class="miplib-tabs__panel miplib-tabs__panel--active" data-panel="all" role="tabpanel" aria-labelledby="miplib-tab-all">
+        <div class="miplib-table-wrap">
           <table class="miplib-table">
             <thead>
               <tr>
@@ -311,9 +313,9 @@ redirect_from:
       </div>
 
       <!-- Local-MIP Tab -->
-      <div class="miplib-tabs__panel" data-panel="local-mip">
+      <div id="miplib-panel-local-mip" class="miplib-tabs__panel" data-panel="local-mip" role="tabpanel" aria-labelledby="miplib-tab-local-mip" hidden>
         <p class="miplib-tabs__desc">首个面向通用混合整数规划（MIP）模型的局部搜索求解器</p>
-        <div style="overflow-x: auto;">
+        <div class="miplib-table-wrap">
           <table class="miplib-table">
             <thead>
               <tr>
@@ -340,9 +342,9 @@ redirect_from:
       </div>
 
       <!-- PartiMIP Tab -->
-      <div class="miplib-tabs__panel" data-panel="partimip">
+      <div id="miplib-panel-partimip" class="miplib-tabs__panel" data-panel="partimip" role="tabpanel" aria-labelledby="miplib-tab-partimip" hidden>
         <p class="miplib-tabs__desc">基于任务分解的大规模分布式混合整数规划（MIP）求解器</p>
-        <div style="overflow-x: auto;">
+        <div class="miplib-table-wrap">
           <table class="miplib-table">
             <thead>
               <tr>
@@ -379,9 +381,9 @@ redirect_from:
       </div>
 
       <!-- BigMIP Tab -->
-      <div class="miplib-tabs__panel" data-panel="bigmip">
+      <div id="miplib-panel-bigmip" class="miplib-tabs__panel" data-panel="bigmip" role="tabpanel" aria-labelledby="miplib-tab-bigmip" hidden>
         <p class="miplib-tabs__desc">大规模分布式混合整数规划求解器</p>
-        <div style="overflow-x: auto;">
+        <div class="miplib-table-wrap">
           <table class="miplib-table">
             <thead>
               <tr>
@@ -399,9 +401,9 @@ redirect_from:
       </div>
 
       <!-- ParaILP Tab -->
-      <div class="miplib-tabs__panel" data-panel="parailp">
+      <div id="miplib-panel-parailp" class="miplib-tabs__panel" data-panel="parailp" role="tabpanel" aria-labelledby="miplib-tab-parailp" hidden>
         <p class="miplib-tabs__desc">基于局部搜索的并行整数规划（ILP）求解器，深度结合局部搜索与进化算法</p>
-        <div style="overflow-x: auto;">
+        <div class="miplib-table-wrap">
           <table class="miplib-table">
             <thead>
               <tr>
@@ -419,29 +421,6 @@ redirect_from:
     </div>
   </div>
 
-  <script type="text/javascript">
-    function switchMiplibTab(tabId, btnElement) {
-      try {
-        var buttons = document.querySelectorAll('.miplib-tabs__btn');
-        for (var i = 0; i < buttons.length; i++) {
-          buttons[i].classList.remove('miplib-tabs__btn--active');
-        }
-        
-        var panels = document.querySelectorAll('.miplib-tabs__panel');
-        for (var j = 0; j < panels.length; j++) {
-          panels[j].classList.remove('miplib-tabs__panel--active');
-        }
-        
-        btnElement.classList.add('miplib-tabs__btn--active');
-        
-        var targetPanel = document.querySelector('[data-panel="' + tabId + '"]');
-        if (targetPanel) {
-          targetPanel.classList.add('miplib-tabs__panel--active');
-        }
-      } catch (e) {
-        console.error('Tab switch error:', e);
-      }
-    }
-  </script>
+  {% include miplib-tabs-script.html %}
 
 </div>

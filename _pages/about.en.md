@@ -1,6 +1,8 @@
 ---
 permalink: /
 title: "Peng Lin"
+description: "Ph.D. student in computer science focused on mixed integer programming, heuristic algorithms, and parallel solving."
+excerpt: "Ph.D. student in computer science focused on mixed integer programming, heuristic algorithms, and parallel solving."
 author_profile: true
 redirect_from:
   - /about/
@@ -62,50 +64,50 @@ redirect_from:
   <ul class="profile-timeline">
     <li>
       <time datetime="2025-12-15">2025 · Dec 15</time>
-      <span>🎉🎉 Selected for CAST Young Talent Support Program (Doctoral)</span>
+      <span>Selected for CAST Young Talent Support Program (Doctoral)</span>
     </li>
     <li>
       <time datetime="2025-11-08">2025 · Nov 08</time>
-      <span>🎉🎉 One co-first author paper accepted by AAAI</span>
+      <span>One co-first author paper accepted by AAAI</span>
     </li>
     <li>
       <time datetime="2025-08-19">2025 · Aug 19</time>
-      <span>🎉🎉 One first-author paper accepted by Artificial Intelligence</span>
+      <span>One first-author paper accepted by Artificial Intelligence</span>
     </li>
     <li>
       <time datetime="2025-05-29">2025 · May 29</time>
-      <span>🎉🎉 One first-author paper accepted by CP</span>
+      <span>One first-author paper accepted by CP</span>
     </li>
     <li>
       <time datetime="2024-12-31">2024 · Dec 31</time>
-      <span>🎉🎉 Second Prize in the MIIT Domestic Power Solver Technical Challenge (Lead Developer)</span>
+      <span>Second Prize in the MIIT Domestic Power Solver Technical Challenge (Lead Developer)</span>
     </li>
     <li>
       <time datetime="2024-12-10">2024 · Dec 10</time>
-      <span>🎉🎉 National Scholarship for Graduate Students</span>
+      <span>National Scholarship for Graduate Students</span>
     </li>
     <li>
       <time datetime="2024-10-07">2024 · Oct 07</time>
-      <span>🎉🎉 Distributed solver refreshed best-known records for 21 open MIPLIB instances (Lead Developer)</span>
+      <span>Distributed solver refreshed best-known records for 21 open MIPLIB instances (Lead Developer)</span>
     </li>
     <li>
       <time datetime="2024-09-04">2024 · Sep 04</time>
-      <span>🎉🎉 First-author paper received CP 2024 Best Paper Award</span>
+      <span>First-author paper received CP 2024 Best Paper Award</span>
     </li>
     <li>
       <time datetime="2024-06-20">2024 · Jun 20</time>
-      <span>🎉🎉 One first-author paper accepted by CP</span>
+      <span>One first-author paper accepted by CP</span>
     </li>
     <li>
       <time datetime="2024-04-17">2024 · Apr 17</time>
-      <span>🎉🎉 One first-author paper accepted by IJCAI</span>
+      <span>One first-author paper accepted by IJCAI</span>
     </li>
   </ul>
 </div>
 
 <div class="profile-section" id="publications">
   <h2>📝 Publications</h2>
-  <p style="margin-bottom: 1.5rem; color: #4a5875; font-size: 0.92rem;">† Co-First Author</p>
+  <p class="profile-note profile-note--meta">† Co-First Author</p>
   <div class="profile-subsection">
     <h3>Journal Papers</h3>
     <div class="profile-paper">
@@ -138,7 +140,7 @@ redirect_from:
     </div>
     <div class="profile-paper">
       <span class="profile-paper__tag profile-paper__tag--conference">AAAI 2026</span>
-      <p class="profile-paper__title"><a href="">Elite Pattern Reinforcement for Vehicle Routing Problems</a></p>
+      <p class="profile-paper__title">Elite Pattern Reinforcement for Vehicle Routing Problems</p>
       <p class="profile-paper__authors">Ning Li<sup>†</sup>, <strong>Peng Lin<sup>†</sup></strong>, Peng Zhang, Ruichen Tian</p>
       <p class="profile-paper__venue">AAAI Conference on Artificial Intelligence, 2026</p>
     </div>
@@ -154,7 +156,7 @@ redirect_from:
 <div class="profile-section" id="honors">
   <h2>🌟 Honors & Awards</h2>
   <ul class="profile-awards">
-    <li><span>2025</span> <a href="">China Association for Science and Technology (CAST) Young Talent Support Program - Doctoral Student Special Initiative</a></li>
+    <li><span>2025</span> China Association for Science and Technology (CAST) Young Talent Support Program - Doctoral Student Special Initiative</li>
     <li><span>2024</span> <a href="https://onestop.ucas.edu.cn/home/infob/aa5feb29-1624-4e59-acc5-0d7e856318b4/2">National Scholarship for Graduate Students</a></li>
     <li><span>2024</span> <a href="https://www.a4cp.org/awards/paper-awards">CP 2024 Best Paper Award</a></li>
     <li><span>2023</span> <a href="https://mp.weixin.qq.com/s/sh7FFoBKN4W7m9WFllWXVg">Excellent Graduation Thesis, Jilin University (Software School Rank 1)</a></li>
@@ -201,22 +203,22 @@ redirect_from:
     <article class="profile-mini-card">
       <h3>2025 · Glasgow, UK</h3>
       <p class="profile-mini-card__title"><strong>Parallel MIP Solving with Dynamic Task Decomposition</strong></p>
-      <p class="profile-mini-card__links">🎞️ <a href="files/PartiMIP-slides.pdf">Slides</a></p>
+      <p class="profile-mini-card__links"><a href="{{ '/files/PartiMIP-slides.pdf' | relative_url }}">Slides</a></p>
     </article>
     <article class="profile-mini-card">
       <h3>2024 · Girona, Spain</h3>
       <p class="profile-mini-card__title"><strong>An Efficient Local Search Solver for Mixed Integer Programming</strong></p>
-      <p class="profile-mini-card__links">🎞️ <a href="https://cp2024.a4cp.org/slides/CP/AnEfficientLocal.pdf">Slides</a> · 📽️ <a href="https://diobma.udg.edu/handle/10256.1/7765">Video</a></p>
+      <p class="profile-mini-card__links"><a href="https://cp2024.a4cp.org/slides/CP/AnEfficientLocal.pdf">Slides</a><a href="https://diobma.udg.edu/handle/10256.1/7765">Video</a></p>
     </article>
     <article class="profile-mini-card">
       <h3>2024 · Girona, Spain</h3>
       <p class="profile-mini-card__title"><strong>ParLS-PBO: A Parallel Local Search Solver for Pseudo Boolean Optimization</strong></p>
-      <p class="profile-mini-card__links">🎞️ <a href="https://cp2024.a4cp.org/slides/CP/ParLS-PBO.pdf">Slides</a></p>
+      <p class="profile-mini-card__links"><a href="https://cp2024.a4cp.org/slides/CP/ParLS-PBO.pdf">Slides</a></p>
     </article>
     <article class="profile-mini-card">
       <h3>2024 · Jeju, South Korea</h3>
       <p class="profile-mini-card__title"><strong>ParaILP: A Parallel Local Search Framework for Integer Linear Programming</strong></p>
-      <p class="profile-mini-card__links">🎞️ <a href="files/ijcai-slides.pdf">Slides</a></p>
+      <p class="profile-mini-card__links"><a href="{{ '/files/ijcai-slides.pdf' | relative_url }}">Slides</a></p>
     </article>
   </div>
 </div>
@@ -227,39 +229,39 @@ redirect_from:
     <article class="profile-mini-card">
       <h3>Local-MIP</h3>
       <p>An efficient local search solver for mixed integer programming; the related work received the CP 2024 Best Paper Award.</p>
-      <p class="profile-mini-card__links">🔗 <a href="https://local-mip.github.io/">Website</a>
-      🔗 <a href="https://github.com/shaowei-cai-group/Local-MIP">GitHub</a></p>
+      <p class="profile-mini-card__links"><a href="https://local-mip.github.io/">Website</a>
+      <a href="https://github.com/shaowei-cai-group/Local-MIP">GitHub</a></p>
     </article>
     <article class="profile-mini-card">
       <h3>PartiMIP</h3>
       <p>Parallel MIP framework with dynamic task decomposition.</p>
-      <p class="profile-mini-card__links">🔗 <a href="https://github.com/shaowei-cai-group/PartiMIP">GitHub</a></p>
+      <p class="profile-mini-card__links"><a href="https://github.com/shaowei-cai-group/PartiMIP">GitHub</a></p>
     </article>
     <article class="profile-mini-card">
       <h3>ParaILP</h3>
       <p>A parallel integer programming framework combining local search with cooperative evolution.</p>
-      <p class="profile-mini-card__links">🔗 <a href="https://github.com/shaowei-cai-group/ParaILP">GitHub</a></p>
+      <p class="profile-mini-card__links"><a href="https://github.com/shaowei-cai-group/ParaILP">GitHub</a></p>
     </article>
   </div>
 </div>
 
 <div class="profile-section" id="benchmarks">
   <h2>🖊️ MIPLIB Best Known Solutions</h2>
-  <p style="margin-bottom: 1.5rem; color: #666;">As <strong>first author</strong>, I developed the following solvers that have established new best-known solutions on MIPLIB benchmark instances:</p>
+  <p class="profile-note profile-note--muted">As <strong>first author</strong>, I developed the following solvers that have established new best-known solutions on MIPLIB benchmark instances:</p>
   
   <div class="miplib-tabs">
-    <div class="miplib-tabs__nav">
-      <button class="miplib-tabs__btn miplib-tabs__btn--active" onclick="switchMiplibTab('all', this)">All <span class="miplib-tabs__count">35</span></button>
-      <button class="miplib-tabs__btn" onclick="switchMiplibTab('local-mip', this)">Local-MIP <span class="miplib-tabs__count">11</span></button>
-      <button class="miplib-tabs__btn" onclick="switchMiplibTab('partimip', this)">PartiMIP <span class="miplib-tabs__count">21</span></button>
-      <button class="miplib-tabs__btn" onclick="switchMiplibTab('bigmip', this)">BigMIP <span class="miplib-tabs__count">2</span></button>
-      <button class="miplib-tabs__btn" onclick="switchMiplibTab('parailp', this)">ParaILP <span class="miplib-tabs__count">1</span></button>
+    <div class="miplib-tabs__nav" role="tablist" aria-label="MIPLIB solver tabs">
+      <button type="button" id="miplib-tab-all" class="miplib-tabs__btn miplib-tabs__btn--active" data-tab="all" role="tab" aria-selected="true" aria-controls="miplib-panel-all" tabindex="0" onclick="switchMiplibTab('all', this)">All <span class="miplib-tabs__count">35</span></button>
+      <button type="button" id="miplib-tab-local-mip" class="miplib-tabs__btn" data-tab="local-mip" role="tab" aria-selected="false" aria-controls="miplib-panel-local-mip" tabindex="-1" onclick="switchMiplibTab('local-mip', this)">Local-MIP <span class="miplib-tabs__count">11</span></button>
+      <button type="button" id="miplib-tab-partimip" class="miplib-tabs__btn" data-tab="partimip" role="tab" aria-selected="false" aria-controls="miplib-panel-partimip" tabindex="-1" onclick="switchMiplibTab('partimip', this)">PartiMIP <span class="miplib-tabs__count">21</span></button>
+      <button type="button" id="miplib-tab-bigmip" class="miplib-tabs__btn" data-tab="bigmip" role="tab" aria-selected="false" aria-controls="miplib-panel-bigmip" tabindex="-1" onclick="switchMiplibTab('bigmip', this)">BigMIP <span class="miplib-tabs__count">2</span></button>
+      <button type="button" id="miplib-tab-parailp" class="miplib-tabs__btn" data-tab="parailp" role="tab" aria-selected="false" aria-controls="miplib-panel-parailp" tabindex="-1" onclick="switchMiplibTab('parailp', this)">ParaILP <span class="miplib-tabs__count">1</span></button>
     </div>
 
     <div class="miplib-tabs__content">
       <!-- All Solvers Tab -->
-      <div class="miplib-tabs__panel miplib-tabs__panel--active" data-panel="all">
-        <div style="overflow-x: auto;">
+      <div id="miplib-panel-all" class="miplib-tabs__panel miplib-tabs__panel--active" data-panel="all" role="tabpanel" aria-labelledby="miplib-tab-all">
+        <div class="miplib-table-wrap">
           <table class="miplib-table">
             <thead>
               <tr>
@@ -311,9 +313,9 @@ redirect_from:
       </div>
 
       <!-- Local-MIP Tab -->
-      <div class="miplib-tabs__panel" data-panel="local-mip">
+      <div id="miplib-panel-local-mip" class="miplib-tabs__panel" data-panel="local-mip" role="tabpanel" aria-labelledby="miplib-tab-local-mip" hidden>
         <p class="miplib-tabs__desc">Local search MIP solver</p>
-        <div style="overflow-x: auto;">
+        <div class="miplib-table-wrap">
           <table class="miplib-table">
             <thead>
               <tr>
@@ -340,9 +342,9 @@ redirect_from:
       </div>
 
       <!-- PartiMIP Tab -->
-      <div class="miplib-tabs__panel" data-panel="partimip">
+      <div id="miplib-panel-partimip" class="miplib-tabs__panel" data-panel="partimip" role="tabpanel" aria-labelledby="miplib-tab-partimip" hidden>
         <p class="miplib-tabs__desc">Parallel MIP solver with dynamic task decomposition</p>
-        <div style="overflow-x: auto;">
+        <div class="miplib-table-wrap">
           <table class="miplib-table">
             <thead>
               <tr>
@@ -379,9 +381,9 @@ redirect_from:
       </div>
 
       <!-- BigMIP Tab -->
-      <div class="miplib-tabs__panel" data-panel="bigmip">
+      <div id="miplib-panel-bigmip" class="miplib-tabs__panel" data-panel="bigmip" role="tabpanel" aria-labelledby="miplib-tab-bigmip" hidden>
         <p class="miplib-tabs__desc">Large-scale distributed MIP solver</p>
-        <div style="overflow-x: auto;">
+        <div class="miplib-table-wrap">
           <table class="miplib-table">
             <thead>
               <tr>
@@ -399,9 +401,9 @@ redirect_from:
       </div>
 
       <!-- ParaILP Tab -->
-      <div class="miplib-tabs__panel" data-panel="parailp">
-        <p class="miplib-tabs__desc">Parallel local search ILP sovler with cooperative evolution</p>
-        <div style="overflow-x: auto;">
+      <div id="miplib-panel-parailp" class="miplib-tabs__panel" data-panel="parailp" role="tabpanel" aria-labelledby="miplib-tab-parailp" hidden>
+        <p class="miplib-tabs__desc">Parallel local search ILP solver with cooperative evolution</p>
+        <div class="miplib-table-wrap">
           <table class="miplib-table">
             <thead>
               <tr>
@@ -419,29 +421,6 @@ redirect_from:
     </div>
   </div>
 
-  <script type="text/javascript">
-    function switchMiplibTab(tabId, btnElement) {
-      try {
-        var buttons = document.querySelectorAll('.miplib-tabs__btn');
-        for (var i = 0; i < buttons.length; i++) {
-          buttons[i].classList.remove('miplib-tabs__btn--active');
-        }
-        
-        var panels = document.querySelectorAll('.miplib-tabs__panel');
-        for (var j = 0; j < panels.length; j++) {
-          panels[j].classList.remove('miplib-tabs__panel--active');
-        }
-        
-        btnElement.classList.add('miplib-tabs__btn--active');
-        
-        var targetPanel = document.querySelector('[data-panel="' + tabId + '"]');
-        if (targetPanel) {
-          targetPanel.classList.add('miplib-tabs__panel--active');
-        }
-      } catch (e) {
-        console.error('Tab switch error:', e);
-      }
-    }
-  </script>
+  {% include miplib-tabs-script.html %}
 
 </div>

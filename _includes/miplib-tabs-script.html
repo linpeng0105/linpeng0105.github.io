@@ -1,0 +1,89 @@
+<script type="text/javascript">
+  function switchMiplibTab(tabId, btnElement) {
+    try {
+      var tabContainer = btnElement ? btnElement.closest('.miplib-tabs__nav') : document.querySelector('.miplib-tabs__nav');
+      if (!tabContainer) {
+        return;
+      }
+
+      var tabsRoot = tabContainer.closest('.miplib-tabs');
+      if (!tabsRoot) {
+        return;
+      }
+
+      var buttons = tabContainer.querySelectorAll('.miplib-tabs__btn[role="tab"]');
+      for (var i = 0; i < buttons.length; i++) {
+        buttons[i].classList.remove('miplib-tabs__btn--active');
+        buttons[i].setAttribute('aria-selected', 'false');
+        buttons[i].setAttribute('tabindex', '-1');
+      }
+
+      var panels = tabsRoot.querySelectorAll('.miplib-tabs__panel[role="tabpanel"]');
+      for (var j = 0; j < panels.length; j++) {
+        panels[j].classList.remove('miplib-tabs__panel--active');
+        panels[j].hidden = true;
+      }
+
+      var targetButton = btnElement || tabContainer.querySelector('[data-tab="' + tabId + '"]');
+      if (!targetButton) {
+        return;
+      }
+
+      targetButton.classList.add('miplib-tabs__btn--active');
+      targetButton.setAttribute('aria-selected', 'true');
+      targetButton.setAttribute('tabindex', '0');
+
+      var targetPanel = tabsRoot.querySelector('[data-panel="' + tabId + '"]');
+      if (targetPanel) {
+        targetPanel.classList.add('miplib-tabs__panel--active');
+        targetPanel.hidden = false;
+      }
+    } catch (e) {
+      console.error('Tab switch error:', e);
+    }
+  }
+
+  (function initMiplibTabs() {
+    var navLists = document.querySelectorAll('.miplib-tabs__nav[role="tablist"]');
+    for (var i = 0; i < navLists.length; i++) {
+      navLists[i].addEventListener('keydown', function(event) {
+        var key = event.key;
+        if (key !== 'ArrowRight' && key !== 'ArrowLeft' && key !== 'Home' && key !== 'End') {
+          return;
+        }
+
+        var tabs = this.querySelectorAll('.miplib-tabs__btn[role="tab"]');
+        if (!tabs.length) {
+          return;
+        }
+
+        var currentIndex = -1;
+        for (var index = 0; index < tabs.length; index++) {
+          if (tabs[index] === document.activeElement) {
+            currentIndex = index;
+            break;
+          }
+        }
+        if (currentIndex === -1) {
+          return;
+        }
+
+        var nextIndex = currentIndex;
+        if (key === 'ArrowRight') {
+          nextIndex = (currentIndex + 1) % tabs.length;
+        } else if (key === 'ArrowLeft') {
+          nextIndex = (currentIndex - 1 + tabs.length) % tabs.length;
+        } else if (key === 'Home') {
+          nextIndex = 0;
+        } else if (key === 'End') {
+          nextIndex = tabs.length - 1;
+        }
+
+        event.preventDefault();
+        var nextTab = tabs[nextIndex];
+        switchMiplibTab(nextTab.getAttribute('data-tab'), nextTab);
+        nextTab.focus();
+      });
+    }
+  })();
+</script>
