@@ -64,7 +64,7 @@ redirect_from:
   <ul class="profile-timeline">
     <li>
       <time datetime="2025-12-15">2025 · Dec 15</time>
-      <span>Selected for CAST Young Talent Support Program (Doctoral)</span>
+      <span>Selected for Doctoral Student Program of the Young S&T Talents Cultivation Project, CAST</span>
     </li>
     <li>
       <time datetime="2025-11-08">2025 · Nov 08</time>
@@ -140,7 +140,7 @@ redirect_from:
     </div>
     <div class="profile-paper">
       <span class="profile-paper__tag profile-paper__tag--conference">AAAI 2026</span>
-      <p class="profile-paper__title">Elite Pattern Reinforcement for Vehicle Routing Problems</p>
+      <p class="profile-paper__title"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/40949">Elite Pattern Reinforcement for Vehicle Routing Problems</a></p>
       <p class="profile-paper__authors">Ning Li<sup>†</sup>, <strong>Peng Lin<sup>†</sup></strong>, Peng Zhang, Ruichen Tian</p>
       <p class="profile-paper__venue">AAAI Conference on Artificial Intelligence, 2026</p>
     </div>

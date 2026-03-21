@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .archive {
-  margin-bottom: 2em;
+  margin-bottom: 2.5em;
 
   @include breakpoint($medium) {
     @include span(12 of 12);
@@ -29,10 +29,10 @@
 
 .archive__subtitle {
   margin: 1.414em 0 0;
-  padding-bottom: 0.5em;
+  padding-bottom: 0.65em;
   font-size: $type-size-5;
   color: var(--global-text-color-light);
-  border-bottom: 1px solid var(--global-border-color);
+  border-bottom: 1px solid var(--global-rule-color);
 
   + .list__item .archive__item-title {
     margin-top: 0.5em;
@@ -41,7 +41,10 @@
 
 .archive__item-title {
   margin-bottom: 0.25em;
-  font-family: $sans-serif-narrow;
+  font-family: $header-font-family;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--global-text-color);
 
   a + a {
     opacity: 0.5;
@@ -59,7 +62,8 @@
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: $type-size-6;
+  font-size: 0.82rem;
+  color: var(--global-text-color-light);
 
   & + p {
     text-indent: 0;
@@ -76,7 +80,7 @@
 
 .archive__item:hover {
   .archive__item-teaser {
-    box-shadow: 0 0 10px rgba(#000, 0.25);
+    box-shadow: var(--global-shadow-subtle);
   }
 
   .archive__item-title {
@@ -90,6 +94,10 @@
    ========================================================================== */
 
 .list__item {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--global-rule-color);
+
   @include breakpoint($medium) {
     padding-right: $right-sidebar-width-narrow;
   }
@@ -104,6 +112,12 @@
 
   .page__meta {
     margin: 0 0 4px;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0;
   }
 }
 

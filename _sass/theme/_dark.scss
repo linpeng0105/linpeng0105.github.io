@@ -37,7 +37,11 @@ $sidebar-screen-min-width   : 1024px;
 :root {
     --global-base-color                 : #{$background};
     --global-bg-color                   : #{$background};
+    --global-surface-color              : #{mix(#fff, $background, 8%)};
+    --global-surface-color-muted        : #{mix(#fff, $background, 5%)};
     --global-border-color               : #{$background-light};
+    --global-border-color-strong        : #{mix(#fff, $background, 18%)};
+    --global-rule-color                 : rgba(255, 255, 255, 0.16);
     --global-code-background-color      : #fafafa;
     --global-code-text-color            : #{$darker-gray};
     --global-fig-caption-color          : #{$dark-gray};
@@ -49,4 +53,9 @@ $sidebar-screen-min-width   : 1024px;
     --global-text-color                 : #{$text};
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$background-lighter};
+    --global-accent-color               : #{$link};
+    --global-accent-soft                : rgba(14, 161, 197, 0.14);
+    --global-shadow-sm                  : 0 1px 2px rgba(0, 0, 0, 0.35);
+    --global-shadow-subtle              : 0 4px 14px rgba(0, 0, 0, 0.28);
+    --global-shadow-md                  : 0 14px 36px rgba(0, 0, 0, 0.34);
 }

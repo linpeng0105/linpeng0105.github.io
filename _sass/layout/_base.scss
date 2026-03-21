@@ -11,12 +11,14 @@ body {
   /* Set via _themes.scss */
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
-
   margin: 0;
   padding: $masthead-height 0 0;
   padding-bottom: 9em;
   font-family: $global-font-family;
-  line-height: 1.5;
+  line-height: 1.7;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -26,9 +28,11 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 2em 0 0.5em;
-  line-height: 1.2;
+  line-height: 1.25;
   font-family: $header-font-family;
-  font-weight: bold;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  color: var(--global-text-color);
 }
 
 h1 {
@@ -61,7 +65,7 @@ small, .small {
 }
 
 p {
-  margin-bottom: 1.3em;
+  margin-bottom: 1.15em;
 }
 
 u,
@@ -97,10 +101,10 @@ abbr[data-original-title] {
 
 blockquote {
   margin: 2em 1em 2em 0;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding: 0.25em 0 0.25em 1.2em;
+  color: var(--global-text-color-light);
   font-style: italic;
-  border-left: 0.25em solid var(--global-border-color);
+  border-left: 0.2em solid var(--global-accent-color);
 
   cite {
     font-style: italic;
@@ -115,8 +119,19 @@ blockquote {
 /* links */
 
 a {
+  color: var(--global-link-color);
+  text-decoration-color: rgba(54, 86, 123, 0.35);
+  text-underline-offset: 0.14em;
+  text-decoration-thickness: 0.06em;
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
+
   &:focus {
     @extend %tab-focus;
+  }
+
+  &:hover {
+    color: var(--global-link-color-hover);
+    text-decoration-color: currentColor;
   }
 
   &:hover,
@@ -147,7 +162,7 @@ td > code {
   background: var(--global-code-background-color);
   border: 1px solid var(--global-thead-color);
   border-radius: $border-radius;
-  box-shadow: $box-shadow;
+  box-shadow: none;
   color: var(--global-code-text-color);
 
   &:before, &:after {
@@ -160,9 +175,9 @@ td > code {
 
 hr {
   display: block;
-  margin: 1em 0;
+  margin: 1.4em 0;
   border: 0;
-  border-top: 1px solid var(--global-border-color);
+  border-top: 1px solid var(--global-rule-color);
 }
 
 /* lists */

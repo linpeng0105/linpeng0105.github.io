@@ -141,7 +141,7 @@ redirect_from:
     </div>
     <div class="profile-paper">
       <span class="profile-paper__tag profile-paper__tag--conference">AAAI 2026</span>
-      <p class="profile-paper__title">Elite Pattern Reinforcement for Vehicle Routing Problems</p>
+      <p class="profile-paper__title"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/40949">Elite Pattern Reinforcement for Vehicle Routing Problems</a></p>
       <p class="profile-paper__authors">李宁<sup>†</sup>，<strong>林鹏<sup>†</sup></strong>，张鹏，田睿琛</p>
       <p class="profile-paper__venue">AAAI人工智能会议，2026</p>
     </div>
