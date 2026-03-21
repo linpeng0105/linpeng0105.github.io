@@ -3,7 +3,10 @@ permalink: /
 title: "Peng Lin"
 description: "Ph.D. student in computer science focused on mixed integer programming, heuristic algorithms, and parallel solving."
 excerpt: "Ph.D. student in computer science focused on mixed integer programming, heuristic algorithms, and parallel solving."
-author_profile: true
+author_profile: false
+wide_content: true
+show_page_header: false
+show_page_meta: false
 redirect_from:
   - /about/
   - /about.html
@@ -14,52 +17,56 @@ redirect_from:
 </style>
 <link rel="stylesheet" href="{{ '/assets/css/profile.css' | relative_url }}">
 
-<div class="profile-hero">
-  <div class="profile-hero__grid">
-    <div class="profile-card">
-      <h3>Program</h3>
-      <p>
-        Ph.D. Student <br />
-        Computer Science<br />
-        Supervisor: <a href="http://lcs.ios.ac.cn/~caisw/">Prof. Shaowei Cai</a>
-      </p>
-    </div>
-    <div class="profile-card">
-      <h3>Research Focus</h3>
-      <p>
-        Mixed Integer Programming<br />
-        Heuristic Algorithms<br />
-        Parallel Solving<br />
-        Combinatorial Optimization<br />
-      </p>
-    </div>
-    <div class="profile-card">
-      <h3>Affiliation</h3>
-      <p><a href="https://www.cas.cn/">Chinese Academy of Sciences</a><br />
-      <a href="http://www.iscas.ac.cn/">Institute of Software</a><br />
-      <a href="http://solver.ios.ac.cn/zh/">Constraint Solving Laboratory</a>
-      </p>
-    </div>
-    <div class="profile-card">
-      <h3>Contact</h3>
-      <p><code>linpeng@ios.ac.cn</code> <br /><code>peng.lin.csor@gmail.com</code></p>
-    </div>
-  </div>
-  <a href="https://local-mip.github.io/" class="profile-featured">
-    <div class="profile-featured__badge">🏆 CP 2024 Best Paper</div>
-    <div class="profile-featured__content">
-      <img src="{{ '/images/Local-MIP.png' | relative_url }}" alt="Local-MIP Logo" class="profile-featured__logo">
-      <div class="profile-featured__info">
-        <span class="profile-featured__label">V2.0</span>
-        <h4 class="profile-featured__title">Local-MIP</h4>
-        <p class="profile-featured__desc">Local Search Solver for Mixed Integer Programming</p>
+<div class="profile-masthead">
+  {% include home-intro.html %}
+
+  <div class="profile-hero">
+    <div class="profile-hero__grid">
+      <div class="profile-card">
+        <h3>Program</h3>
+        <p>
+          Ph.D. Student <br />
+          Computer Science<br />
+          Supervisor: <a href="http://lcs.ios.ac.cn/~caisw/">Prof. Shaowei Cai</a>
+        </p>
       </div>
-      <span class="profile-featured__arrow">→</span>
+      <div class="profile-card">
+        <h3>Research Focus</h3>
+        <p>
+          Mixed Integer Programming<br />
+          Heuristic Algorithms<br />
+          Parallel Solving<br />
+          Combinatorial Optimization<br />
+        </p>
+      </div>
+      <div class="profile-card">
+        <h3>Affiliation</h3>
+        <p><a href="https://www.cas.cn/">Chinese Academy of Sciences</a><br />
+        <a href="http://www.iscas.ac.cn/">Institute of Software</a><br />
+        <a href="http://solver.ios.ac.cn/zh/">Constraint Solving Laboratory</a>
+        </p>
+      </div>
+      <div class="profile-card">
+        <h3>Contact</h3>
+        <p><code>linpeng@ios.ac.cn</code> <br /><code>peng.lin.csor@gmail.com</code></p>
+      </div>
     </div>
-  </a>
+    <a href="https://local-mip.github.io/" class="profile-featured">
+      <div class="profile-featured__badge">🏆 CP 2024 Best Paper</div>
+      <div class="profile-featured__content">
+        <img src="{{ '/images/Local-MIP.png' | relative_url }}" alt="Local-MIP Logo" class="profile-featured__logo">
+        <div class="profile-featured__info">
+          <span class="profile-featured__label">V2.0</span>
+          <h4 class="profile-featured__title">Local-MIP</h4>
+          <p class="profile-featured__desc">Local Search Solver for Mixed Integer Programming</p>
+        </div>
+        <span class="profile-featured__arrow">→</span>
+      </div>
+    </a>
+  </div>
 </div>
 
-<div class="profile-section" id="highlights">
+<div class="profile-section profile-section--primary profile-section--news" id="highlights">
   <h2>🔥 Recent News</h2>
   <ul class="profile-timeline">
     <li>
@@ -105,7 +112,7 @@ redirect_from:
   </ul>
 </div>
 
-<div class="profile-section" id="publications">
+<div class="profile-section profile-section--primary profile-section--publications" id="publications">
   <h2>📝 Publications</h2>
   <p class="profile-note profile-note--meta">† Co-First Author</p>
   <div class="profile-subsection">
@@ -153,7 +160,7 @@ redirect_from:
   </div>
 </div>
 
-<div class="profile-section" id="honors">
+<div class="profile-section profile-section--supplemental" id="honors">
   <h2>🌟 Honors & Awards</h2>
   <ul class="profile-awards">
     <li><span>2025</span> China Association for Science and Technology (CAST) Young Talent Support Program - Doctoral Student Special Initiative</li>
@@ -163,7 +170,7 @@ redirect_from:
   </ul>
 </div>
 
-<div class="profile-section" id="competitions">
+<div class="profile-section profile-section--supplemental" id="competitions">
   <h2>🏆 Competition Results</h2>
   <ul class="profile-competitions">
     <li>
@@ -183,7 +190,7 @@ redirect_from:
   </ul>
 </div>
 
-<div class="profile-section" id="education">
+<div class="profile-section profile-section--supplemental" id="education">
   <h2>🎓 Education</h2>
   <ul class="profile-edu">
     <li>
@@ -197,7 +204,7 @@ redirect_from:
   </ul>
 </div>
 
-<div class="profile-section" id="talks">
+<div class="profile-section profile-section--secondary" id="talks">
   <h2>💬 Invited Talks</h2>
   <div class="profile-cards">
     <article class="profile-mini-card">
@@ -223,7 +230,7 @@ redirect_from:
   </div>
 </div>
 
-<div class="profile-section" id="software">
+<div class="profile-section profile-section--secondary" id="software">
   <h2>💾 Open-Source Software</h2>
   <div class="profile-cards profile-cards--wide">
     <article class="profile-mini-card">
@@ -245,11 +252,39 @@ redirect_from:
   </div>
 </div>
 
-<div class="profile-section" id="benchmarks">
+<div class="profile-section profile-section--benchmarks" id="benchmarks">
   <h2>🖊️ MIPLIB Best Known Solutions</h2>
   <p class="profile-note profile-note--muted">As <strong>first author</strong>, I developed the following solvers that have established new best-known solutions on MIPLIB benchmark instances:</p>
-  
-  <div class="miplib-tabs">
+  <div class="profile-miplib-overview" aria-label="MIPLIB summary">
+    <article class="profile-miplib-stat">
+      <span class="profile-miplib-stat__value">35</span>
+      <span class="profile-miplib-stat__label">Total records</span>
+    </article>
+    <article class="profile-miplib-stat">
+      <span class="profile-miplib-stat__value">11</span>
+      <span class="profile-miplib-stat__label">Local-MIP</span>
+    </article>
+    <article class="profile-miplib-stat">
+      <span class="profile-miplib-stat__value">21</span>
+      <span class="profile-miplib-stat__label">PartiMIP</span>
+    </article>
+    <article class="profile-miplib-stat">
+      <span class="profile-miplib-stat__value">2</span>
+      <span class="profile-miplib-stat__label">BigMIP</span>
+    </article>
+    <article class="profile-miplib-stat">
+      <span class="profile-miplib-stat__value">1</span>
+      <span class="profile-miplib-stat__label">ParaILP</span>
+    </article>
+  </div>
+
+  <details class="profile-disclosure">
+    <summary>
+      <span class="profile-disclosure__title">View full MIPLIB record table</span>
+      <span class="profile-disclosure__hint">Expand tabs and instance-level details</span>
+    </summary>
+    <div class="profile-disclosure__content">
+      <div class="miplib-tabs">
     <div class="miplib-tabs__nav" role="tablist" aria-label="MIPLIB solver tabs">
       <button type="button" id="miplib-tab-all" class="miplib-tabs__btn miplib-tabs__btn--active" data-tab="all" role="tab" aria-selected="true" aria-controls="miplib-panel-all" tabindex="0" onclick="switchMiplibTab('all', this)">All <span class="miplib-tabs__count">35</span></button>
       <button type="button" id="miplib-tab-local-mip" class="miplib-tabs__btn" data-tab="local-mip" role="tab" aria-selected="false" aria-controls="miplib-panel-local-mip" tabindex="-1" onclick="switchMiplibTab('local-mip', this)">Local-MIP <span class="miplib-tabs__count">11</span></button>
@@ -420,6 +455,8 @@ redirect_from:
       </div>
     </div>
   </div>
+    </div>
+  </details>
 
   {% include miplib-tabs-script.html %}
 

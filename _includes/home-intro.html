@@ -1,0 +1,64 @@
+{% include base_path %}
+
+{% if page.author and site.data.authors[page.author] %}
+  {% assign author = site.data.authors[page.author] %}
+{% else %}
+  {% assign author = site.author %}
+{% endif %}
+
+{% assign is_chinese = false %}
+{% if page.locale == "zh" or page.url contains "/zh/" %}
+  {% assign is_chinese = true %}
+{% endif %}
+
+<section class="profile-intro" aria-labelledby="profile-intro-name">
+  <div class="profile-intro__avatar">
+    {% if author.avatar contains "://" %}
+      <img src="{{ author.avatar }}" alt="{{ author.name }}">
+    {% else %}
+      <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" alt="{{ author.name }}">
+    {% endif %}
+  </div>
+
+  <div class="profile-intro__body">
+    {% if author.bio %}
+      <p class="profile-intro__eyebrow">{{ author.bio }}</p>
+    {% endif %}
+
+    <h1 class="profile-intro__name" id="profile-intro-name">{{ author.name }}</h1>
+
+    <div class="profile-intro__meta">
+      {% if author.employer %}
+        <span><i class="fas fa-fw fa-university" aria-hidden="true"></i>{{ author.employer }}</span>
+      {% endif %}
+      {% if author.location %}
+        <span><i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i>{{ author.location }}</span>
+      {% endif %}
+    </div>
+
+    <div class="profile-intro__links">
+      {% if author.email %}
+        <a href="mailto:{{ author.email }}">
+          <i class="fas fa-fw fa-envelope" aria-hidden="true"></i>
+          {% if is_chinese %}邮箱{% else %}Email{% endif %}
+        </a>
+      {% endif %}
+      {% if author.googlescholar %}
+        <a href="{{ author.googlescholar }}">
+          <i class="ai ai-google-scholar ai-fw" aria-hidden="true"></i>
+          {% if is_chinese %}谷歌学术{% else %}Scholar{% endif %}
+        </a>
+      {% endif %}
+      {% if author.orcid %}
+        <a href="{{ author.orcid }}">
+          <i class="ai ai-orcid ai-fw" aria-hidden="true"></i>ORCID
+        </a>
+      {% endif %}
+      {% if author.github %}
+        <a href="https://github.com/{{ author.github }}">
+          <i class="fab fa-fw fa-github" aria-hidden="true"></i>GitHub
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</section>

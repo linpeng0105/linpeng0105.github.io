@@ -34,6 +34,20 @@
   }
 }
 
+.page--wide {
+  @media screen and (min-width: $sidebar-screen-min-width) {
+    @include span(12 of 12);
+    @include prefix(0);
+    @include suffix(0);
+  }
+
+  .page__inner-wrap {
+    max-width: 74rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .page__title {
   margin-top: 0;
   line-height: 1.1;

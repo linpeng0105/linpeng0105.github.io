@@ -3,7 +3,10 @@ permalink: /zh/
 title: "林鹏"
 description: "中国科学院大学计算机科学博士生，研究方向包括混合整数规划、启发式算法与并行求解。"
 excerpt: "中国科学院大学计算机科学博士生，研究方向包括混合整数规划、启发式算法与并行求解。"
-author_profile: true
+author_profile: false
+wide_content: true
+show_page_header: false
+show_page_meta: false
 locale: zh
 author: peng_lin_zh
 redirect_from:
@@ -15,52 +18,56 @@ redirect_from:
 </style>
 <link rel="stylesheet" href="{{ '/assets/css/profile.css' | relative_url }}">
 
-<div class="profile-hero">
-  <div class="profile-hero__grid">
-    <div class="profile-card">
-      <h3>学业</h3>
-      <p>
-        硕博连读第三年    <br />
-        专业：计算机科学与技术  <br />
-        导师：<a href="http://lcs.ios.ac.cn/~caisw/">蔡少伟</a>研究员<br />
-      </p>
-    </div>
-    <div class="profile-card">
-      <h3>研究方向</h3>
-      <p>
-        混合整数规划  <br />
-        启发式算法    <br />
-        并行求解      <br />
-        组合优化      <br />
-      </p>
-    </div>
-    <div class="profile-card">
-      <h3>所属单位</h3>
-      <p><a href="https://www.cas.cn/">中国科学院</a><br />
-      <a href="http://www.iscas.ac.cn/">软件研究所</a><br />
-      <a href="http://solver.ios.ac.cn/zh/">约束求解研究室</a>
-      </p>
-    </div>
-    <div class="profile-card">
-      <h3>联系邮箱</h3>
-      <p><code>linpeng@ios.ac.cn</code> <br /><code>peng.lin.csor@gmail.com</code></p>
-    </div>
-  </div>
-  <a href="https://local-mip.github.io/" class="profile-featured">
-    <div class="profile-featured__badge">🏆 CP 2024 最佳论文</div>
-    <div class="profile-featured__content">
-      <img src="{{ '/images/Local-MIP.png' | relative_url }}" alt="Local-MIP Logo" class="profile-featured__logo">
-      <div class="profile-featured__info">
-        <span class="profile-featured__label">v2.0</span>
-        <h4 class="profile-featured__title">Local-MIP</h4>
-        <p class="profile-featured__desc">局部搜索-混合整数规划-求解器</p>
+<div class="profile-masthead">
+  {% include home-intro.html %}
+
+  <div class="profile-hero">
+    <div class="profile-hero__grid">
+      <div class="profile-card">
+        <h3>学业</h3>
+        <p>
+          硕博连读第三年    <br />
+          专业：计算机科学与技术  <br />
+          导师：<a href="http://lcs.ios.ac.cn/~caisw/">蔡少伟</a>研究员<br />
+        </p>
       </div>
-      <span class="profile-featured__arrow">→</span>
+      <div class="profile-card">
+        <h3>研究方向</h3>
+        <p>
+          混合整数规划  <br />
+          启发式算法    <br />
+          并行求解      <br />
+          组合优化      <br />
+        </p>
+      </div>
+      <div class="profile-card">
+        <h3>所属单位</h3>
+        <p><a href="https://www.cas.cn/">中国科学院</a><br />
+        <a href="http://www.iscas.ac.cn/">软件研究所</a><br />
+        <a href="http://solver.ios.ac.cn/zh/">约束求解研究室</a>
+        </p>
+      </div>
+      <div class="profile-card">
+        <h3>联系邮箱</h3>
+        <p><code>linpeng@ios.ac.cn</code> <br /><code>peng.lin.csor@gmail.com</code></p>
+      </div>
     </div>
-  </a>
+    <a href="https://local-mip.github.io/" class="profile-featured">
+      <div class="profile-featured__badge">🏆 CP 2024 最佳论文</div>
+      <div class="profile-featured__content">
+        <img src="{{ '/images/Local-MIP.png' | relative_url }}" alt="Local-MIP Logo" class="profile-featured__logo">
+        <div class="profile-featured__info">
+          <span class="profile-featured__label">v2.0</span>
+          <h4 class="profile-featured__title">Local-MIP</h4>
+          <p class="profile-featured__desc">局部搜索-混合整数规划-求解器</p>
+        </div>
+        <span class="profile-featured__arrow">→</span>
+      </div>
+    </a>
+  </div>
 </div>
 
-<div class="profile-section" id="highlights">
+<div class="profile-section profile-section--primary profile-section--news" id="highlights">
   <h2>🔥 最新动态</h2>
   <ul class="profile-timeline">
     <li>
@@ -106,7 +113,7 @@ redirect_from:
   </ul>
 </div>
 
-<div class="profile-section" id="publications">
+<div class="profile-section profile-section--primary profile-section--publications" id="publications">
   <h2>📝 论文成果</h2>
   <p class="profile-note profile-note--meta">† 共同第一作者</p>
   <div class="profile-subsection">
@@ -154,7 +161,7 @@ redirect_from:
   </div>
 </div>
 
-<div class="profile-section" id="honors">
+<div class="profile-section profile-section--supplemental" id="honors">
   <h2>🌟 荣誉奖励</h2>
   <ul class="profile-awards">
     <li><span>2025</span> 中国科协青年科技人才培育工程博士生专项计划</li>
@@ -164,7 +171,7 @@ redirect_from:
   </ul>
 </div>
 
-<div class="profile-section" id="competitions">
+<div class="profile-section profile-section--supplemental" id="competitions">
   <h2>🏆 竞赛成绩</h2>
   <ul class="profile-competitions">
     <li>
@@ -184,7 +191,7 @@ redirect_from:
   </ul>
 </div>
 
-<div class="profile-section" id="education">
+<div class="profile-section profile-section--supplemental" id="education">
   <h2>🎓 教育经历</h2>
   <ul class="profile-edu">
     <li>
@@ -198,7 +205,7 @@ redirect_from:
   </ul>
 </div>
 
-<div class="profile-section" id="talks">
+<div class="profile-section profile-section--secondary" id="talks">
   <h2>💬 学术报告</h2>
   <div class="profile-cards">
     <article class="profile-mini-card">
@@ -224,7 +231,7 @@ redirect_from:
   </div>
 </div>
 
-<div class="profile-section" id="software">
+<div class="profile-section profile-section--secondary" id="software">
   <h2>💾 开源项目</h2>
   <div class="profile-cards profile-cards--wide">
     <article class="profile-mini-card">
@@ -245,11 +252,39 @@ redirect_from:
   </div>
 </div>
 
-<div class="profile-section" id="benchmarks">
+<div class="profile-section profile-section--benchmarks" id="benchmarks">
   <h2>🖊️ MIPLIB 刷新记录</h2>
   <p class="profile-note profile-note--muted">作为<strong>第一作者</strong>，本人开发了以下求解器，刷新了国际 MIP 权威基准 MIPLIB 中多个公开实例的历史最优记录：</p>
-  
-  <div class="miplib-tabs">
+  <div class="profile-miplib-overview" aria-label="MIPLIB summary">
+    <article class="profile-miplib-stat">
+      <span class="profile-miplib-stat__value">35</span>
+      <span class="profile-miplib-stat__label">总纪录</span>
+    </article>
+    <article class="profile-miplib-stat">
+      <span class="profile-miplib-stat__value">11</span>
+      <span class="profile-miplib-stat__label">Local-MIP</span>
+    </article>
+    <article class="profile-miplib-stat">
+      <span class="profile-miplib-stat__value">21</span>
+      <span class="profile-miplib-stat__label">PartiMIP</span>
+    </article>
+    <article class="profile-miplib-stat">
+      <span class="profile-miplib-stat__value">2</span>
+      <span class="profile-miplib-stat__label">BigMIP</span>
+    </article>
+    <article class="profile-miplib-stat">
+      <span class="profile-miplib-stat__value">1</span>
+      <span class="profile-miplib-stat__label">ParaILP</span>
+    </article>
+  </div>
+
+  <details class="profile-disclosure">
+    <summary>
+      <span class="profile-disclosure__title">查看完整 MIPLIB 纪录表</span>
+      <span class="profile-disclosure__hint">展开后查看全部标签页与实例明细</span>
+    </summary>
+    <div class="profile-disclosure__content">
+      <div class="miplib-tabs">
     <div class="miplib-tabs__nav" role="tablist" aria-label="MIPLIB 求解器标签页">
       <button type="button" id="miplib-tab-all" class="miplib-tabs__btn miplib-tabs__btn--active" data-tab="all" role="tab" aria-selected="true" aria-controls="miplib-panel-all" tabindex="0" onclick="switchMiplibTab('all', this)">全部 <span class="miplib-tabs__count">35</span></button>
       <button type="button" id="miplib-tab-local-mip" class="miplib-tabs__btn" data-tab="local-mip" role="tab" aria-selected="false" aria-controls="miplib-panel-local-mip" tabindex="-1" onclick="switchMiplibTab('local-mip', this)">Local-MIP <span class="miplib-tabs__count">11</span></button>
@@ -420,6 +455,8 @@ redirect_from:
       </div>
     </div>
   </div>
+    </div>
+  </details>
 
   {% include miplib-tabs-script.html %}
 
