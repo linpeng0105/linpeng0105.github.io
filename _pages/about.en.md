@@ -163,7 +163,7 @@ redirect_from:
 <div class="profile-section profile-section--supplemental" id="honors">
   <h2>🌟 Honors & Awards</h2>
   <ul class="profile-awards">
-    <li><span>2025</span> China Association for Science and Technology (CAST) Young Talent Support Program - Doctoral Student Special Initiative</li>
+    <li><span>2025</span> Doctoral Student Program of the Young S&T Talents Cultivation Project, China Association for Science and Technology（CAST）</li>
     <li><span>2024</span> <a href="https://onestop.ucas.edu.cn/home/infob/aa5feb29-1624-4e59-acc5-0d7e856318b4/2">National Scholarship for Graduate Students</a></li>
     <li><span>2024</span> <a href="https://www.a4cp.org/awards/paper-awards">CP 2024 Best Paper Award</a></li>
     <li><span>2023</span> <a href="https://mp.weixin.qq.com/s/sh7FFoBKN4W7m9WFllWXVg">Excellent Graduation Thesis, Jilin University (Software School Rank 1)</a></li>
