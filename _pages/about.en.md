@@ -70,6 +70,10 @@ redirect_from:
   <h2>🔥 Recent News</h2>
   <ul class="profile-timeline">
     <li>
+      <time datetime="2026-04-23">2026 · 04 · 23</time>
+      <span>Land-Doig MIP Honorable Mention Award</span>
+    </li>
+    <li>
       <time datetime="2025-12-15">2025 · Dec 15</time>
       <span>Selected for Doctoral Student Program of the Young S&T Talents Cultivation Project, CAST</span>
     </li>

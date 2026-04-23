@@ -71,6 +71,10 @@ redirect_from:
   <h2>🔥 最新动态</h2>
   <ul class="profile-timeline">
     <li>
+      <time datetime="2026-04-23">2026 · 04 · 23</time>
+      <span>荣誉提名奖, Land-Doig MIP 竞赛</span>
+    </li>
+    <li>
       <time datetime="2025-12-15">2025 · 12 · 15</time>
       <span>入选中国科协青年科技人才培育工程博士生专项计划</span>
     </li>
