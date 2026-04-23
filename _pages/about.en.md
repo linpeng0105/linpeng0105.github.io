@@ -70,7 +70,7 @@ redirect_from:
   <h2>🔥 Recent News</h2>
   <ul class="profile-timeline">
     <li>
-      <time datetime="2026-04-23">2026 · 04 · 23</time>
+      <time datetime="2026-04-23">2026 · Apr 23</time>
       <span>Land-Doig MIP Honorable Mention Award</span>
     </li>
     <li>
