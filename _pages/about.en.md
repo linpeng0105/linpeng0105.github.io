@@ -91,7 +91,7 @@ redirect_from:
     </li>
     <li>
       <time datetime="2024-12-31">2024 · Dec 31</time>
-      <span>Second Prize in the MIIT Domestic Power Solver Technical Challenge (Lead Developer)</span>
+      <span>Second Prize in the MIIT Domestic Power Solver Technical Challenge</span>
     </li>
     <li>
       <time datetime="2024-12-10">2024 · Dec 10</time>
@@ -99,7 +99,7 @@ redirect_from:
     </li>
     <li>
       <time datetime="2024-10-07">2024 · Oct 07</time>
-      <span>Distributed solver refreshed best-known records for 21 open MIPLIB instances (Lead Developer)</span>
+      <span>Distributed solver refreshed best-known records for 21 open MIPLIB instances</span>
     </li>
     <li>
       <time datetime="2024-09-04">2024 · Sep 04</time>

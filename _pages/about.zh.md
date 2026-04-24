@@ -72,7 +72,7 @@ redirect_from:
   <ul class="profile-timeline">
     <li>
       <time datetime="2026-04-23">2026 · 04 · 23</time>
-      <span>荣誉提名奖, Land-Doig MIP 竞赛</span>
+      <span>Land-Doig MIP 竞赛荣誉提名奖</span>
     </li>
     <li>
       <time datetime="2025-12-15">2025 · 12 · 15</time>
@@ -92,7 +92,7 @@ redirect_from:
     </li>
     <li>
       <time datetime="2024-12-31">2024 · 12 · 31</time>
-      <span>工信部电力国产求解器技术专题赛二等奖（第一开发者）</span>
+      <span>工信部电力国产求解器技术专题赛二等奖</span>
     </li>
     <li>
       <time datetime="2024-12-10">2024 · 12 · 10</time>
@@ -100,7 +100,7 @@ redirect_from:
     </li>
     <li>
       <time datetime="2024-10-07">2024 · 10 · 07</time>
-      <span>分布式求解器刷新 MIPLIB 21 个公开实例最优纪录（第一开发者）</span>
+      <span>分布式求解器刷新 MIPLIB 21 个公开实例最优纪录</span>
     </li>
     <li>
       <time datetime="2024-09-04">2024 · 09 · 04</time>
