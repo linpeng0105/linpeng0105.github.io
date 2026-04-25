@@ -5,6 +5,8 @@
 .masthead {
   position: fixed;
   background: rgba(255, 255, 255, 0.96);
+  -webkit-backdrop-filter: saturate(145%) blur(12px);
+          backdrop-filter: saturate(145%) blur(12px);
   border-bottom: 1px solid var(--global-border-color);
   box-shadow: var(--global-shadow-sm);
   height: $masthead-height;

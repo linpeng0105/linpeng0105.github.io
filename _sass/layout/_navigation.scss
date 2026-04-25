@@ -298,7 +298,12 @@
     border: 1px solid var(--global-border-color);
     border-radius: 10px;
     background: var(--global-surface-color);
+    -webkit-backdrop-filter: none;
+            backdrop-filter: none;
     box-shadow: var(--global-shadow-md);
+    overflow: hidden;
+    transform-origin: 85% 0;
+    animation: nav-menu-reveal 0.16s ease-out both;
 
     a {
       margin: 0;
@@ -308,6 +313,13 @@
       &:hover {
         color: var(--global-link-color-hover);
         background: var(--global-surface-color-muted);
+      }
+
+      &:focus-visible {
+        color: var(--global-link-color-hover);
+        background: var(--global-surface-color-muted);
+        outline: 2px solid rgba(48, 74, 110, 0.22);
+        outline-offset: -2px;
       }
     }
 
@@ -345,6 +357,63 @@
         border-bottom: none;
       }
     }
+  }
+}
+
+@keyframes nav-menu-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(-0.35rem) scale(0.98);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@media (max-width: 600px) {
+  .greedy-nav {
+    min-width: 0;
+  }
+
+  .greedy-nav .visible-links {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-right: 3rem;
+  }
+
+  .greedy-nav .visible-links li {
+    display: flex;
+    align-items: center;
+  }
+
+  .greedy-nav .visible-links .masthead__menu-item--lg {
+    flex: 1 1 auto;
+    min-width: 0;
+    padding-right: 0;
+  }
+
+  .greedy-nav .visible-links .masthead__menu-item--lg a {
+    max-width: 9rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .greedy-nav .visible-links .masthead__menu-item--lang {
+    flex: 0 0 auto;
+  }
+
+  .greedy-nav a {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .greedy-nav .hidden-links {
+    min-width: 10rem;
+    max-width: calc(100vw - 2rem);
   }
 }
 
