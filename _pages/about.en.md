@@ -172,6 +172,15 @@ redirect_from:
       <p class="profile-paper__venue">International Conference on Principles and Practice of Constraint Programming, 2024</p>
     </div>
   </div>
+  <div class="profile-subsection">
+    <h3>Preprints</h3>
+    <div class="profile-paper">
+      <span class="profile-paper__tag profile-paper__tag--preprint">Preprint</span>
+      <p class="profile-paper__title"><a href="https://arxiv.org/abs/2305.00188">New Characterizations and Efficient Local Search for General Integer Linear Programming</a></p>
+      <p class="profile-paper__authors"><strong>Peng Lin</strong>, Shaowei Cai, Mengchuan Zou, Jinkun Lin</p>
+      <p class="profile-paper__venue">arXiv:2305.00188, 2023</p>
+    </div>
+  </div>
 </div>
 
 <div class="profile-section profile-section--supplemental" id="honors">

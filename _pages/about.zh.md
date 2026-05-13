@@ -173,6 +173,15 @@ redirect_from:
       <p class="profile-paper__venue">约束规划原理与实践国际会议，2024</p>
     </div>
   </div>
+  <div class="profile-subsection">
+    <h3>预印本</h3>
+    <div class="profile-paper">
+      <span class="profile-paper__tag profile-paper__tag--preprint">Preprint</span>
+      <p class="profile-paper__title"><a href="https://arxiv.org/abs/2305.00188">New Characterizations and Efficient Local Search for General Integer Linear Programming</a></p>
+      <p class="profile-paper__authors"><strong>林鹏</strong>，蔡少伟，邹蒙川，林锦坤</p>
+      <p class="profile-paper__venue">arXiv:2305.00188，2023</p>
+    </div>
+  </div>
 </div>
 
 <div class="profile-section profile-section--supplemental" id="honors">
