@@ -75,6 +75,10 @@ redirect_from:
       <span>Land-Doig MIP 竞赛荣誉提名奖</span>
     </li>
     <li>
+      <time datetime="2026-03-08">2026 · 03 · 08</time>
+      <span>一篇论文被 INFORMS Journal on Computing 接收</span>
+    </li>
+    <li>
       <time datetime="2025-12-15">2025 · 12 · 15</time>
       <span>入选中国科协青年科技人才培育工程博士生专项计划</span>
     </li>
@@ -127,6 +131,12 @@ redirect_from:
       <p class="profile-paper__title"><a href="https://www.sciencedirect.com/science/article/pii/S0004370225001249?via%3Dihub">Local-MIP: Efficient Local Search for Mixed Integer Programming</a></p>
       <p class="profile-paper__authors"><strong>林鹏</strong>，蔡少伟，邹蒙川，林锦坤</p>
       <p class="profile-paper__venue">人工智能，2025</p>
+    </div>
+    <div class="profile-paper">
+      <span class="profile-paper__tag profile-paper__tag--journal">IJOC 2026</span>
+      <p class="profile-paper__title"><a href="https://pubsonline.informs.org/doi/10.1287/ijoc.2025.1178">Local Search for Integer Quadratic Programming</a></p>
+      <p class="profile-paper__authors">贺翔，<strong>林鹏</strong>，姜滔，蔡少伟</p>
+      <p class="profile-paper__venue">INFORMS Journal on Computing，2026</p>
     </div>
   </div>
   <div class="profile-subsection">

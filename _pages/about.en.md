@@ -74,6 +74,10 @@ redirect_from:
       <span>Land-Doig MIP Honorable Mention Award</span>
     </li>
     <li>
+      <time datetime="2026-03-08">2026 · Mar 08</time>
+      <span>One paper accepted by INFORMS Journal on Computing</span>
+    </li>
+    <li>
       <time datetime="2025-12-15">2025 · Dec 15</time>
       <span>Selected for Doctoral Student Program of the Young S&T Talents Cultivation Project, CAST</span>
     </li>
@@ -126,6 +130,12 @@ redirect_from:
       <p class="profile-paper__title"><a href="https://www.sciencedirect.com/science/article/pii/S0004370225001249?via%3Dihub">Local-MIP: Efficient Local Search for Mixed Integer Programming</a></p>
       <p class="profile-paper__authors"><strong>Peng Lin</strong>, Shaowei Cai, Mengchuan Zou, Jinkun Lin</p>
       <p class="profile-paper__venue">Artificial Intelligence, 2025</p>
+    </div>
+    <div class="profile-paper">
+      <span class="profile-paper__tag profile-paper__tag--journal">IJOC 2026</span>
+      <p class="profile-paper__title"><a href="https://pubsonline.informs.org/doi/10.1287/ijoc.2025.1178">Local Search for Integer Quadratic Programming</a></p>
+      <p class="profile-paper__authors">Xiang He, <strong>Peng Lin</strong>, Tao Jiang, Shaowei Cai</p>
+      <p class="profile-paper__venue">INFORMS Journal on Computing, 2026</p>
     </div>
   </div>
   <div class="profile-subsection">
