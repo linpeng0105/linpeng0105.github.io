@@ -71,7 +71,7 @@ redirect_from:
   <ul class="profile-timeline">
     <li>
       <time datetime="2026-04-23">2026 · Apr 23</time>
-      <span>Land-Doig MIP Honorable Mention Award</span>
+      <span><a href="{{ '/awards/land-doig-mip-competition-2026/' | relative_url }}">Land-Doig MIP Honorable Mention Award</a></span>
     </li>
     <li>
       <time datetime="2026-03-08">2026 · Mar 08</time>
@@ -196,6 +196,13 @@ redirect_from:
 <div class="profile-section profile-section--supplemental" id="competitions">
   <h2>🏆 Competition Results</h2>
   <ul class="profile-competitions">
+    <li>
+      <span class="profile-competitions__year">2026</span>
+      <div class="profile-competitions__body">
+        <strong><a href="{{ '/awards/land-doig-mip-competition-2026/' | relative_url }}">Land-Doig MIP Competition 2026</a></strong>
+        <p>Honorable Mention Award for cuLocalMIP: A GPU-Oriented Local Search Framework for Mixed Integer Programming</p>
+      </div>
+    </li>
     <li>
       <span class="profile-competitions__year">2025</span>
       <div class="profile-competitions__body">

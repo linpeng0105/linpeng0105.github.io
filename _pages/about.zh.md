@@ -72,7 +72,7 @@ redirect_from:
   <ul class="profile-timeline">
     <li>
       <time datetime="2026-04-23">2026 · 04 · 23</time>
-      <span>Land-Doig MIP 竞赛荣誉提名奖</span>
+      <span><a href="{{ '/zh/awards/land-doig-mip-competition-2026/' | relative_url }}">Land-Doig MIP 竞赛荣誉提名奖</a></span>
     </li>
     <li>
       <time datetime="2026-03-08">2026 · 03 · 08</time>
@@ -197,6 +197,13 @@ redirect_from:
 <div class="profile-section profile-section--supplemental" id="competitions">
   <h2>🏆 竞赛成绩</h2>
   <ul class="profile-competitions">
+    <li>
+      <span class="profile-competitions__year">2026</span>
+      <div class="profile-competitions__body">
+        <strong><a href="{{ '/zh/awards/land-doig-mip-competition-2026/' | relative_url }}">2026 Land-Doig MIP Competition</a></strong>
+        <p>荣誉提名奖，获奖作品：cuLocalMIP: A GPU-Oriented Local Search Framework for Mixed Integer Programming</p>
+      </div>
+    </li>
     <li>
       <span class="profile-competitions__year">2025</span>
       <div class="profile-competitions__body">
