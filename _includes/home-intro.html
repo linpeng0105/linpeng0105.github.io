@@ -14,9 +14,9 @@
 <section class="profile-intro" aria-labelledby="profile-intro-name">
   <div class="profile-intro__avatar">
     {% if author.avatar contains "://" %}
-      <img src="{{ author.avatar }}" alt="{{ author.name }}">
+      <img src="{{ author.avatar }}" alt="{{ author.name }}" fetchpriority="high">
     {% else %}
-      <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" alt="{{ author.name }}">
+      <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" alt="{{ author.name }}" fetchpriority="high">
     {% endif %}
   </div>
 

@@ -200,7 +200,7 @@ redirect_from:
     <li>
       <span class="profile-competitions__year">2026</span>
       <div class="profile-competitions__body">
-        <strong><a href="{{ '/zh/awards/land-doig-mip-competition-2026/' | relative_url }}">2026 Land-Doig MIP Competition</a></strong>
+        <strong><a href="https://mp.weixin.qq.com/s/RU23avohAUBlQMRLrRhOTA">2026 Land-Doig MIP Competition</a></strong>
         <p>荣誉提名奖，获奖作品：cuLocalMIP: A GPU-Oriented Local Search Framework for Mixed Integer Programming</p>
       </div>
     </li>
