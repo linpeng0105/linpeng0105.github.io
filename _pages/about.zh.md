@@ -26,7 +26,7 @@ redirect_from:
       <div class="profile-card">
         <h3>学业</h3>
         <p>
-          硕博连读第三年    <br />
+          硕博连读第四年    <br />
           专业：计算机科学与技术  <br />
           导师：<a href="http://lcs.ios.ac.cn/~caisw/">蔡少伟</a>研究员<br />
         </p>
@@ -65,60 +65,6 @@ redirect_from:
       </div>
     </a>
   </div>
-</div>
-
-<div class="profile-section profile-section--primary profile-section--news" id="highlights">
-  <h2>🔥 最新动态</h2>
-  <ul class="profile-timeline">
-    <li>
-      <time datetime="2026-04-23">2026 · 04 · 23</time>
-      <span><a href="{{ '/zh/awards/land-doig-mip-competition-2026/' | relative_url }}">Land-Doig MIP 竞赛荣誉提名奖</a></span>
-    </li>
-    <li>
-      <time datetime="2026-03-08">2026 · 03 · 08</time>
-      <span>一篇论文被 INFORMS Journal on Computing 接收</span>
-    </li>
-    <li>
-      <time datetime="2025-12-15">2025 · 12 · 15</time>
-      <span>入选中国科协青年科技人才培育工程博士生专项计划</span>
-    </li>
-    <li>
-      <time datetime="2025-11-08">2025 · 11 · 08</time>
-      <span>共同第一作者论文被 AAAI 国际会议接收</span>
-    </li>
-    <li>
-      <time datetime="2025-08-19">2025 · 08 · 19</time>
-      <span>第一作者论文被《Artificial Intelligence》接收</span>
-    </li>
-    <li>
-      <time datetime="2025-05-29">2025 · 05 · 29</time>
-      <span>第一作者论文被 CP 国际会议接收</span>
-    </li>
-    <li>
-      <time datetime="2024-12-31">2024 · 12 · 31</time>
-      <span>工信部电力国产求解器技术专题赛二等奖</span>
-    </li>
-    <li>
-      <time datetime="2024-12-10">2024 · 12 · 10</time>
-      <span>获得研究生国家奖学金</span>
-    </li>
-    <li>
-      <time datetime="2024-10-07">2024 · 10 · 07</time>
-      <span>分布式求解器刷新 MIPLIB 21 个公开实例最优纪录</span>
-    </li>
-    <li>
-      <time datetime="2024-09-04">2024 · 09 · 04</time>
-      <span>第一作者论文荣获 CP 2024 最佳论文奖</span>
-    </li>
-    <li>
-      <time datetime="2024-06-20">2024 · 06 · 20</time>
-      <span>第一作者论文被 CP 国际会议接收</span>
-    </li>
-    <li>
-      <time datetime="2024-04-17">2024 · 04 · 17</time>
-      <span>第一作者论文被 IJCAI 国际会议接收</span>
-    </li>
-  </ul>
 </div>
 
 <div class="profile-section profile-section--primary profile-section--publications" id="publications">
@@ -167,6 +113,12 @@ redirect_from:
       <p class="profile-paper__venue">AAAI人工智能会议，2026</p>
     </div>
     <div class="profile-paper">
+      <span class="profile-paper__tag profile-paper__tag--conference">PPSN 2026</span>
+      <p class="profile-paper__title"><a href="https://doi.org/10.1007/978-3-032-36214-8_26">Parallel Local Search for MaxSAT with Solutions and Score Functions Co-evolving</a></p>
+      <p class="profile-paper__authors">邹蒙川，<strong>林鹏</strong>，初一，蔡少伟</p>
+      <p class="profile-paper__venue">源于自然的并行问题求解国际会议（PPSN），2026</p>
+    </div>
+    <div class="profile-paper">
       <span class="profile-paper__tag profile-paper__tag--conference">CP 2024</span>
       <p class="profile-paper__title"><a href="https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2024.5">ParLS-PBO: A Parallel Local Search Solver for Pseudo Boolean Optimization</a></p>
       <p class="profile-paper__authors">陈志翰，<strong>林鹏</strong>，胡皓，蔡少伟</p>
@@ -200,6 +152,13 @@ redirect_from:
     <li>
       <span class="profile-competitions__year">2026</span>
       <div class="profile-competitions__body">
+        <strong><a href="{{ '/files/awards/pb26-award-certificate.pdf' | relative_url }}">FLoC 2026 奥林匹克 · 国际伪布尔竞赛（PB26）</a></strong>
+        <p>大满贯奖 · DEC-LIN、OPT-LIN 双主赛道冠军</p>
+      </div>
+    </li>
+    <li>
+      <span class="profile-competitions__year">2026</span>
+      <div class="profile-competitions__body">
         <strong><a href="https://mp.weixin.qq.com/s/RU23avohAUBlQMRLrRhOTA">2026 Land-Doig MIP Competition</a></strong>
         <p>荣誉提名奖，获奖作品：cuLocalMIP: A GPU-Oriented Local Search Framework for Mixed Integer Programming</p>
       </div>
@@ -207,7 +166,7 @@ redirect_from:
     <li>
       <span class="profile-competitions__year">2025</span>
       <div class="profile-competitions__body">
-        <strong><a href="https://www.cril.univ-artois.fr/PB25/results/ranking.php?idev=115&cpuLimit=3605&altSel=1">2025 Pseudo-Boolean 国际竞赛</a></strong>
+        <strong><a href="https://www.cril.univ-artois.fr/PB25/results/ranking.php?idev=115&cpuLimit=3605&altSel=1">2025 国际伪布尔竞赛（PB25）</a></strong>
         <p>DEC-LIN UNSAT 冠军 · DEC-LIN SAT+UNSAT 季军 · OPT-LIN UNSAT 季军</p>
       </div>
     </li>
@@ -490,4 +449,66 @@ redirect_from:
 
   {% include miplib-tabs-script.html %}
 
+</div>
+
+<div class="profile-section profile-section--primary profile-section--news" id="highlights">
+  <h2>🔥 最新动态</h2>
+  <ul class="profile-timeline">
+    <li>
+      <time datetime="2026-07-23">2026 · 07 · 23</time>
+      <span>获国际伪布尔竞赛（PB26）双主赛道冠军及大满贯奖</span>
+    </li>
+    <li>
+      <time datetime="2026-05-27">2026 · 05 · 27</time>
+      <span>一篇论文被 PPSN 国际会议接收</span>
+    </li>
+    <li>
+      <time datetime="2026-04-23">2026 · 04 · 23</time>
+      <span><a href="{{ '/zh/awards/land-doig-mip-competition-2026/' | relative_url }}">Land-Doig MIP 竞赛荣誉提名奖</a></span>
+    </li>
+    <li>
+      <time datetime="2026-03-08">2026 · 03 · 08</time>
+      <span>一篇论文被 INFORMS Journal on Computing 接收</span>
+    </li>
+    <li>
+      <time datetime="2025-12-15">2025 · 12 · 15</time>
+      <span>入选中国科协青年科技人才培育工程博士生专项计划</span>
+    </li>
+    <li>
+      <time datetime="2025-11-08">2025 · 11 · 08</time>
+      <span>共同第一作者论文被 AAAI 国际会议接收</span>
+    </li>
+    <li>
+      <time datetime="2025-08-19">2025 · 08 · 19</time>
+      <span>第一作者论文被《Artificial Intelligence》接收</span>
+    </li>
+    <li>
+      <time datetime="2025-05-29">2025 · 05 · 29</time>
+      <span>第一作者论文被 CP 国际会议接收</span>
+    </li>
+    <li>
+      <time datetime="2024-12-31">2024 · 12 · 31</time>
+      <span>工信部电力国产求解器技术专题赛二等奖</span>
+    </li>
+    <li>
+      <time datetime="2024-12-10">2024 · 12 · 10</time>
+      <span>获得研究生国家奖学金</span>
+    </li>
+    <li>
+      <time datetime="2024-10-07">2024 · 10 · 07</time>
+      <span>分布式求解器刷新 MIPLIB 21 个公开实例最优纪录</span>
+    </li>
+    <li>
+      <time datetime="2024-09-04">2024 · 09 · 04</time>
+      <span>第一作者论文荣获 CP 2024 最佳论文奖</span>
+    </li>
+    <li>
+      <time datetime="2024-06-20">2024 · 06 · 20</time>
+      <span>第一作者论文被 CP 国际会议接收</span>
+    </li>
+    <li>
+      <time datetime="2024-04-17">2024 · 04 · 17</time>
+      <span>第一作者论文被 IJCAI 国际会议接收</span>
+    </li>
+  </ul>
 </div>

@@ -66,60 +66,6 @@ redirect_from:
   </div>
 </div>
 
-<div class="profile-section profile-section--primary profile-section--news" id="highlights">
-  <h2>🔥 Recent News</h2>
-  <ul class="profile-timeline">
-    <li>
-      <time datetime="2026-04-23">2026 · Apr 23</time>
-      <span><a href="{{ '/awards/land-doig-mip-competition-2026/' | relative_url }}">Land-Doig MIP Honorable Mention Award</a></span>
-    </li>
-    <li>
-      <time datetime="2026-03-08">2026 · Mar 08</time>
-      <span>One paper accepted by INFORMS Journal on Computing</span>
-    </li>
-    <li>
-      <time datetime="2025-12-15">2025 · Dec 15</time>
-      <span>Selected for Doctoral Student Program of the Young S&T Talents Cultivation Project, CAST</span>
-    </li>
-    <li>
-      <time datetime="2025-11-08">2025 · Nov 08</time>
-      <span>One co-first author paper accepted by AAAI</span>
-    </li>
-    <li>
-      <time datetime="2025-08-19">2025 · Aug 19</time>
-      <span>One first-author paper accepted by Artificial Intelligence</span>
-    </li>
-    <li>
-      <time datetime="2025-05-29">2025 · May 29</time>
-      <span>One first-author paper accepted by CP</span>
-    </li>
-    <li>
-      <time datetime="2024-12-31">2024 · Dec 31</time>
-      <span>Second Prize in the MIIT Domestic Power Solver Technical Challenge</span>
-    </li>
-    <li>
-      <time datetime="2024-12-10">2024 · Dec 10</time>
-      <span>National Scholarship for Graduate Students</span>
-    </li>
-    <li>
-      <time datetime="2024-10-07">2024 · Oct 07</time>
-      <span>Distributed solver refreshed best-known records for 21 open MIPLIB instances</span>
-    </li>
-    <li>
-      <time datetime="2024-09-04">2024 · Sep 04</time>
-      <span>First-author paper received CP 2024 Best Paper Award</span>
-    </li>
-    <li>
-      <time datetime="2024-06-20">2024 · Jun 20</time>
-      <span>One first-author paper accepted by CP</span>
-    </li>
-    <li>
-      <time datetime="2024-04-17">2024 · Apr 17</time>
-      <span>One first-author paper accepted by IJCAI</span>
-    </li>
-  </ul>
-</div>
-
 <div class="profile-section profile-section--primary profile-section--publications" id="publications">
   <h2>📝 Publications</h2>
   <p class="profile-note profile-note--meta">† Co-First Author</p>
@@ -166,6 +112,12 @@ redirect_from:
       <p class="profile-paper__venue">AAAI Conference on Artificial Intelligence, 2026</p>
     </div>
     <div class="profile-paper">
+      <span class="profile-paper__tag profile-paper__tag--conference">PPSN 2026</span>
+      <p class="profile-paper__title"><a href="https://doi.org/10.1007/978-3-032-36214-8_26">Parallel Local Search for MaxSAT with Solutions and Score Functions Co-evolving</a></p>
+      <p class="profile-paper__authors">Mengchuan Zou, <strong>Peng Lin</strong>, Yi Chu, Shaowei Cai</p>
+      <p class="profile-paper__venue">International Conference on Parallel Problem Solving from Nature, 2026</p>
+    </div>
+    <div class="profile-paper">
       <span class="profile-paper__tag profile-paper__tag--conference">CP 2024</span>
       <p class="profile-paper__title"><a href="https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CP.2024.5">ParLS-PBO: A Parallel Local Search Solver for Pseudo Boolean Optimization</a></p>
       <p class="profile-paper__authors">Zhihan Chen, <strong>Peng Lin</strong>, Hao Hu, Shaowei Cai</p>
@@ -199,6 +151,13 @@ redirect_from:
     <li>
       <span class="profile-competitions__year">2026</span>
       <div class="profile-competitions__body">
+        <strong><a href="{{ '/files/awards/pb26-award-certificate.pdf' | relative_url }}">Pseudo-Boolean Competition 2026 (PB26, FLoC Olympics)</a></strong>
+        <p>Grand Slam Award · 1st place in both main tracks DEC-LIN and OPT-LIN</p>
+      </div>
+    </li>
+    <li>
+      <span class="profile-competitions__year">2026</span>
+      <div class="profile-competitions__body">
         <strong><a href="https://mp.weixin.qq.com/s/RU23avohAUBlQMRLrRhOTA">Land-Doig MIP Competition 2026</a></strong>
         <p>Honorable Mention Award for cuLocalMIP: A GPU-Oriented Local Search Framework for Mixed Integer Programming</p>
       </div>
@@ -225,7 +184,7 @@ redirect_from:
   <ul class="profile-edu">
     <li>
       <strong>University of Chinese Academy of Sciences</strong>
-      <span>M.D & Ph.D. student (2023.09 – present), supervised by <a href="http://lcs.ios.ac.cn/~caisw/">Prof. Shaowei Cai</a></span>
+      <span>Ph.D. student (2023.09 – present), supervised by <a href="http://lcs.ios.ac.cn/~caisw/">Prof. Shaowei Cai</a></span>
     </li>
     <li>
       <strong>Jilin University, School of Software</strong>
@@ -490,4 +449,66 @@ redirect_from:
 
   {% include miplib-tabs-script.html %}
 
+</div>
+
+<div class="profile-section profile-section--primary profile-section--news" id="highlights">
+  <h2>🔥 Recent News</h2>
+  <ul class="profile-timeline">
+    <li>
+      <time datetime="2026-07-23">2026 · Jul 23</time>
+      <span>Grand Slam Award at the Pseudo-Boolean Competition 2026</span>
+    </li>
+    <li>
+      <time datetime="2026-05-27">2026 · May 27</time>
+      <span>One paper accepted by PPSN</span>
+    </li>
+    <li>
+      <time datetime="2026-04-23">2026 · Apr 23</time>
+      <span><a href="{{ '/awards/land-doig-mip-competition-2026/' | relative_url }}">Land-Doig MIP Honorable Mention Award</a></span>
+    </li>
+    <li>
+      <time datetime="2026-03-08">2026 · Mar 08</time>
+      <span>One paper accepted by INFORMS Journal on Computing</span>
+    </li>
+    <li>
+      <time datetime="2025-12-15">2025 · Dec 15</time>
+      <span>Selected for Doctoral Student Program of the Young S&T Talents Cultivation Project, CAST</span>
+    </li>
+    <li>
+      <time datetime="2025-11-08">2025 · Nov 08</time>
+      <span>One co-first author paper accepted by AAAI</span>
+    </li>
+    <li>
+      <time datetime="2025-08-19">2025 · Aug 19</time>
+      <span>One first-author paper accepted by Artificial Intelligence</span>
+    </li>
+    <li>
+      <time datetime="2025-05-29">2025 · May 29</time>
+      <span>One first-author paper accepted by CP</span>
+    </li>
+    <li>
+      <time datetime="2024-12-31">2024 · Dec 31</time>
+      <span>Second Prize in the MIIT Domestic Power Solver Technical Challenge</span>
+    </li>
+    <li>
+      <time datetime="2024-12-10">2024 · Dec 10</time>
+      <span>National Scholarship for Graduate Students</span>
+    </li>
+    <li>
+      <time datetime="2024-10-07">2024 · Oct 07</time>
+      <span>Distributed solver refreshed best-known records for 21 open MIPLIB instances</span>
+    </li>
+    <li>
+      <time datetime="2024-09-04">2024 · Sep 04</time>
+      <span>First-author paper received CP 2024 Best Paper Award</span>
+    </li>
+    <li>
+      <time datetime="2024-06-20">2024 · Jun 20</time>
+      <span>One first-author paper accepted by CP</span>
+    </li>
+    <li>
+      <time datetime="2024-04-17">2024 · Apr 17</time>
+      <span>One first-author paper accepted by IJCAI</span>
+    </li>
+  </ul>
 </div>
