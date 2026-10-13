@@ -9,8 +9,6 @@ show_page_header: false
 show_page_meta: false
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/profile.css' | relative_url }}">
-
 <article class="award-detail">
   <p class="award-detail__back"><a href="{{ '/' | relative_url }}#competitions">Back to Competition Results</a></p>
 

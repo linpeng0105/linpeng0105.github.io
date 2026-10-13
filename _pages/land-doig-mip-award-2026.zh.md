@@ -11,8 +11,6 @@ locale: zh
 author: peng_lin_zh
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/profile.css' | relative_url }}">
-
 <article class="award-detail">
   <p class="award-detail__back"><a href="{{ '/zh/' | relative_url }}#competitions">返回竞赛成绩</a></p>
 

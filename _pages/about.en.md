@@ -12,11 +12,6 @@ redirect_from:
   - /about.html
 ---
 
-<style>
-@import url("{{ '/assets/css/academicons.css' | relative_url }}");
-</style>
-<link rel="stylesheet" href="{{ '/assets/css/profile.css' | relative_url }}">
-
 <div class="profile-masthead">
   {% include home-intro.html %}
 
