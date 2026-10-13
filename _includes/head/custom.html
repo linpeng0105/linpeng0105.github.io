@@ -9,13 +9,44 @@
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192"/>
 <link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
 <link rel="icon" href="/images/favicon.ico"/>
-<meta name="theme-color" content="#ffffff"/>
+<meta name="theme-color" id="meta-theme-color" content="#f7f8fa"/>
+
+<link rel="preload" href="{{ base_path }}/assets/fonts/source-serif-4-var.woff2" as="font" type="font/woff2" crossorigin/>
+<link rel="preload" href="{{ base_path }}/assets/fonts/noto-serif-sc-600.woff2" as="font" type="font/woff2" crossorigin/>
+<link rel="stylesheet" href="{{ base_path }}/assets/css/fonts.css"/>
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
+<link rel="stylesheet" href="{{ base_path }}/assets/css/profile.css"/>
+<meta property="og:image" content="{{ base_path }}/images/og-card.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="{{ base_path }}/images/og-card.png"/>
 
-<!-- Support for MatJax -->
-<script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Peng Lin",
+  "alternateName": "林鹏",
+  "url": "https://linpeng0105.github.io/",
+  "image": "https://linpeng0105.github.io/images/profile.webp",
+  "email": "mailto:linpeng@ios.ac.cn",
+  "jobTitle": "Ph.D. Student in Computer Science",
+  "affiliation": {
+    "@type": "Organization",
+    "name": "Institute of Software, Chinese Academy of Sciences"
+  },
+  "alumniOf": [
+    { "@type": "CollegeOrUniversity", "name": "University of Chinese Academy of Sciences" },
+    { "@type": "CollegeOrUniversity", "name": "Jilin University" }
+  ],
+  "knowsAbout": ["Mixed Integer Programming", "Heuristic Algorithms", "Parallel Solving", "Combinatorial Optimization"],
+  "sameAs": [
+    "https://scholar.google.com/citations?user=LNkvkc8AAAAJ",
+    "https://orcid.org/0009-0002-4183-5998",
+    "https://github.com/linpeng0105"
+  ]
+}
+</script>
 
 <!-- end custom head snippets -->
