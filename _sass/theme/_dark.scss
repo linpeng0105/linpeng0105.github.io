@@ -1,61 +1,34 @@
 /* ==========================================================================
    DARK THEME
+   Activated by html[data-theme="dark"] (see assets/js/site.js).
+   Default remains light; the toggle persists the choice in localStorage.
    ========================================================================== */
 
-/* Color codes used for the theme */
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
+html[data-theme="dark"] {
+    color-scheme                        : dark;
 
-$background                 : #474747;
-$background-light           : mix(#fff, $background, 80%);
-$background-lighter         : mix(#fff, $background, 90%);
-$text                       : #ffffff;
-$link                       : #0ea1c5;
-$link-dark                  : mix(#000, $link, 25%);
-$link-light                 : mix(#fff, $link, 25%);
-
-/* Color codes used for the site */
-$danger-color               : #ee5f5b;
-$info-color                 : #2f7f93;
-$notice-color               : #7a8288;
-$success-color              : #62c462;
-$warning-color              : #f89406;
-
-/* Other basic settings for the template */
-$border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
-$global-transition          : all 0.2s ease-in-out;
-$masthead-height            : 70px;
-$navicon-width              : 28px;
-$navicon-height             : 4px;
-$sidebar-link-max-width     : 250px;
-$sidebar-screen-min-width   : 1024px;
-
-/* Dark theme for the site */
-:root {
-    --global-base-color                 : #{$background};
-    --global-bg-color                   : #{$background};
-    --global-surface-color              : #{mix(#fff, $background, 8%)};
-    --global-surface-color-muted        : #{mix(#fff, $background, 5%)};
-    --global-border-color               : #{$background-light};
-    --global-border-color-strong        : #{mix(#fff, $background, 18%)};
-    --global-rule-color                 : rgba(255, 255, 255, 0.16);
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : #{$dark-gray};
-    --global-link-color                 : #{$link};
-    --global-link-color-hover           : #{$link-dark};
-    --global-link-color-visited         : #{$link-light};    
-    --global-masthead-link-color        : #{$text};
-    --global-masthead-link-color-hover  : #{$background-light};    
-    --global-text-color                 : #{$text};
-    --global-text-color-light           : #{$light-gray};
-    --global-thead-color                : #{$background-lighter};
-    --global-accent-color               : #{$link};
-    --global-accent-soft                : rgba(14, 161, 197, 0.14);
-    --global-shadow-sm                  : 0 1px 2px rgba(0, 0, 0, 0.35);
-    --global-shadow-subtle              : 0 4px 14px rgba(0, 0, 0, 0.28);
-    --global-shadow-md                  : 0 14px 36px rgba(0, 0, 0, 0.34);
+    --global-base-color                 : #93b2e0;
+    --global-masthead-bg                : rgba(18, 21, 28, 0.88);
+    --global-bg-color                   : #12151c;
+    --global-surface-color              : #1a1f29;
+    --global-surface-color-muted        : #171c25;
+    --global-border-color               : #2a3140;
+    --global-border-color-strong        : #3d4759;
+    --global-rule-color                 : rgba(226, 232, 245, 0.10);
+    --global-code-background-color      : #1d2330;
+    --global-code-text-color            : #ccd6e6;
+    --global-fig-caption-color          : #8d97a8;
+    --global-link-color                 : #8fb0dd;
+    --global-link-color-hover           : #b7cef1;
+    --global-link-color-visited         : #7d99c2;
+    --global-masthead-link-color        : #d3d9e4;
+    --global-masthead-link-color-hover  : #ffffff;
+    --global-text-color                 : #dde3ee;
+    --global-text-color-light           : #98a2b5;
+    --global-thead-color                : #1f2531;
+    --global-accent-color               : #93b2e0;
+    --global-accent-soft                : rgba(147, 178, 224, 0.14);
+    --global-shadow-sm                  : 0 1px 2px rgba(0, 0, 0, 0.4);
+    --global-shadow-subtle              : 0 4px 14px rgba(0, 0, 0, 0.35);
+    --global-shadow-md                  : 0 14px 36px rgba(0, 0, 0, 0.45);
 }

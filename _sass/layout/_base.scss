@@ -120,7 +120,7 @@ blockquote {
 
 a {
   color: var(--global-link-color);
-  text-decoration-color: rgba(54, 86, 123, 0.35);
+  text-decoration-color: color-mix(in srgb, var(--global-link-color) 35%, transparent);
   text-underline-offset: 0.14em;
   text-decoration-thickness: 0.06em;
   transition: color 0.2s ease, text-decoration-color 0.2s ease;

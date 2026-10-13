@@ -4,7 +4,7 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <button type="button" class="greedy-nav__toggle" aria-label="Toggle navigation menu" aria-controls="site-nav-hidden-links" aria-expanded="false"><div class="navicon" aria-hidden="true"></div></button>
+        <button type="button" class="greedy-nav__toggle hidden" aria-label="Toggle navigation menu" aria-controls="site-nav-hidden-links" aria-expanded="false"><div class="navicon" aria-hidden="true"></div></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
           {% comment %}Check if current page is Chinese or English{% endcomment %}
@@ -58,6 +58,12 @@
               {% endif %}
             {% endif %}
           {% endfor %}
+          <li class="masthead__menu-item masthead__menu-item--theme">
+            <button type="button" id="theme-toggle" class="theme-toggle" aria-label="{% if is_chinese %}切换深色模式{% else %}Toggle dark mode{% endif %}" aria-pressed="false">
+              <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+              <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+            </button>
+          </li>
         </ul>
         <ul class="hidden-links hidden" id="site-nav-hidden-links"></ul>
       </nav>

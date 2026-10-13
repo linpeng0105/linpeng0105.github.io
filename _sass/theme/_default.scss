@@ -28,7 +28,10 @@ $sidebar-screen-min-width   : 1024px;
 
 /* Default light theme for the site */
 :root {
+    color-scheme                        : light;
+
     --global-base-color                 : #{$gray};
+    --global-masthead-bg                : rgba(255, 255, 255, 0.94);
     --global-bg-color                   : #f5f3ee;
     --global-surface-color              : #ffffff;
     --global-surface-color-muted        : #faf8f4;

@@ -192,7 +192,7 @@
     }
   }
 
-  button {
+  .greedy-nav__toggle {
     position: absolute;
     height: 2.5rem;
     right: 0;
@@ -212,6 +212,17 @@
       color: var(--global-accent-color);
       box-shadow: var(--global-shadow-subtle);
     }
+
+    &:focus-visible {
+      outline: 2px solid color-mix(in srgb, var(--global-accent-color) 45%, transparent);
+      outline-offset: 2px;
+    }
+  }
+
+  /* While the absolutely-positioned toggle is shown, keep the link row
+     clear of it (covers resize-drag frames before JS re-folds items). */
+  .greedy-nav__toggle:not(.hidden) ~ .visible-links {
+    padding-right: 4rem;
   }
 
   .visible-links {
@@ -271,9 +282,9 @@
         font-weight: 600;
         letter-spacing: 0.06em;
         text-transform: uppercase;
-        background: rgba(48, 74, 110, 0.06);
+        background: color-mix(in srgb, var(--global-accent-color) 6%, transparent);
         color: var(--global-accent-color);
-        border: 1px solid rgba(48, 74, 110, 0.18);
+        border: 1px solid color-mix(in srgb, var(--global-accent-color) 18%, transparent);
         transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 
         &:before {
@@ -281,9 +292,9 @@
         }
 
         &:hover {
-          background: rgba(48, 74, 110, 0.12);
+          background: color-mix(in srgb, var(--global-accent-color) 12%, transparent);
           color: var(--global-link-color-hover);
-          border-color: rgba(48, 74, 110, 0.28);
+          border-color: color-mix(in srgb, var(--global-accent-color) 28%, transparent);
         }
       }
     }
@@ -318,7 +329,7 @@
       &:focus-visible {
         color: var(--global-link-color-hover);
         background: var(--global-surface-color-muted);
-        outline: 2px solid rgba(48, 74, 110, 0.22);
+        outline: 2px solid color-mix(in srgb, var(--global-accent-color) 22%, transparent);
         outline-offset: -2px;
       }
     }
@@ -404,6 +415,11 @@
 
   .greedy-nav .visible-links .masthead__menu-item--lang {
     flex: 0 0 auto;
+  }
+
+  .greedy-nav .visible-links .masthead__menu-item--theme {
+    flex: 0 0 auto;
+    margin-left: auto;
   }
 
   .greedy-nav a {
@@ -537,6 +553,58 @@
 
     @include breakpoint($medium) {
       display: block;
+    }
+  }
+}
+
+
+/*
+   Theme toggle (light/dark)
+   ========================================================================== */
+
+.greedy-nav button.theme-toggle {
+  position: static;
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.15rem;
+  height: 2.15rem;
+  margin-left: 0.35rem;
+  padding: 0;
+  background: transparent;
+  border: 1px solid var(--global-border-color-strong);
+  border-radius: 999px;
+  color: var(--global-masthead-link-color);
+  cursor: pointer;
+  transition: border-color 0.2s ease, color 0.2s ease, background-color 0.2s ease, transform 0.15s ease;
+
+  &:hover {
+    border-color: var(--global-accent-color);
+    color: var(--global-accent-color);
+  }
+
+  &:active {
+    transform: scale(0.94);
+  }
+
+  svg {
+    width: 1.05rem;
+    height: 1.05rem;
+    display: block;
+  }
+
+  .icon-sun {
+    display: none;
+  }
+
+  [data-theme="dark"] & {
+    .icon-sun {
+      display: block;
+    }
+
+    .icon-moon {
+      display: none;
     }
   }
 }
