@@ -1,0 +1,62 @@
+# MIPLIB 实例纪录单一数据源（中英文页面共用，勿在手写表格中维护）。
+# 数值保留求解器报告的完整精度；"N/A" = 此前无公开纪录。
+# 实例页固定为 https://miplib.zib.de/instance_details_<instance>.html
+# 注意：以下为各求解器发表/提交时点的成绩，MIPLIB 现行最优解可能已被其他团队进一步推进。
+solvers:
+  - id: local-mip
+    name: Local-MIP
+    desc_zh: "首个面向通用混合整数规划（MIP）模型的局部搜索求解器"
+    desc_en: "The first local search solver for general mixed integer programming (MIP)"
+  - id: partimip
+    name: PartiMIP
+    desc_zh: "基于任务分解的大规模分布式混合整数规划（MIP）求解器"
+    desc_en: "Parallel MIP solver with dynamic task decomposition"
+  - id: bigmip
+    name: BigMIP
+    desc_zh: "大规模分布式混合整数规划求解器"
+    desc_en: "Large-scale distributed MIP solver"
+  - id: parailp
+    name: ParaILP
+    desc_zh: "基于局部搜索的并行整数规划（ILP）求解器，深度结合局部搜索与进化算法"
+    desc_en: "Parallel local search ILP solver with cooperative evolution"
+
+records:
+  # Local-MIP
+  - { instance: supportcase22,        solver: local-mip, prev: "N/A",             new: "117" }
+  - { instance: neos-4232544-orira,   solver: local-mip, prev: "17540506",        new: "17182027" }
+  - { instance: genus-sym-g31-8,      solver: local-mip, prev: "-21",             new: "-23" }
+  - { instance: genus-sym-g62-2,      solver: local-mip, prev: "-34",             new: "-38" }
+  - { instance: genus-g61-25,         solver: local-mip, prev: "-34",             new: "-40" }
+  - { instance: sorrell7,             solver: local-mip, prev: "-196",            new: "-197" }
+  - { instance: cdc7-4-3-2,           solver: local-mip, prev: "-289",            new: "-294" }
+  - { instance: ns1828997,            solver: local-mip, prev: "9",               new: "8" }
+  - { instance: scpm1,                solver: local-mip, prev: "554",             new: "544" }
+  - { instance: scpn2,                solver: local-mip, prev: "501",             new: "490" }
+  - { instance: neos-4232544-orira,   solver: local-mip, prev: "17182027",        new: "15108528" }
+  # PartiMIP
+  - { instance: shiftreg5-1,          solver: partimip,  prev: "522.1155",                new: "520.2562364680399" }
+  - { instance: neos-5151569-mologa,  solver: partimip,  prev: "686759699",               new: "686750731.344582" }
+  - { instance: bmocbd3,              solver: partimip,  prev: "-372986719.737107",       new: "-373286017.205902" }
+  - { instance: gmut-76-40,           solver: partimip,  prev: "-14169441.78",            new: "-14169460.9675000" }
+  - { instance: supportcase23,        solver: partimip,  prev: "-12160.6593559088",       new: "-12160.6593571676" }
+  - { instance: cmflsp40-36-2-10,     solver: partimip,  prev: "66452235.08297937",       new: "66452234.49456009" }
+  - { instance: dfn-bwin-DBE,         solver: partimip,  prev: "73623.79",                new: "73623.78816459319" }
+  - { instance: eva1aprime6x6opt,     solver: partimip,  prev: "-16.31528287738903",      new: "-18.100995280293" }
+  - { instance: gsvm2rl11,            solver: partimip,  prev: "18121.63800478",          new: "18121.6376441351" }
+  - { instance: gsvm2rl9,             solver: partimip,  prev: "7438.181167768",          new: "7438.181021170049" }
+  - { instance: dlr1,                 solver: partimip,  prev: "2708148.95990256",        new: "2708064.1369803" }
+  - { instance: dws012-02,            solver: partimip,  prev: "122074.2013795086",       new: "121112.055928511" }
+  - { instance: neos-4232544-orira,   solver: partimip,  prev: "5557371.400000357",       new: "5553207.1245239" }
+  - { instance: neos-5045105-creuse,  solver: partimip,  prev: "20.57142909929996",       new: "20.5714105876044" }
+  - { instance: neos-4230265-orari,   solver: partimip,  prev: "81765.21022354232",       new: "73755.00000000189" }
+  - { instance: neos-4292145-piako,   solver: partimip,  prev: "29160.50026450142",       new: "28122.4999807616" }
+  - { instance: polygonpack4-7,       solver: partimip,  prev: "-51837707.95034043",      new: "-51837712.9799564" }
+  - { instance: polygonpack5-15,      solver: partimip,  prev: "-55494653.8357854",       new: "-55494686.5559904" }
+  - { instance: sct5,                 solver: partimip,  prev: "-228.1172303718",         new: "-228.119492755556" }
+  - { instance: adult-regularized,    solver: partimip,  prev: "7022.953543477999",       new: "7022.953543474559" }
+  - { instance: s82,                  solver: partimip,  prev: "-33.78523764658873",      new: "-33.7970576238223" }
+  # BigMIP
+  - { instance: sct5,                 solver: bigmip,    prev: "-228.1195",       new: "-228.1292" }
+  - { instance: dws012-02,            solver: bigmip,    prev: "121112.1",        new: "119893.3" }
+  # ParaILP
+  - { instance: bley_xs1,             solver: parailp,   prev: "3922113",         new: "3874311" }

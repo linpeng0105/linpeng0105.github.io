@@ -24,7 +24,7 @@ main:
     url: /#honors
 
   - title: "Competitions"
-    title_zh: "竞赛获奖"
+    title_zh: "竞赛成绩"
     url: /#competitions
 
   - title: "Education"
@@ -40,9 +40,9 @@ main:
     url: /#software
 
   - title: "MIPLIB"
-    title_zh: "刷新记录"
+    title_zh: "刷新纪录"
     url: /#benchmarks
 
   - title: "News"
-    title_zh: "新闻"
+    title_zh: "最新动态"
     url: /#highlights

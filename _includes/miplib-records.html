@@ -1,0 +1,183 @@
+{% comment %}
+  Render the MIPLIB record tabs from _data/miplib.yml.
+  Single source for both / (en) and /zh/ pages; localized via page.locale.
+{% endcomment %}
+{% include base_path %}
+{% assign miplib = site.data.miplib %}
+{% assign is_zh = false %}
+{% if page.locale == 'zh' or page.url contains '/zh/' %}
+  {% assign is_zh = true %}
+{% endif %}
+{% assign miplib_total = miplib.records | size %}
+
+<div class="profile-miplib-overview" aria-label="{% if is_zh %}MIPLIB 纪录概览{% else %}MIPLIB record summary{% endif %}">
+  <article class="profile-miplib-stat">
+    <span class="profile-miplib-stat__value">{{ miplib_total }}</span>
+    <span class="profile-miplib-stat__label">{% if is_zh %}总纪录{% else %}Total records{% endif %}</span>
+  </article>
+  {% for solver in miplib.solvers %}
+  <article class="profile-miplib-stat">
+    <span class="profile-miplib-stat__value">{{ miplib.records | where: 'solver', solver.id | size }}</span>
+    <span class="profile-miplib-stat__label">{{ solver.name }}</span>
+  </article>
+  {% endfor %}
+</div>
+
+<details class="profile-disclosure">
+  <summary>
+    <span class="profile-disclosure__title">{% if is_zh %}查看完整 MIPLIB 纪录表{% else %}View full MIPLIB record table{% endif %}</span>
+    <span class="profile-disclosure__hint">{% if is_zh %}展开后查看全部标签页与实例明细{% else %}Expand tabs and instance-level details{% endif %}</span>
+  </summary>
+  <div class="profile-disclosure__content">
+    <div class="miplib-tabs">
+      <div class="miplib-tabs__nav" role="tablist" aria-label="{% if is_zh %}MIPLIB 求解器标签页{% else %}MIPLIB solver tabs{% endif %}">
+        <button type="button" id="miplib-tab-all" class="miplib-tabs__btn miplib-tabs__btn--active" data-tab="all" role="tab" aria-selected="true" aria-controls="miplib-panel-all" tabindex="0">{% if is_zh %}全部{% else %}All{% endif %} <span class="miplib-tabs__count">{{ miplib_total }}</span></button>
+        {% for solver in miplib.solvers %}
+        <button type="button" id="miplib-tab-{{ solver.id }}" class="miplib-tabs__btn" data-tab="{{ solver.id }}" role="tab" aria-selected="false" aria-controls="miplib-panel-{{ solver.id }}" tabindex="-1">{{ solver.name }} <span class="miplib-tabs__count">{{ miplib.records | where: 'solver', solver.id | size }}</span></button>
+        {% endfor %}
+      </div>
+
+      <div class="miplib-tabs__content">
+        <div id="miplib-panel-all" class="miplib-tabs__panel miplib-tabs__panel--active" data-panel="all" role="tabpanel" aria-labelledby="miplib-tab-all">
+          <div class="miplib-table-wrap">
+            <table class="miplib-table">
+              <caption class="sr-only">{% if is_zh %}MIPLIB 实例纪录（全部求解器）{% else %}MIPLIB instance records (all solvers){% endif %}</caption>
+              <thead>
+                <tr>
+                  <th scope="col">{% if is_zh %}实例{% else %}Instance{% endif %}</th>
+                  <th scope="col">{% if is_zh %}求解器{% else %}Solver{% endif %}</th>
+                  <th scope="col">{% if is_zh %}刷新前{% else %}Previous Best{% endif %}</th>
+                  <th scope="col">{% if is_zh %}新纪录{% else %}New Record{% endif %}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for rec in miplib.records %}
+                {% assign rec_solver = miplib.solvers | where: 'id', rec.solver | first %}
+                <tr>
+                  <td><a href="https://miplib.zib.de/instance_details_{{ rec.instance }}.html"><code>{{ rec.instance }}</code></a></td>
+                  <td><span class="solver-tag solver-tag--{{ rec.solver }}">{{ rec_solver.name }}</span></td>
+                  <td>{{ rec.prev }}</td>
+                  <td><strong>{{ rec.new }}</strong></td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        {% for solver in miplib.solvers %}
+        <div id="miplib-panel-{{ solver.id }}" class="miplib-tabs__panel" data-panel="{{ solver.id }}" role="tabpanel" aria-labelledby="miplib-tab-{{ solver.id }}" hidden>
+          <p class="miplib-tabs__desc">{% if is_zh %}{{ solver.desc_zh }}{% else %}{{ solver.desc_en }}{% endif %}</p>
+          <div class="miplib-table-wrap">
+            <table class="miplib-table">
+              <caption class="sr-only">{% if is_zh %}MIPLIB 实例纪录（{{ solver.name }}）{% else %}MIPLIB instance records ({{ solver.name }}){% endif %}</caption>
+              <thead>
+                <tr>
+                  <th scope="col">{% if is_zh %}实例{% else %}Instance{% endif %}</th>
+                  <th scope="col">{% if is_zh %}刷新前{% else %}Previous Best{% endif %}</th>
+                  <th scope="col">{% if is_zh %}新纪录{% else %}New Record{% endif %}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for rec in miplib.records %}
+                {% if rec.solver == solver.id %}
+                <tr>
+                  <td><a href="https://miplib.zib.de/instance_details_{{ rec.instance }}.html"><code>{{ rec.instance }}</code></a></td>
+                  <td>{{ rec.prev }}</td>
+                  <td><strong>{{ rec.new }}</strong></td>
+                </tr>
+                {% endif %}
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</details>
+
+<script type="text/javascript">
+  (function () {
+    function activateTab(tabContainer, targetButton) {
+      var tabsRoot = tabContainer.closest('.miplib-tabs');
+      if (!tabsRoot || !targetButton) {
+        return;
+      }
+
+      var buttons = tabContainer.querySelectorAll('.miplib-tabs__btn[role="tab"]');
+      for (var i = 0; i < buttons.length; i++) {
+        buttons[i].classList.remove('miplib-tabs__btn--active');
+        buttons[i].setAttribute('aria-selected', 'false');
+        buttons[i].setAttribute('tabindex', '-1');
+      }
+
+      var panels = tabsRoot.querySelectorAll('.miplib-tabs__panel[role="tabpanel"]');
+      for (var j = 0; j < panels.length; j++) {
+        panels[j].classList.remove('miplib-tabs__panel--active');
+        panels[j].hidden = true;
+      }
+
+      targetButton.classList.add('miplib-tabs__btn--active');
+      targetButton.setAttribute('aria-selected', 'true');
+      targetButton.setAttribute('tabindex', '0');
+
+      var targetPanel = tabsRoot.querySelector('[data-panel="' + targetButton.getAttribute('data-tab') + '"]');
+      if (targetPanel) {
+        targetPanel.classList.add('miplib-tabs__panel--active');
+        targetPanel.hidden = false;
+      }
+    }
+
+    var navLists = document.querySelectorAll('.miplib-tabs__nav[role="tablist"]');
+    for (var i = 0; i < navLists.length; i++) {
+      (function (nav) {
+        nav.addEventListener('click', function (event) {
+          var btn = event.target.closest('.miplib-tabs__btn[role="tab"]');
+          if (btn) {
+            activateTab(nav, btn);
+          }
+        });
+
+        nav.addEventListener('keydown', function (event) {
+          var key = event.key;
+          if (key !== 'ArrowRight' && key !== 'ArrowLeft' && key !== 'Home' && key !== 'End') {
+            return;
+          }
+
+          var tabs = nav.querySelectorAll('.miplib-tabs__btn[role="tab"]');
+          if (!tabs.length) {
+            return;
+          }
+
+          var currentIndex = -1;
+          for (var index = 0; index < tabs.length; index++) {
+            if (tabs[index] === document.activeElement) {
+              currentIndex = index;
+              break;
+            }
+          }
+          if (currentIndex === -1) {
+            return;
+          }
+
+          var nextIndex = currentIndex;
+          if (key === 'ArrowRight') {
+            nextIndex = (currentIndex + 1) % tabs.length;
+          } else if (key === 'ArrowLeft') {
+            nextIndex = (currentIndex - 1 + tabs.length) % tabs.length;
+          } else if (key === 'Home') {
+            nextIndex = 0;
+          } else {
+            nextIndex = tabs.length - 1;
+          }
+
+          event.preventDefault();
+          activateTab(nav, tabs[nextIndex]);
+          tabs[nextIndex].focus();
+        });
+      })(navLists[i]);
+    }
+  })();
+</script>
