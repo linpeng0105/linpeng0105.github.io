@@ -3,21 +3,39 @@
 <!-- start custom head snippets -->
 
 <!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
-<link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
-<link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>
-<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
-<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192"/>
-<link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-180x180.png"/>
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg"/>
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32"/>
+<link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192"/>
+<link rel="manifest" href="/images/manifest.json"/>
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" id="meta-theme-color" content="#f7f8fa"/>
 
-<link rel="preload" href="{{ base_path }}/assets/fonts/source-serif-4-var.woff2" as="font" type="font/woff2" crossorigin/>
-<link rel="preload" href="{{ base_path }}/assets/fonts/noto-serif-sc-600.woff2" as="font" type="font/woff2" crossorigin/>
-<link rel="stylesheet" href="{{ base_path }}/assets/css/fonts.css"/>
-<link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+{% comment %} hreflang alternates between the English and Chinese versions {% endcomment %}
+{% assign alt_path = page.url | default: '/' %}
+{% unless alt_path contains '404' %}
+{% if alt_path == '/' or alt_path == '' %}
+  {% assign alt_en = '/' %}
+  {% assign alt_zh = '/zh/' %}
+{% elsif alt_path contains '/zh/' %}
+  {% assign alt_zh = alt_path %}
+  {% assign alt_en = alt_path | replace: '/zh/', '/' %}
+{% else %}
+  {% assign alt_en = alt_path %}
+  {% assign alt_zh = alt_path | prepend: '/zh' %}
+{% endif %}
+<link rel="alternate" hreflang="en" href="{{ alt_en | prepend: base_path }}">
+<link rel="alternate" hreflang="zh" href="{{ alt_zh | prepend: base_path }}">
+<link rel="alternate" hreflang="x-default" href="{{ alt_en | prepend: base_path }}">
+{% endunless %}
 
-<link rel="stylesheet" href="{{ base_path }}/assets/css/profile.css"/>
+<link rel="preload" href="/assets/fonts/source-serif-4-var.woff2" as="font" type="font/woff2" crossorigin/>
+<link rel="preload" href="/assets/fonts/noto-serif-sc-600.woff2" as="font" type="font/woff2" crossorigin/>
+<link rel="stylesheet" href="/assets/css/fonts.css"/>
+<link rel="stylesheet" href="/assets/css/academicons.css"/>
+<!-- Font Awesome 6 is self-hosted: glyphs and @font-face are embedded in main.css, font files in assets/webfonts/. -->
+
+<link rel="stylesheet" href="/assets/css/profile.css"/>
 <meta property="og:image" content="{{ base_path }}/images/og-card.png"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="{{ base_path }}/images/og-card.png"/>
