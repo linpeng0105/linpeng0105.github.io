@@ -2054,3 +2054,27 @@ html[data-theme="dark"] .solver-tag--parailp {
     min-width: 0;
   }
 }
+
+/* ==========================================================================
+   Sticky footer, robust edition
+   The theme pins .page__footer with position:absolute and reserves space
+   via body { padding-bottom: 9em }. That magic number breaks whenever the
+   footer grows (e.g. the sub-page cards), covering the end of the content.
+   Flex column + margin-top:auto needs no reservation and cannot overlap.
+   ========================================================================== */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-bottom: 0;
+}
+
+.page__footer {
+  position: static;
+  float: none;
+  margin-top: auto;
+}
+
+#main {
+  margin-bottom: 3em;
+}
