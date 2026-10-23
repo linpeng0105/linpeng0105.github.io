@@ -24,7 +24,7 @@ author: peng_lin_zh
         <strong>Honorable Mention Award</strong>
       </div>
       <div>
-        <span>日期</span>
+        <span>颁奖日期</span>
         <strong>2026 年 5 月 19 日</strong>
       </div>
       <div>
@@ -38,7 +38,6 @@ author: peng_lin_zh
     </div>
     <div class="award-detail__actions">
       <a href="{{ '/files/awards/mipcc26-award-lin-et-al.pdf' | relative_url }}">获奖证书 PDF</a>
-      <a href="{{ '/images/awards/mipcc26-award-ceremony.jpg' | relative_url }}">颁奖照片</a>
     </div>
   </header>
 
@@ -54,36 +53,32 @@ author: peng_lin_zh
   </section>
 
   <section class="profile-section award-detail__section">
+    <h2>关于奖项</h2>
+    <p class="award-detail__lead">Land-Doig MIP 竞赛以分支定界算法先驱 Ailsa Land 与 Alison Harcourt（née Doig）命名，由 MIP Competition Committee 组织，在 Mixed Integer Programming Workshop 现场颁奖，是混合整数规划领域的重要国际赛事。</p>
+  </section>
+
+  <section class="profile-section award-detail__section">
     <h2>现场材料</h2>
     <div class="award-detail__gallery">
       <figure>
         <a href="{{ '/images/awards/mipcc26-award-ceremony.jpg' | relative_url }}">
-          <img src="{{ '/images/awards/mipcc26-award-ceremony.jpg' | relative_url }}" alt="MIP workshop 颁奖环节展示的获奖证书" loading="lazy">
+          <img src="{{ '/images/awards/mipcc26-award-ceremony.jpg' | relative_url }}" alt="MIP workshop 颁奖环节展示的获奖证书" width="1600" height="1200" loading="lazy" decoding="async">
         </a>
         <figcaption>颁奖环节展示的获奖证书。</figcaption>
       </figure>
       <figure>
         <a href="{{ '/images/awards/mipcc26-poster-photo.jpeg' | relative_url }}">
-          <img src="{{ '/images/awards/mipcc26-poster-photo.jpeg' | relative_url }}" alt="cuLocalMIP 海报与 Honorable Mention Award 标识" loading="lazy">
+          <img src="{{ '/images/awards/mipcc26-poster-photo.jpeg' | relative_url }}" alt="cuLocalMIP 海报与 Honorable Mention Award 标识" width="1600" height="1200" loading="lazy" decoding="async">
         </a>
         <figcaption>cuLocalMIP 海报展示。</figcaption>
       </figure>
       <figure>
         <a href="{{ '/images/awards/mipcc26-poster-session.jpeg' | relative_url }}">
-          <img src="{{ '/images/awards/mipcc26-poster-session.jpeg' | relative_url }}" alt="参会者在 cuLocalMIP 海报前交流" loading="lazy">
+          <img src="{{ '/images/awards/mipcc26-poster-session.jpeg' | relative_url }}" alt="参会者在 cuLocalMIP 海报前交流" width="1600" height="1200" loading="lazy" decoding="async">
         </a>
         <figcaption>Workshop 海报交流现场。</figcaption>
       </figure>
     </div>
   </section>
 
-  <section class="profile-section award-detail__section">
-    <h2>文件</h2>
-    <ul class="award-detail__files">
-      <li><a href="{{ '/files/awards/mipcc26-award-lin-et-al.pdf' | relative_url }}">官方获奖证书 PDF</a></li>
-      <li><a href="{{ '/images/awards/mipcc26-award-ceremony.jpg' | relative_url }}">颁奖照片</a></li>
-      <li><a href="{{ '/images/awards/mipcc26-poster-photo.jpeg' | relative_url }}">海报照片</a></li>
-      <li><a href="{{ '/images/awards/mipcc26-poster-session.jpeg' | relative_url }}">海报交流照片</a></li>
-    </ul>
-  </section>
 </article>

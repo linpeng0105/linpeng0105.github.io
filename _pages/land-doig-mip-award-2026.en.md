@@ -22,7 +22,7 @@ show_page_meta: false
         <strong>Honorable Mention Award</strong>
       </div>
       <div>
-        <span>Date</span>
+        <span>Award date</span>
         <strong>May 19, 2026</strong>
       </div>
       <div>
@@ -36,7 +36,6 @@ show_page_meta: false
     </div>
     <div class="award-detail__actions">
       <a href="{{ '/files/awards/mipcc26-award-lin-et-al.pdf' | relative_url }}">Certificate PDF</a>
-      <a href="{{ '/images/awards/mipcc26-award-ceremony.jpg' | relative_url }}">Award photo</a>
     </div>
   </header>
 
@@ -52,36 +51,32 @@ show_page_meta: false
   </section>
 
   <section class="profile-section award-detail__section">
+    <h2>About the prize</h2>
+    <p class="award-detail__lead">Named after branch-and-bound pioneers Ailsa Land and Alison Harcourt (née Doig), the Land-Doig MIP Competition is organized by the MIP Competition Committee, with awards presented in person at the Mixed Integer Programming Workshop — a major international contest in mixed integer programming.</p>
+  </section>
+
+  <section class="profile-section award-detail__section">
     <h2>Materials</h2>
     <div class="award-detail__gallery">
       <figure>
         <a href="{{ '/images/awards/mipcc26-award-ceremony.jpg' | relative_url }}">
-          <img src="{{ '/images/awards/mipcc26-award-ceremony.jpg' | relative_url }}" alt="Award certificate projected during the MIP workshop ceremony" loading="lazy">
+          <img src="{{ '/images/awards/mipcc26-award-ceremony.jpg' | relative_url }}" alt="Award certificate projected during the MIP workshop ceremony" width="1600" height="1200" loading="lazy" decoding="async">
         </a>
         <figcaption>Award certificate shown during the ceremony.</figcaption>
       </figure>
       <figure>
         <a href="{{ '/images/awards/mipcc26-poster-photo.jpeg' | relative_url }}">
-          <img src="{{ '/images/awards/mipcc26-poster-photo.jpeg' | relative_url }}" alt="cuLocalMIP poster with Honorable Mention Award sign" loading="lazy">
+          <img src="{{ '/images/awards/mipcc26-poster-photo.jpeg' | relative_url }}" alt="cuLocalMIP poster with Honorable Mention Award sign" width="1600" height="1200" loading="lazy" decoding="async">
         </a>
         <figcaption>cuLocalMIP poster display.</figcaption>
       </figure>
       <figure>
         <a href="{{ '/images/awards/mipcc26-poster-session.jpeg' | relative_url }}">
-          <img src="{{ '/images/awards/mipcc26-poster-session.jpeg' | relative_url }}" alt="Visitors discussing the cuLocalMIP poster" loading="lazy">
+          <img src="{{ '/images/awards/mipcc26-poster-session.jpeg' | relative_url }}" alt="Visitors discussing the cuLocalMIP poster" width="1600" height="1200" loading="lazy" decoding="async">
         </a>
         <figcaption>Poster discussion at the workshop.</figcaption>
       </figure>
     </div>
   </section>
 
-  <section class="profile-section award-detail__section">
-    <h2>Files</h2>
-    <ul class="award-detail__files">
-      <li><a href="{{ '/files/awards/mipcc26-award-lin-et-al.pdf' | relative_url }}">Official award certificate PDF</a></li>
-      <li><a href="{{ '/images/awards/mipcc26-award-ceremony.jpg' | relative_url }}">Award ceremony photo</a></li>
-      <li><a href="{{ '/images/awards/mipcc26-poster-photo.jpeg' | relative_url }}">Poster display photo</a></li>
-      <li><a href="{{ '/images/awards/mipcc26-poster-session.jpeg' | relative_url }}">Poster session photo</a></li>
-    </ul>
-  </section>
 </article>

@@ -1,5 +1,32 @@
 {% include base_path %}
 
+{% assign footer_is_zh = false %}
+{% if page.locale == 'zh' or page.url contains '/zh/' %}{% assign footer_is_zh = true %}{% endif %}
+<nav class="page__footer-pages" aria-label="{% if footer_is_zh %}子页面{% else %}Pages{% endif %}">
+  <span class="page__footer-pages__label">{% if footer_is_zh %}子页面{% else %}Pages{% endif %}</span>
+  <div class="page__footer-pages__items">
+  {% if footer_is_zh %}
+    <a href="{{ '/zh/teaching/acp-summer-school-2026/' | relative_url }}">
+      <span class="page__footer-pages__title">ACP Summer School 2026</span>
+      <span class="page__footer-pages__desc">教学助教 · 吉林大学 · 2026 年 8 月</span>
+    </a>
+    <a href="{{ '/zh/awards/land-doig-mip-competition-2026/' | relative_url }}">
+      <span class="page__footer-pages__title">Land-Doig MIP 竞赛 2026</span>
+      <span class="page__footer-pages__desc">荣誉提名奖 · cuLocalMIP</span>
+    </a>
+  {% else %}
+    <a href="{{ '/teaching/acp-summer-school-2026/' | relative_url }}">
+      <span class="page__footer-pages__title">ACP Summer School 2026</span>
+      <span class="page__footer-pages__desc">Teaching Assistant · Jilin University · Aug 2026</span>
+    </a>
+    <a href="{{ '/awards/land-doig-mip-competition-2026/' | relative_url }}">
+      <span class="page__footer-pages__title">Land-Doig MIP Competition 2026</span>
+      <span class="page__footer-pages__desc">Honorable Mention · cuLocalMIP</span>
+    </a>
+  {% endif %}
+  </div>
+</nav>
+
 <div class="page__footer-copyright">
   &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}
   &nbsp;·&nbsp;
